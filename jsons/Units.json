@@ -1306,18 +1306,18 @@
     "name": "Exterminatus Warhead",
     "unitType": "Missile",
     "movement": 1,
-    "strength": 0,
-    "rangedStrength": 0,
-    "range": 200,
+    "strength": 300,
+    "rangedStrength": 300,
+    "range": 20,
     "cost": 2000,
     "requiredTech": "World-Ending Protocols",
     "uniques": [
       "Nuclear weapon of Strength [2]",
-      "Blast radius [80]"
+      "Blast radius [4]"
     ],
     "civilopediaText": [
       {
-        "text": "The final sanction. Its blast can wipe out the whole planet."
+        "text": "The final sanction. Its blast scorches everything within 4 tiles of the target."
       }
     ]
   },
