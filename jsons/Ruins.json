@@ -1,0 +1,74 @@
+[
+  {
+    "name": "cultural artifacts",
+    "notification": "We have discovered cultural artifacts in the ruins! (+20 culture)",
+    "uniques": [
+      "Gain [20] [Culture] <(modified by game speed)>"
+    ]
+  },
+  {
+    "name": "squatters willing to work",
+    "notification": "We have found survivors in the ruins! They will work for us!",
+    "uniques": [
+      "Free [Worker] found in the ruins"
+    ],
+    "excludedDifficulties": [
+      "Prince",
+      "King",
+      "Emperor",
+      "Immortal",
+      "Deity"
+    ]
+  },
+  {
+    "name": "training",
+    "notification": "Our unit finds a stash of old data-slates and learns from them!",
+    "uniques": [
+      "[This Unit] gains [10] XP",
+      "Only available <for [Military] units>"
+    ]
+  },
+  {
+    "name": "survivors",
+    "notification": "Survivors from the ruins join one of our cities!",
+    "uniques": [
+      "[+1] population in a random city"
+    ]
+  },
+  {
+    "name": "gold",
+    "notification": "We have found a stash of thrones in the ruins!",
+    "uniques": [
+      "Gain [50]-[100] [Gold] <(modified by game speed)>"
+    ]
+  },
+  {
+    "name": "tech",
+    "notification": "We have recovered a lost STC fragment!",
+    "uniques": [
+      "Free Technology"
+    ]
+  },
+  {
+    "name": "upgrade",
+    "notification": "An archeotech cache upgrades our unit!",
+    "uniques": [
+      "[This Unit] upgrades for free"
+    ]
+  },
+  {
+    "name": "map",
+    "notification": "We found an ancient auspex map!",
+    "uniques": [
+      "From a randomly chosen tile [4] tiles away from the ruins, reveal tiles up to [4] tiles away with [80]% chance"
+    ]
+  },
+  {
+    "name": "faith",
+    "notification": "We found holy relics in the ruins!",
+    "uniques": [
+      "Gain enough Faith for a Pantheon",
+      "Only available <when religion is enabled>"
+    ]
+  }
+]

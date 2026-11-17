@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Domination",
+    "victoryScreenHeader": "Defeat all enemies to win!",
+    "victoryString": "The galaxy kneels before you. You have won a Domination Victory!",
+    "defeatString": "You have been crushed.",
+    "milestones": [
+      "Destroy all players"
+    ]
+  },
+  {
+    "name": "Cultural",
+    "victoryScreenHeader": "Complete all policy branches to win!",
+    "victoryString": "Your doctrine rules the stars. You have won a Cultural Victory!",
+    "defeatString": "Another civilization's doctrine has prevailed.",
+    "milestones": [
+      "Complete [5] Policy branches"
+    ]
+  },
+  {
+    "name": "Scientific",
+    "victoryScreenHeader": "Build the Webway Gate to win!",
+    "victoryString": "The Webway is open to you. You have won a Scientific Victory!",
+    "defeatString": "Another civilization opened the Webway first.",
+    "milestones": [
+      "Build [Ancient Gate]"
+    ]
+  }
+]

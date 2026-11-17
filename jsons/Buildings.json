@@ -1,0 +1,2109 @@
+[
+  {
+    "name": "Palace",
+    "isNationalWonder": true,
+    "production": 3,
+    "science": 3,
+    "gold": 3,
+    "culture": 1,
+    "faith": 1,
+    "cityStrength": 2.5,
+    "cost": 0,
+    "uniques": [
+      "Indicates the capital city"
+    ]
+  },
+  {
+    "name": "Monument",
+    "culture": 2,
+    "cost": 40,
+    "hurryCostModifier": 40,
+    "maintenance": 1,
+    "uniques": [
+      "Destroyed when the city is captured"
+    ]
+  },
+  {
+    "name": "Shrine",
+    "faith": 1,
+    "cost": 40,
+    "maintenance": 1,
+    "uniques": [
+      "Only available <when religion is enabled>"
+    ]
+  },
+  {
+    "name": "Temple",
+    "faith": 2,
+    "requiredBuilding": "Shrine",
+    "maintenance": 2,
+    "hurryCostModifier": 25,
+    "requiredTech": "Doctrine of Faith",
+    "uniques": [
+      "Only available <when religion is enabled>",
+      "Destroyed when the city is captured"
+    ]
+  },
+  {
+    "name": "Granary",
+    "food": 2,
+    "maintenance": 1,
+    "hurryCostModifier": 25,
+    "requiredTech": "Beast Taming",
+    "uniques": [
+      "[+1 Food] from [Agri-Grain] tiles [in this city]",
+      "[+1 Food] from [Fungus Grove] tiles [in this city]",
+      "[+1 Food] from [Grox] tiles [in this city]"
+    ]
+  },
+  {
+    "name": "Walls",
+    "cityStrength": 5,
+    "cityHealth": 50,
+    "hurryCostModifier": 25,
+    "requiredTech": "Stonework",
+    "uniques": [
+      "Destroyed when the city is captured"
+    ]
+  },
+  {
+    "name": "Barracks",
+    "hurryCostModifier": 25,
+    "maintenance": 1,
+    "requiredTech": "Forge Craft",
+    "uniques": [
+      "New [Military] units start with [15] XP [in this city]",
+      "Destroyed when the city is captured"
+    ]
+  },
+  {
+    "name": "Library",
+    "hurryCostModifier": 25,
+    "maintenance": 1,
+    "requiredTech": "Sacred Scripture",
+    "uniques": [
+      "[+1 Science] per [2] population [in this city]"
+    ]
+  },
+  {
+    "name": "Market",
+    "gold": 2,
+    "specialistSlots": {
+      "Merchant": 1
+    },
+    "hurryCostModifier": 25,
+    "percentStatBonus": {
+      "gold": 25
+    },
+    "requiredTech": "Trade Charters"
+  },
+  {
+    "name": "Workshop",
+    "maintenance": 2,
+    "production": 2,
+    "specialistSlots": {
+      "Engineer": 1
+    },
+    "hurryCostModifier": 25,
+    "percentStatBonus": {
+      "production": 10
+    },
+    "requiredTech": "Engineering"
+  },
+  {
+    "name": "Lighthouse",
+    "cost": 75,
+    "hurryCostModifier": 25,
+    "maintenance": 1,
+    "requiredTech": "Seafaring",
+    "uniques": [
+      "Must be next to [Coast]",
+      "[+1 Food] from [Ocean] tiles [in this city]",
+      "[+1 Food] from [Coast] tiles [in this city]",
+      "[+1 Food] from [Reef Krill] tiles [in this city]"
+    ]
+  },
+  {
+    "name": "Harbor",
+    "cost": 120,
+    "maintenance": 3,
+    "hurryCostModifier": 25,
+    "requiredTech": "Void Shipbuilding",
+    "uniques": [
+      "[+1 Production] from [Water resource] tiles [in this city]",
+      "Connects trade routes over water",
+      "Must be next to [Coast]"
+    ]
+  },
+  {
+    "name": "Amphitheater",
+    "culture": 3,
+    "specialistSlots": {
+      "Artist": 1
+    },
+    "requiredBuilding": "Monument",
+    "maintenance": 2,
+    "hurryCostModifier": 25,
+    "requiredTech": "Telepathic Signalling",
+    "uniques": [
+      "Destroyed when the city is captured"
+    ]
+  },
+  {
+    "name": "Colosseum",
+    "maintenance": 1,
+    "happiness": 2,
+    "hurryCostModifier": 25,
+    "requiredTech": "Engineering"
+  },
+  {
+    "name": "University",
+    "maintenance": 2,
+    "hurryCostModifier": 15,
+    "percentStatBonus": {
+      "science": 33
+    },
+    "specialistSlots": {
+      "Scientist": 2
+    },
+    "requiredBuilding": "Library",
+    "requiredTech": "Academies",
+    "uniques": [
+      "[+2 Science] from [Jungle] tiles [in this city]"
+    ]
+  },
+  {
+    "name": "Bank",
+    "gold": 2,
+    "specialistSlots": {
+      "Merchant": 1
+    },
+    "hurryCostModifier": 15,
+    "percentStatBonus": {
+      "gold": 25
+    },
+    "requiredBuilding": "Market",
+    "requiredTech": "Tithes"
+  },
+  {
+    "name": "Factory",
+    "production": 4,
+    "percentStatBonus": {
+      "production": 10
+    },
+    "specialistSlots": {
+      "Engineer": 2
+    },
+    "requiredBuilding": "Workshop",
+    "maintenance": 3,
+    "hurryCostModifier": 0,
+    "requiredResource": "Plasteel",
+    "requiredTech": "Mass Production"
+  },
+  {
+    "name": "Castle",
+    "cityStrength": 7,
+    "cityHealth": 25,
+    "hurryCostModifier": 25,
+    "requiredBuilding": "Walls",
+    "requiredTech": "Fortress Doctrine",
+    "uniques": [
+      "Destroyed when the city is captured"
+    ]
+  },
+  {
+    "name": "Water Mill",
+    "maintenance": 2,
+    "food": 2,
+    "production": 1,
+    "hurryCostModifier": 25,
+    "requiredTech": "Logistica",
+    "uniques": [
+      "Must be on [River]"
+    ]
+  },
+  {
+    "name": "Labour Workshop",
+    "production": 2,
+    "maintenance": 1,
+    "requiredTech": "Labour Cybernetics",
+    "uniques": [
+      "[+1 Production] from [Mine] tiles [in this city]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Rows of servitors do the work nobody else wants."
+      }
+    ]
+  },
+  {
+    "name": "Ancient Tech Vault",
+    "maintenance": 2,
+    "requiredTech": "Ancient Tech Recovery",
+    "uniques": [
+      "[+4 Science] [in this city]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A sealed vault of forgotten ancient technology."
+      }
+    ]
+  },
+  {
+    "name": "Titan Hangar",
+    "maintenance": 3,
+    "requiredTech": "Titan Construction",
+    "requiredBuilding": "Factory",
+    "uniques": [
+      "[+25]% Production when constructing [Armored] units [in this city]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A cathedral-sized hangar where god-engines are assembled."
+      }
+    ]
+  },
+  {
+    "name": "Great Throne",
+    "isWonder": true,
+    "faith": 5,
+    "culture": 3,
+    "requiredTech": "Doctrine of Faith",
+    "quote": "'The throne endures, and the realm endures with it.'",
+    "uniques": [
+      "[+15]% [Faith] [in all cities]"
+    ]
+  },
+  {
+    "name": "Galactic Beacon",
+    "isWonder": true,
+    "science": 3,
+    "requiredTech": "Warp Navigation",
+    "quote": "'A light in the storm, a beacon across the galaxy.'",
+    "uniques": [
+      "[+1] Movement <for [Water] units>"
+    ]
+  },
+  {
+    "name": "Great Forge",
+    "isWonder": true,
+    "production": 5,
+    "requiredTech": "Mass Production",
+    "quote": "'The forge never sleeps.'",
+    "uniques": [
+      "[+15]% [Production] [in all cities]"
+    ]
+  },
+  {
+    "name": "Ancient Gate",
+    "isWonder": true,
+    "requiredTech": "Warp Mastery",
+    "quote": "'Every road in the galaxy now begins here.'",
+    "uniques": [
+      "[+5 Science] [in this city]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Building it wins the Scientific victory."
+      }
+    ]
+  },
+  {
+    "name": "Ecclesiarchy Cathedral",
+    "uniqueTo": "Imperium of Man",
+    "replaces": "Temple",
+    "faith": 3,
+    "culture": 2,
+    "requiredBuilding": "Shrine",
+    "maintenance": 2,
+    "requiredTech": "Doctrine of Faith",
+    "uniques": [
+      "Only available <when religion is enabled>",
+      "Destroyed when the city is captured"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A grand temple to the God-Emperor."
+      }
+    ]
+  },
+  {
+    "name": "Waaagh! Banner",
+    "uniqueTo": "Orks",
+    "replaces": "Barracks",
+    "maintenance": 0,
+    "requiredTech": "Forge Craft",
+    "uniques": [
+      "New [Military] units start with [25] XP [in this city]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A massive, scrap-built totem that rallies the boyz."
+      }
+    ]
+  },
+  {
+    "name": "Infinity Circuit",
+    "uniqueTo": "Aeldari",
+    "replaces": "Library",
+    "culture": 2,
+    "maintenance": 1,
+    "requiredTech": "Sacred Scripture",
+    "uniques": [
+      "[+1 Science] per [2] population [in this city]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A psychic archive of souls and memories."
+      }
+    ]
+  },
+  {
+    "name": "Ethereal Council",
+    "uniqueTo": "T'au Empire",
+    "replaces": "Market",
+    "gold": 4,
+    "specialistSlots": {
+      "Merchant": 1
+    },
+    "percentStatBonus": {
+      "gold": 25
+    },
+    "maintenance": 0,
+    "requiredTech": "Trade Charters",
+    "civilopediaText": [
+      {
+        "text": "Diplomats and traders who spread the Greater Good."
+      }
+    ]
+  },
+  {
+    "name": "Warp Altar",
+    "uniqueTo": "Chaos",
+    "replaces": "Temple",
+    "faith": 3,
+    "requiredBuilding": "Shrine",
+    "maintenance": 1,
+    "requiredTech": "Doctrine of Faith",
+    "uniques": [
+      "Only available <when religion is enabled>",
+      "New [Military] units start with [10] XP [in this city]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A dark shrine that channels the power of the Warp."
+      }
+    ]
+  },
+  {
+    "name": "Tomb Vault",
+    "uniqueTo": "Necrons",
+    "replaces": "Monument",
+    "culture": 2,
+    "science": 1,
+    "cost": 40,
+    "maintenance": 0,
+    "civilopediaText": [
+      {
+        "text": "Ancient crypts where the Necrons slumber."
+      }
+    ]
+  },
+  {
+    "name": "Spawning Pool",
+    "uniqueTo": "Tyranids",
+    "replaces": "Granary",
+    "food": 4,
+    "maintenance": 1,
+    "requiredTech": "Beast Taming",
+    "civilopediaText": [
+      {
+        "text": "Biomass vats that breed new swarm creatures."
+      }
+    ]
+  },
+  {
+    "name": "Forge Temple",
+    "uniqueTo": "Adeptus Mechanicus",
+    "replaces": "Workshop",
+    "production": 3,
+    "faith": 1,
+    "specialistSlots": {
+      "Engineer": 1
+    },
+    "percentStatBonus": {
+      "production": 10
+    },
+    "maintenance": 2,
+    "requiredTech": "Engineering",
+    "civilopediaText": [
+      {
+        "text": "A sacred factory dedicated to the Omnissiah."
+      }
+    ]
+  },
+  {
+    "name": "Convent Sanctorum",
+    "faith": 4,
+    "requiredBuilding": "Shrine",
+    "maintenance": 2,
+    "hurryCostModifier": 25,
+    "requiredTech": "Doctrine of Faith",
+    "uniques": [
+      "Only available <when religion is enabled>",
+      "Destroyed when the city is captured"
+    ],
+    "uniqueTo": "Adepta Sororitas",
+    "replaces": "Temple",
+    "civilopediaText": [
+      {
+        "text": "A fortified convent of the warrior-nuns."
+      }
+    ]
+  },
+  {
+    "name": "Slave Pens",
+    "food": 2,
+    "maintenance": 1,
+    "hurryCostModifier": 25,
+    "requiredTech": "Beast Taming",
+    "uniques": [
+      "[+1 Food] from [Agri-Grain] tiles [in this city]",
+      "[+1 Food] from [Fungus Grove] tiles [in this city]",
+      "[+1 Food] from [Grox] tiles [in this city]"
+    ],
+    "uniqueTo": "Drukhari",
+    "replaces": "Granary",
+    "civilopediaText": [
+      {
+        "text": "Captives toil here until they break."
+      }
+    ],
+    "production": 1
+  },
+  {
+    "name": "Great Spire",
+    "isWonder": true,
+    "requiredTech": "Stonework",
+    "quote": "'A billion souls, stacked to the sky.'",
+    "uniques": [
+      "[+1 Food] [in all cities]"
+    ],
+    "production": 3
+  },
+  {
+    "name": "Shrine of the Progenitor",
+    "isWonder": true,
+    "requiredTech": "Sacred Scripture",
+    "quote": "'Kneel where the demigod once stood.'",
+    "uniques": [
+      "Free [Great Prophet] appears"
+    ],
+    "faith": 3
+  },
+  {
+    "name": "Prime Data Vault",
+    "isWonder": true,
+    "requiredTech": "Labour Cybernetics",
+    "quote": "'Every byte is sacred. Every byte is stored.'",
+    "uniques": [
+      "[+1 Science] from every [Library]"
+    ],
+    "science": 3
+  },
+  {
+    "name": "Arena of Champions",
+    "isWonder": true,
+    "requiredTech": "Las Weapons",
+    "quote": "'Glory is earned in blood and sand.'",
+    "uniques": [
+      "New [Military] units start with [15] XP [in all cities]"
+    ],
+    "culture": 1
+  },
+  {
+    "name": "Hidden Library",
+    "isWonder": true,
+    "requiredTech": "Psychic Awakening",
+    "quote": "'Some books read you back.'",
+    "uniques": [
+      "[+2 Culture] [in all cities]"
+    ],
+    "culture": 3
+  },
+  {
+    "name": "Great Stronghold",
+    "isWonder": true,
+    "requiredTech": "Fortress Doctrine",
+    "quote": "'Ten thousand years, and the walls have never fallen.'",
+    "uniques": [
+      "[+15]% Strength <when defending>"
+    ],
+    "cityStrength": 10,
+    "cityHealth": 50
+  },
+  {
+    "name": "Grand Basilica",
+    "isWonder": true,
+    "requiredTech": "Academies",
+    "quote": "'Its bells are heard on three continents.'",
+    "uniques": [
+      "[+15]% [Culture] [in all cities]"
+    ],
+    "faith": 3
+  },
+  {
+    "name": "Orbital Dockyard",
+    "isWonder": true,
+    "requiredTech": "Void Shipbuilding",
+    "quote": "'From here, the fleets of a hundred worlds were born.'",
+    "uniques": [
+      "[+1] Movement <for [Water] units>",
+      "[+15]% Strength <for [Water] units>"
+    ],
+    "production": 2
+  },
+  {
+    "name": "Forge of Ancients",
+    "isWonder": true,
+    "requiredTech": "Ancient Tech Recovery",
+    "quote": "'The old machines still remember how to make miracles.'",
+    "uniques": [
+      "[+2 Science] [in all cities]"
+    ],
+    "science": 4
+  },
+  {
+    "name": "Hall of Heroes",
+    "isWonder": true,
+    "requiredTech": "Power Armor Engineering",
+    "quote": "'Their names are carved in adamantium.'",
+    "uniques": [
+      "[+10]% Strength"
+    ],
+    "culture": 3
+  },
+  {
+    "name": "Great Treasury",
+    "isWonder": true,
+    "requiredTech": "Tithes",
+    "quote": "'Every world gives. The Treasury remembers.'",
+    "uniques": [
+      "[+15]% [Gold] [in all cities]"
+    ],
+    "gold": 6
+  },
+  {
+    "name": "Legio Fortress",
+    "isWonder": true,
+    "requiredTech": "Walker Forges",
+    "quote": "'Here the god-machines rest between wars.'",
+    "uniques": [
+      "[+20]% Production when constructing [Armored] units [in all cities]"
+    ],
+    "production": 4
+  },
+  {
+    "name": "Choir of Ten Thousand",
+    "isWonder": true,
+    "requiredTech": "Psychic Mastery",
+    "quote": "'Ten thousand voices, one prayer, one light.'",
+    "uniques": [
+      "[+20]% [Faith] [in all cities]"
+    ],
+    "faith": 5
+  },
+  {
+    "name": "Hab-Block",
+    "requiredTech": "Hydroponics",
+    "civilopediaText": [
+      {
+        "text": "Stacked living quarters for the teeming masses."
+      }
+    ],
+    "hurryCostModifier": 25,
+    "food": 1,
+    "production": 1,
+    "maintenance": 1,
+    "requiredBuilding": "Granary"
+  },
+  {
+    "name": "Agri-Dome",
+    "requiredTech": "Hydroponics",
+    "civilopediaText": [
+      {
+        "text": "Sealed farms that grow food under artificial suns."
+      }
+    ],
+    "hurryCostModifier": 25,
+    "food": 3,
+    "maintenance": 2,
+    "requiredBuilding": "Granary"
+  },
+  {
+    "name": "Watch Precinct",
+    "requiredTech": "Trade Charters",
+    "civilopediaText": [
+      {
+        "text": "Law, order and very heavy shotguns."
+      }
+    ],
+    "hurryCostModifier": 25,
+    "happiness": 1,
+    "culture": 1,
+    "maintenance": 1
+  },
+  {
+    "name": "Arsenal",
+    "requiredTech": "Rocket Rounds",
+    "civilopediaText": [
+      {
+        "text": "Endless crates of shells and power cells."
+      }
+    ],
+    "hurryCostModifier": 25,
+    "maintenance": 2,
+    "uniques": [
+      "[+15]% Production when constructing [Military] units [in this city]"
+    ]
+  },
+  {
+    "name": "Discipline Corps",
+    "requiredTech": "Doctrine of Faith",
+    "civilopediaText": [
+      {
+        "text": "Discipline is the cure for cowardice."
+      }
+    ],
+    "hurryCostModifier": 25,
+    "happiness": 2,
+    "maintenance": 1
+  },
+  {
+    "name": "Comms Array",
+    "requiredTech": "Telepathic Signalling",
+    "civilopediaText": [
+      {
+        "text": "Voices from across the world, all at once."
+      }
+    ],
+    "hurryCostModifier": 25,
+    "science": 2,
+    "culture": 1,
+    "maintenance": 1
+  },
+  {
+    "name": "Scribes' Hall",
+    "requiredTech": "Academies",
+    "civilopediaText": [
+      {
+        "text": "Rows of scribes copy the wisdom of ages."
+      }
+    ],
+    "hurryCostModifier": 25,
+    "science": 2,
+    "culture": 2,
+    "maintenance": 2,
+    "requiredBuilding": "Library"
+  },
+  {
+    "name": "Bastion Battery",
+    "requiredTech": "Artillery Doctrine",
+    "civilopediaText": [
+      {
+        "text": "Heavy guns guard the city walls."
+      }
+    ],
+    "hurryCostModifier": 25,
+    "cityStrength": 8,
+    "cityHealth": 25,
+    "maintenance": 1,
+    "requiredBuilding": "Walls"
+  },
+  {
+    "name": "Void Shield Generator",
+    "requiredTech": "Gellar Field Theory",
+    "civilopediaText": [
+      {
+        "text": "A shimmering dome that swallows shells."
+      }
+    ],
+    "hurryCostModifier": 25,
+    "cityStrength": 10,
+    "cityHealth": 50,
+    "maintenance": 3,
+    "requiredBuilding": "Castle"
+  },
+  {
+    "name": "Spaceport",
+    "requiredTech": "Warp Navigation",
+    "civilopediaText": [
+      {
+        "text": "Shuttles rise and fall day and night."
+      }
+    ],
+    "hurryCostModifier": 25,
+    "gold": 3,
+    "culture": 1,
+    "maintenance": 2
+  },
+  {
+    "name": "Promethium Refinery",
+    "requiredTech": "Promethium Refining",
+    "civilopediaText": [
+      {
+        "text": "The air tastes of fire and fuel."
+      }
+    ],
+    "hurryCostModifier": 25,
+    "production": 2,
+    "maintenance": 2,
+    "uniques": [
+      "[+1 Production] from [Promethium] tiles [in this city]"
+    ]
+  },
+  {
+    "name": "Plasma Reactor",
+    "requiredTech": "Plasma Weaponry",
+    "civilopediaText": [
+      {
+        "text": "A captive sun beneath the city."
+      }
+    ],
+    "hurryCostModifier": 25,
+    "production": 4,
+    "maintenance": 3,
+    "percentStatBonus": {
+      "production": 10
+    },
+    "requiredBuilding": "Factory"
+  },
+  {
+    "name": "Computing Array",
+    "requiredTech": "Dark Age Archives",
+    "civilopediaText": [
+      {
+        "text": "Machine minds that think faster than men."
+      }
+    ],
+    "hurryCostModifier": 25,
+    "science": 4,
+    "maintenance": 3,
+    "percentStatBonus": {
+      "science": 15
+    },
+    "requiredBuilding": "University"
+  },
+  {
+    "name": "Tithe Office",
+    "uniqueTo": "Imperium of Man",
+    "requiredTech": "Imperial Tithe Rolls",
+    "hurryCostModifier": 25,
+    "gold": 2,
+    "culture": 1,
+    "maintenance": 1
+  },
+  {
+    "name": "Chapter Keep",
+    "uniqueTo": "Imperium of Man",
+    "requiredTech": "Astartes Gene-Tithe",
+    "hurryCostModifier": 25,
+    "cityStrength": 6,
+    "maintenance": 2,
+    "uniques": [
+      "New [Military] units start with [15] XP [in this city]"
+    ]
+  },
+  {
+    "name": "Munitorum Depot",
+    "uniqueTo": "Imperium of Man",
+    "requiredTech": "Departmento Munitorum",
+    "hurryCostModifier": 25,
+    "production": 3,
+    "maintenance": 2,
+    "uniques": [
+      "[+15]% Production when constructing [Military] units [in this city]"
+    ]
+  },
+  {
+    "name": "Navigator House",
+    "uniqueTo": "Imperium of Man",
+    "requiredTech": "Navis Nobilite Charters",
+    "hurryCostModifier": 25,
+    "gold": 3,
+    "science": 2,
+    "maintenance": 2
+  },
+  {
+    "name": "Golden Throne Shrine",
+    "uniqueTo": "Imperium of Man",
+    "requiredTech": "Rites of the Golden Throne",
+    "hurryCostModifier": 25,
+    "faith": 4,
+    "culture": 3,
+    "happiness": 2,
+    "maintenance": 3
+  },
+  {
+    "name": "Data-Shrine",
+    "uniqueTo": "Adeptus Mechanicus",
+    "requiredTech": "Binharic Cant",
+    "hurryCostModifier": 25,
+    "science": 2,
+    "faith": 1,
+    "maintenance": 1
+  },
+  {
+    "name": "Forge Sanctum",
+    "uniqueTo": "Adeptus Mechanicus",
+    "requiredTech": "Forge Rituals",
+    "hurryCostModifier": 25,
+    "production": 3,
+    "faith": 2,
+    "maintenance": 2
+  },
+  {
+    "name": "Cogitator Vault",
+    "uniqueTo": "Adeptus Mechanicus",
+    "requiredTech": "Lexmechanic Archives",
+    "hurryCostModifier": 25,
+    "science": 4,
+    "maintenance": 2
+  },
+  {
+    "name": "Skitarii Barracks",
+    "uniqueTo": "Adeptus Mechanicus",
+    "requiredTech": "Cybernetica Cortex",
+    "hurryCostModifier": 25,
+    "maintenance": 2,
+    "uniques": [
+      "New [Military] units start with [15] XP [in this city]",
+      "[+15]% Production when constructing [Military] units [in this city]"
+    ]
+  },
+  {
+    "name": "Forge-World Manufactorum",
+    "uniqueTo": "Adeptus Mechanicus",
+    "requiredTech": "Ark Mechanicus Protocols",
+    "hurryCostModifier": 25,
+    "production": 6,
+    "science": 3,
+    "maintenance": 4
+  },
+  {
+    "name": "Chapel of Penitence",
+    "uniqueTo": "Adepta Sororitas",
+    "requiredTech": "Convent Prioris",
+    "hurryCostModifier": 25,
+    "faith": 2,
+    "happiness": 1,
+    "maintenance": 1
+  },
+  {
+    "name": "Hospitaller Ward",
+    "uniqueTo": "Adepta Sororitas",
+    "requiredTech": "Hospitaller Orders",
+    "hurryCostModifier": 25,
+    "food": 2,
+    "happiness": 2,
+    "maintenance": 1
+  },
+  {
+    "name": "Reliquary",
+    "uniqueTo": "Adepta Sororitas",
+    "requiredTech": "Sacred Rose Doctrine",
+    "hurryCostModifier": 25,
+    "faith": 3,
+    "culture": 2,
+    "maintenance": 2
+  },
+  {
+    "name": "Repentia Cloister",
+    "uniqueTo": "Adepta Sororitas",
+    "requiredTech": "Penitent Crusades",
+    "hurryCostModifier": 25,
+    "maintenance": 2,
+    "uniques": [
+      "New [Military] units start with [15] XP [in this city]"
+    ]
+  },
+  {
+    "name": "Cathedral of the Saint",
+    "uniqueTo": "Adepta Sororitas",
+    "requiredTech": "Living Saint Visions",
+    "hurryCostModifier": 25,
+    "faith": 6,
+    "culture": 4,
+    "happiness": 3,
+    "maintenance": 4
+  },
+  {
+    "name": "Fightin' Pit",
+    "uniqueTo": "Orks",
+    "requiredTech": "Krumpin'",
+    "hurryCostModifier": 25,
+    "happiness": 2,
+    "maintenance": 1,
+    "uniques": [
+      "New [Military] units start with [10] XP [in this city]"
+    ]
+  },
+  {
+    "name": "Mek Shop",
+    "uniqueTo": "Orks",
+    "requiredTech": "Mek Workshops",
+    "hurryCostModifier": 25,
+    "production": 3,
+    "maintenance": 1
+  },
+  {
+    "name": "Squig Pen",
+    "uniqueTo": "Orks",
+    "requiredTech": "Lootin'",
+    "hurryCostModifier": 25,
+    "food": 3,
+    "maintenance": 1
+  },
+  {
+    "name": "Loota Stash",
+    "uniqueTo": "Orks",
+    "requiredTech": "Speed Freeks",
+    "hurryCostModifier": 25,
+    "gold": 4,
+    "maintenance": 1
+  },
+  {
+    "name": "Gargant Yard",
+    "uniqueTo": "Orks",
+    "requiredTech": "Big Mek Kustoms",
+    "hurryCostModifier": 25,
+    "production": 5,
+    "maintenance": 3,
+    "uniques": [
+      "[+20]% Production when constructing [Armored] units [in this city]"
+    ]
+  },
+  {
+    "name": "Bonesinger Atelier",
+    "uniqueTo": "Aeldari",
+    "requiredTech": "Path of the Artisan",
+    "hurryCostModifier": 25,
+    "culture": 3,
+    "maintenance": 1
+  },
+  {
+    "name": "Aspect Shrine",
+    "uniqueTo": "Aeldari",
+    "requiredTech": "Aspect Shrines",
+    "hurryCostModifier": 25,
+    "maintenance": 2,
+    "uniques": [
+      "New [Military] units start with [15] XP [in this city]"
+    ]
+  },
+  {
+    "name": "Wraithbone Spire",
+    "uniqueTo": "Aeldari",
+    "requiredTech": "Wraithbone Singing",
+    "hurryCostModifier": 25,
+    "production": 3,
+    "culture": 1,
+    "maintenance": 2
+  },
+  {
+    "name": "Dome of Crystal Seers",
+    "uniqueTo": "Aeldari",
+    "requiredTech": "Infinity Circuit",
+    "hurryCostModifier": 25,
+    "culture": 4,
+    "faith": 2,
+    "maintenance": 2
+  },
+  {
+    "name": "Webway Portal",
+    "uniqueTo": "Aeldari",
+    "requiredTech": "Webway Gates",
+    "hurryCostModifier": 25,
+    "gold": 3,
+    "science": 2,
+    "maintenance": 2
+  },
+  {
+    "name": "Slave Market",
+    "uniqueTo": "Drukhari",
+    "requiredTech": "Realspace Raids",
+    "hurryCostModifier": 25,
+    "gold": 3,
+    "production": 1,
+    "maintenance": 1
+  },
+  {
+    "name": "Kabal Spire",
+    "uniqueTo": "Drukhari",
+    "requiredTech": "Kabal Politics",
+    "hurryCostModifier": 25,
+    "culture": 2,
+    "gold": 2,
+    "maintenance": 2
+  },
+  {
+    "name": "Wych Arena",
+    "uniqueTo": "Drukhari",
+    "requiredTech": "Wych Cult Arenas",
+    "hurryCostModifier": 25,
+    "happiness": 3,
+    "maintenance": 2,
+    "uniques": [
+      "New [Military] units start with [10] XP [in this city]"
+    ]
+  },
+  {
+    "name": "Haemonculus Covens",
+    "uniqueTo": "Drukhari",
+    "requiredTech": "Haemonculus Flesh-craft",
+    "hurryCostModifier": 25,
+    "science": 3,
+    "maintenance": 2
+  },
+  {
+    "name": "Raider Docks",
+    "uniqueTo": "Drukhari",
+    "requiredTech": "Pain Engines",
+    "hurryCostModifier": 25,
+    "production": 3,
+    "gold": 2,
+    "maintenance": 2,
+    "uniques": [
+      "[+20]% Production when constructing [Armored] units [in this city]"
+    ]
+  },
+  {
+    "name": "Fire Caste Academy",
+    "uniqueTo": "T'au Empire",
+    "requiredTech": "Caste System",
+    "hurryCostModifier": 25,
+    "maintenance": 2,
+    "uniques": [
+      "New [Military] units start with [15] XP [in this city]"
+    ]
+  },
+  {
+    "name": "Earth Caste Foundry",
+    "uniqueTo": "T'au Empire",
+    "requiredTech": "Drone Networks",
+    "hurryCostModifier": 25,
+    "production": 4,
+    "maintenance": 2
+  },
+  {
+    "name": "Water Caste Embassy",
+    "uniqueTo": "T'au Empire",
+    "requiredTech": "Water Caste Diplomacy",
+    "hurryCostModifier": 25,
+    "gold": 4,
+    "culture": 1,
+    "maintenance": 1
+  },
+  {
+    "name": "Air Caste Port",
+    "uniqueTo": "T'au Empire",
+    "requiredTech": "Battlesuit Prototypes",
+    "hurryCostModifier": 25,
+    "gold": 2,
+    "science": 2,
+    "maintenance": 2
+  },
+  {
+    "name": "Ethereal Sanctum",
+    "uniqueTo": "T'au Empire",
+    "requiredTech": "Ion Technology",
+    "hurryCostModifier": 25,
+    "culture": 4,
+    "happiness": 3,
+    "maintenance": 3
+  },
+  {
+    "name": "Altar of Sacrifice",
+    "uniqueTo": "Chaos",
+    "requiredTech": "Dark Pacts",
+    "hurryCostModifier": 25,
+    "faith": 3,
+    "maintenance": 1
+  },
+  {
+    "name": "Mutation Pits",
+    "uniqueTo": "Chaos",
+    "requiredTech": "Mutation Rites",
+    "hurryCostModifier": 25,
+    "food": 2,
+    "production": 1,
+    "maintenance": 1
+  },
+  {
+    "name": "Warpsmith Forge",
+    "uniqueTo": "Chaos",
+    "requiredTech": "Warpsmith Forges",
+    "hurryCostModifier": 25,
+    "production": 4,
+    "maintenance": 2
+  },
+  {
+    "name": "Daemon Forge",
+    "uniqueTo": "Chaos",
+    "requiredTech": "Daemon Engines",
+    "hurryCostModifier": 25,
+    "production": 2,
+    "maintenance": 2,
+    "uniques": [
+      "[+20]% Production when constructing [Armored] units [in this city]"
+    ]
+  },
+  {
+    "name": "Dark Cathedral",
+    "uniqueTo": "Chaos",
+    "requiredTech": "Possession",
+    "hurryCostModifier": 25,
+    "faith": 5,
+    "culture": 3,
+    "maintenance": 3
+  },
+  {
+    "name": "Tomb Complex",
+    "uniqueTo": "Necrons",
+    "requiredTech": "Tomb Awakening",
+    "hurryCostModifier": 25,
+    "production": 3,
+    "culture": 1,
+    "maintenance": 1
+  },
+  {
+    "name": "Reanimation Crypt",
+    "uniqueTo": "Necrons",
+    "requiredTech": "Living Metal",
+    "hurryCostModifier": 25,
+    "cityHealth": 25,
+    "cityStrength": 4,
+    "maintenance": 2
+  },
+  {
+    "name": "Royal Court",
+    "uniqueTo": "Necrons",
+    "requiredTech": "Dynastic Codes",
+    "hurryCostModifier": 25,
+    "culture": 3,
+    "happiness": 2,
+    "maintenance": 2
+  },
+  {
+    "name": "Canoptek Hive",
+    "uniqueTo": "Necrons",
+    "requiredTech": "Tesla Arcs",
+    "hurryCostModifier": 25,
+    "production": 3,
+    "science": 2,
+    "maintenance": 2,
+    "uniques": [
+      "[+15]% Production when constructing [Military] units [in this city]"
+    ]
+  },
+  {
+    "name": "Dolmen Gate",
+    "uniqueTo": "Necrons",
+    "requiredTech": "Dolmen Gates",
+    "hurryCostModifier": 25,
+    "gold": 3,
+    "science": 3,
+    "maintenance": 3
+  },
+  {
+    "name": "Capillary Tower",
+    "uniqueTo": "Tyranids",
+    "requiredTech": "Spore Seeding",
+    "hurryCostModifier": 25,
+    "food": 3,
+    "maintenance": 1
+  },
+  {
+    "name": "Brood Nest",
+    "uniqueTo": "Tyranids",
+    "requiredTech": "Biomass Digestion",
+    "hurryCostModifier": 25,
+    "food": 2,
+    "production": 2,
+    "maintenance": 1,
+    "uniques": [
+      "[+15]% Production when constructing [Military] units [in this city]"
+    ]
+  },
+  {
+    "name": "Digestion Pool",
+    "uniqueTo": "Tyranids",
+    "requiredTech": "Synapse Links",
+    "hurryCostModifier": 25,
+    "food": 2,
+    "production": 2,
+    "maintenance": 2
+  },
+  {
+    "name": "Synapse Node",
+    "uniqueTo": "Tyranids",
+    "requiredTech": "Adaptive Carapace",
+    "hurryCostModifier": 25,
+    "science": 3,
+    "happiness": 2,
+    "maintenance": 2
+  },
+  {
+    "name": "Hive Node",
+    "uniqueTo": "Tyranids",
+    "requiredTech": "Shadow in the Warp",
+    "hurryCostModifier": 25,
+    "food": 4,
+    "production": 4,
+    "maintenance": 3,
+    "uniques": [
+      "New [Military] units start with [15] XP [in this city]"
+    ]
+  },
+  {
+    "name": "Librarium",
+    "hurryCostModifier": 25,
+    "maintenance": 1,
+    "requiredTech": "Sacred Scripture",
+    "uniques": [
+      "[+1 Science] per [2] population [in this city]"
+    ],
+    "uniqueTo": "Imperium of Man",
+    "replaces": "Library"
+  },
+  {
+    "name": "Schola Progenium",
+    "maintenance": 2,
+    "hurryCostModifier": 15,
+    "percentStatBonus": {
+      "science": 33
+    },
+    "specialistSlots": {
+      "Scientist": 2
+    },
+    "requiredBuilding": "Library",
+    "requiredTech": "Academies",
+    "uniques": [
+      "[+2 Science] from [Jungle] tiles [in this city]"
+    ],
+    "uniqueTo": "Imperium of Man",
+    "replaces": "University"
+  },
+  {
+    "name": "Imperial Manufactorum",
+    "production": 4,
+    "percentStatBonus": {
+      "production": 10
+    },
+    "specialistSlots": {
+      "Engineer": 2
+    },
+    "requiredBuilding": "Workshop",
+    "maintenance": 3,
+    "hurryCostModifier": 0,
+    "requiredResource": "Plasteel",
+    "requiredTech": "Mass Production",
+    "uniqueTo": "Imperium of Man",
+    "replaces": "Factory"
+  },
+  {
+    "name": "Munitorum Armoury",
+    "requiredTech": "Rocket Rounds",
+    "hurryCostModifier": 25,
+    "maintenance": 2,
+    "uniques": [
+      "[+15]% Production when constructing [Military] units [in this city]"
+    ],
+    "uniqueTo": "Imperium of Man",
+    "replaces": "Arsenal"
+  },
+  {
+    "name": "Administratum Office",
+    "gold": 2,
+    "specialistSlots": {
+      "Merchant": 1
+    },
+    "hurryCostModifier": 25,
+    "percentStatBonus": {
+      "gold": 25
+    },
+    "requiredTech": "Trade Charters",
+    "uniqueTo": "Imperium of Man",
+    "replaces": "Market"
+  },
+  {
+    "name": "Guard Barracks",
+    "hurryCostModifier": 25,
+    "maintenance": 1,
+    "requiredTech": "Forge Craft",
+    "uniques": [
+      "New [Military] units start with [15] XP [in this city]",
+      "Destroyed when the city is captured"
+    ],
+    "uniqueTo": "Imperium of Man",
+    "replaces": "Barracks"
+  },
+  {
+    "name": "Mek's Junk Heap",
+    "hurryCostModifier": 25,
+    "maintenance": 1,
+    "requiredTech": "Sacred Scripture",
+    "uniques": [
+      "[+1 Science] per [2] population [in this city]"
+    ],
+    "uniqueTo": "Orks",
+    "replaces": "Library"
+  },
+  {
+    "name": "Big Mek Workshop",
+    "maintenance": 2,
+    "hurryCostModifier": 15,
+    "percentStatBonus": {
+      "science": 33
+    },
+    "specialistSlots": {
+      "Scientist": 2
+    },
+    "requiredBuilding": "Library",
+    "requiredTech": "Academies",
+    "uniques": [
+      "[+2 Science] from [Jungle] tiles [in this city]"
+    ],
+    "uniqueTo": "Orks",
+    "replaces": "University"
+  },
+  {
+    "name": "Gork Works",
+    "production": 4,
+    "percentStatBonus": {
+      "production": 10
+    },
+    "specialistSlots": {
+      "Engineer": 2
+    },
+    "requiredBuilding": "Workshop",
+    "maintenance": 3,
+    "hurryCostModifier": 0,
+    "requiredResource": "Plasteel",
+    "requiredTech": "Mass Production",
+    "uniqueTo": "Orks",
+    "replaces": "Factory"
+  },
+  {
+    "name": "Dakka Dump",
+    "requiredTech": "Rocket Rounds",
+    "hurryCostModifier": 25,
+    "maintenance": 2,
+    "uniques": [
+      "[+15]% Production when constructing [Military] units [in this city]"
+    ],
+    "uniqueTo": "Orks",
+    "replaces": "Arsenal"
+  },
+  {
+    "name": "Teef Exchange",
+    "gold": 2,
+    "specialistSlots": {
+      "Merchant": 1
+    },
+    "hurryCostModifier": 25,
+    "percentStatBonus": {
+      "gold": 25
+    },
+    "requiredTech": "Trade Charters",
+    "uniqueTo": "Orks",
+    "replaces": "Market"
+  },
+  {
+    "name": "Shrine of Gork and Mork",
+    "faith": 2,
+    "requiredBuilding": "Shrine",
+    "maintenance": 2,
+    "hurryCostModifier": 25,
+    "requiredTech": "Doctrine of Faith",
+    "uniques": [
+      "Only available <when religion is enabled>",
+      "Destroyed when the city is captured"
+    ],
+    "uniqueTo": "Orks",
+    "replaces": "Temple"
+  },
+  {
+    "name": "Hall of Farseers",
+    "maintenance": 2,
+    "hurryCostModifier": 15,
+    "percentStatBonus": {
+      "science": 33
+    },
+    "specialistSlots": {
+      "Scientist": 2
+    },
+    "requiredBuilding": "Library",
+    "requiredTech": "Academies",
+    "uniques": [
+      "[+2 Science] from [Jungle] tiles [in this city]"
+    ],
+    "uniqueTo": "Aeldari",
+    "replaces": "University"
+  },
+  {
+    "name": "Bonesinger Forge",
+    "production": 4,
+    "percentStatBonus": {
+      "production": 10
+    },
+    "specialistSlots": {
+      "Engineer": 2
+    },
+    "requiredBuilding": "Workshop",
+    "maintenance": 3,
+    "hurryCostModifier": 0,
+    "requiredResource": "Plasteel",
+    "requiredTech": "Mass Production",
+    "uniqueTo": "Aeldari",
+    "replaces": "Factory"
+  },
+  {
+    "name": "Aspect Armoury",
+    "requiredTech": "Rocket Rounds",
+    "hurryCostModifier": 25,
+    "maintenance": 2,
+    "uniques": [
+      "[+15]% Production when constructing [Military] units [in this city]"
+    ],
+    "uniqueTo": "Aeldari",
+    "replaces": "Arsenal"
+  },
+  {
+    "name": "Corsair Bazaar",
+    "gold": 2,
+    "specialistSlots": {
+      "Merchant": 1
+    },
+    "hurryCostModifier": 25,
+    "percentStatBonus": {
+      "gold": 25
+    },
+    "requiredTech": "Trade Charters",
+    "uniqueTo": "Aeldari",
+    "replaces": "Market"
+  },
+  {
+    "name": "Shrine of Asuryan",
+    "faith": 2,
+    "requiredBuilding": "Shrine",
+    "maintenance": 2,
+    "hurryCostModifier": 25,
+    "requiredTech": "Doctrine of Faith",
+    "uniques": [
+      "Only available <when religion is enabled>",
+      "Destroyed when the city is captured"
+    ],
+    "uniqueTo": "Aeldari",
+    "replaces": "Temple"
+  },
+  {
+    "name": "Guardian Halls",
+    "hurryCostModifier": 25,
+    "maintenance": 1,
+    "requiredTech": "Forge Craft",
+    "uniques": [
+      "New [Military] units start with [15] XP [in this city]",
+      "Destroyed when the city is captured"
+    ],
+    "uniqueTo": "Aeldari",
+    "replaces": "Barracks"
+  },
+  {
+    "name": "Sept Archive",
+    "hurryCostModifier": 25,
+    "maintenance": 1,
+    "requiredTech": "Sacred Scripture",
+    "uniques": [
+      "[+1 Science] per [2] population [in this city]"
+    ],
+    "uniqueTo": "T'au Empire",
+    "replaces": "Library"
+  },
+  {
+    "name": "Earth Caste Academy",
+    "maintenance": 2,
+    "hurryCostModifier": 15,
+    "percentStatBonus": {
+      "science": 33
+    },
+    "specialistSlots": {
+      "Scientist": 2
+    },
+    "requiredBuilding": "Library",
+    "requiredTech": "Academies",
+    "uniques": [
+      "[+2 Science] from [Jungle] tiles [in this city]"
+    ],
+    "uniqueTo": "T'au Empire",
+    "replaces": "University"
+  },
+  {
+    "name": "Drone Assembly",
+    "production": 4,
+    "percentStatBonus": {
+      "production": 10
+    },
+    "specialistSlots": {
+      "Engineer": 2
+    },
+    "requiredBuilding": "Workshop",
+    "maintenance": 3,
+    "hurryCostModifier": 0,
+    "requiredResource": "Plasteel",
+    "requiredTech": "Mass Production",
+    "uniqueTo": "T'au Empire",
+    "replaces": "Factory"
+  },
+  {
+    "name": "Pulse Armoury",
+    "requiredTech": "Rocket Rounds",
+    "hurryCostModifier": 25,
+    "maintenance": 2,
+    "uniques": [
+      "[+15]% Production when constructing [Military] units [in this city]"
+    ],
+    "uniqueTo": "T'au Empire",
+    "replaces": "Arsenal"
+  },
+  {
+    "name": "Ethereal Shrine",
+    "faith": 2,
+    "requiredBuilding": "Shrine",
+    "maintenance": 2,
+    "hurryCostModifier": 25,
+    "requiredTech": "Doctrine of Faith",
+    "uniques": [
+      "Only available <when religion is enabled>",
+      "Destroyed when the city is captured"
+    ],
+    "uniqueTo": "T'au Empire",
+    "replaces": "Temple"
+  },
+  {
+    "name": "Fire Warrior Barracks",
+    "hurryCostModifier": 25,
+    "maintenance": 1,
+    "requiredTech": "Forge Craft",
+    "uniques": [
+      "New [Military] units start with [15] XP [in this city]",
+      "Destroyed when the city is captured"
+    ],
+    "uniqueTo": "T'au Empire",
+    "replaces": "Barracks"
+  },
+  {
+    "name": "Forbidden Library",
+    "hurryCostModifier": 25,
+    "maintenance": 1,
+    "requiredTech": "Sacred Scripture",
+    "uniques": [
+      "[+1 Science] per [2] population [in this city]"
+    ],
+    "uniqueTo": "Chaos",
+    "replaces": "Library"
+  },
+  {
+    "name": "Sorcerer's Sanctum",
+    "maintenance": 2,
+    "hurryCostModifier": 15,
+    "percentStatBonus": {
+      "science": 33
+    },
+    "specialistSlots": {
+      "Scientist": 2
+    },
+    "requiredBuilding": "Library",
+    "requiredTech": "Academies",
+    "uniques": [
+      "[+2 Science] from [Jungle] tiles [in this city]"
+    ],
+    "uniqueTo": "Chaos",
+    "replaces": "University"
+  },
+  {
+    "name": "Hellforge",
+    "production": 4,
+    "percentStatBonus": {
+      "production": 10
+    },
+    "specialistSlots": {
+      "Engineer": 2
+    },
+    "requiredBuilding": "Workshop",
+    "maintenance": 3,
+    "hurryCostModifier": 0,
+    "requiredResource": "Plasteel",
+    "requiredTech": "Mass Production",
+    "uniqueTo": "Chaos",
+    "replaces": "Factory"
+  },
+  {
+    "name": "Warpsmith Armoury",
+    "requiredTech": "Rocket Rounds",
+    "hurryCostModifier": 25,
+    "maintenance": 2,
+    "uniques": [
+      "[+15]% Production when constructing [Military] units [in this city]"
+    ],
+    "uniqueTo": "Chaos",
+    "replaces": "Arsenal"
+  },
+  {
+    "name": "Black Market",
+    "gold": 2,
+    "specialistSlots": {
+      "Merchant": 1
+    },
+    "hurryCostModifier": 25,
+    "percentStatBonus": {
+      "gold": 25
+    },
+    "requiredTech": "Trade Charters",
+    "uniqueTo": "Chaos",
+    "replaces": "Market"
+  },
+  {
+    "name": "Warband Camp",
+    "hurryCostModifier": 25,
+    "maintenance": 1,
+    "requiredTech": "Forge Craft",
+    "uniques": [
+      "New [Military] units start with [15] XP [in this city]",
+      "Destroyed when the city is captured"
+    ],
+    "uniqueTo": "Chaos",
+    "replaces": "Barracks"
+  },
+  {
+    "name": "Data Crypt",
+    "hurryCostModifier": 25,
+    "maintenance": 1,
+    "requiredTech": "Sacred Scripture",
+    "uniques": [
+      "[+1 Science] per [2] population [in this city]"
+    ],
+    "uniqueTo": "Necrons",
+    "replaces": "Library"
+  },
+  {
+    "name": "Cryptek Laboratory",
+    "maintenance": 2,
+    "hurryCostModifier": 15,
+    "percentStatBonus": {
+      "science": 33
+    },
+    "specialistSlots": {
+      "Scientist": 2
+    },
+    "requiredBuilding": "Library",
+    "requiredTech": "Academies",
+    "uniques": [
+      "[+2 Science] from [Jungle] tiles [in this city]"
+    ],
+    "uniqueTo": "Necrons",
+    "replaces": "University"
+  },
+  {
+    "name": "Living Metal Foundry",
+    "production": 4,
+    "percentStatBonus": {
+      "production": 10
+    },
+    "specialistSlots": {
+      "Engineer": 2
+    },
+    "requiredBuilding": "Workshop",
+    "maintenance": 3,
+    "hurryCostModifier": 0,
+    "requiredResource": "Plasteel",
+    "requiredTech": "Mass Production",
+    "uniqueTo": "Necrons",
+    "replaces": "Factory"
+  },
+  {
+    "name": "Gauss Armoury",
+    "requiredTech": "Rocket Rounds",
+    "hurryCostModifier": 25,
+    "maintenance": 2,
+    "uniques": [
+      "[+15]% Production when constructing [Military] units [in this city]"
+    ],
+    "uniqueTo": "Necrons",
+    "replaces": "Arsenal"
+  },
+  {
+    "name": "Tribute Vault",
+    "gold": 2,
+    "specialistSlots": {
+      "Merchant": 1
+    },
+    "hurryCostModifier": 25,
+    "percentStatBonus": {
+      "gold": 25
+    },
+    "requiredTech": "Trade Charters",
+    "uniqueTo": "Necrons",
+    "replaces": "Market"
+  },
+  {
+    "name": "Mausoleum",
+    "faith": 2,
+    "requiredBuilding": "Shrine",
+    "maintenance": 2,
+    "hurryCostModifier": 25,
+    "requiredTech": "Doctrine of Faith",
+    "uniques": [
+      "Only available <when religion is enabled>",
+      "Destroyed when the city is captured"
+    ],
+    "uniqueTo": "Necrons",
+    "replaces": "Temple"
+  },
+  {
+    "name": "Synaptic Cluster",
+    "hurryCostModifier": 25,
+    "maintenance": 1,
+    "requiredTech": "Sacred Scripture",
+    "uniques": [
+      "[+1 Science] per [2] population [in this city]"
+    ],
+    "uniqueTo": "Tyranids",
+    "replaces": "Library"
+  },
+  {
+    "name": "Brain Pool",
+    "maintenance": 2,
+    "hurryCostModifier": 15,
+    "percentStatBonus": {
+      "science": 33
+    },
+    "specialistSlots": {
+      "Scientist": 2
+    },
+    "requiredBuilding": "Library",
+    "requiredTech": "Academies",
+    "uniques": [
+      "[+2 Science] from [Jungle] tiles [in this city]"
+    ],
+    "uniqueTo": "Tyranids",
+    "replaces": "University"
+  },
+  {
+    "name": "Bio-Forge",
+    "production": 4,
+    "percentStatBonus": {
+      "production": 10
+    },
+    "specialistSlots": {
+      "Engineer": 2
+    },
+    "requiredBuilding": "Workshop",
+    "maintenance": 3,
+    "hurryCostModifier": 0,
+    "requiredResource": "Plasteel",
+    "requiredTech": "Mass Production",
+    "uniqueTo": "Tyranids",
+    "replaces": "Factory"
+  },
+  {
+    "name": "Symbiote Pit",
+    "requiredTech": "Rocket Rounds",
+    "hurryCostModifier": 25,
+    "maintenance": 2,
+    "uniques": [
+      "[+15]% Production when constructing [Military] units [in this city]"
+    ],
+    "uniqueTo": "Tyranids",
+    "replaces": "Arsenal"
+  },
+  {
+    "name": "Biomass Reservoir",
+    "gold": 2,
+    "specialistSlots": {
+      "Merchant": 1
+    },
+    "hurryCostModifier": 25,
+    "percentStatBonus": {
+      "gold": 25
+    },
+    "requiredTech": "Trade Charters",
+    "uniqueTo": "Tyranids",
+    "replaces": "Market"
+  },
+  {
+    "name": "Brood Chamber",
+    "hurryCostModifier": 25,
+    "maintenance": 1,
+    "requiredTech": "Forge Craft",
+    "uniques": [
+      "New [Military] units start with [15] XP [in this city]",
+      "Destroyed when the city is captured"
+    ],
+    "uniqueTo": "Tyranids",
+    "replaces": "Barracks"
+  },
+  {
+    "name": "Lexmechanic Vault",
+    "hurryCostModifier": 25,
+    "maintenance": 1,
+    "requiredTech": "Sacred Scripture",
+    "uniques": [
+      "[+1 Science] per [2] population [in this city]"
+    ],
+    "uniqueTo": "Adeptus Mechanicus",
+    "replaces": "Library"
+  },
+  {
+    "name": "Magos Collegium",
+    "maintenance": 2,
+    "hurryCostModifier": 15,
+    "percentStatBonus": {
+      "science": 33
+    },
+    "specialistSlots": {
+      "Scientist": 2
+    },
+    "requiredBuilding": "Library",
+    "requiredTech": "Academies",
+    "uniques": [
+      "[+2 Science] from [Jungle] tiles [in this city]"
+    ],
+    "uniqueTo": "Adeptus Mechanicus",
+    "replaces": "University"
+  },
+  {
+    "name": "Forge Manufactory",
+    "production": 4,
+    "percentStatBonus": {
+      "production": 10
+    },
+    "specialistSlots": {
+      "Engineer": 2
+    },
+    "requiredBuilding": "Workshop",
+    "maintenance": 3,
+    "hurryCostModifier": 0,
+    "requiredResource": "Plasteel",
+    "requiredTech": "Mass Production",
+    "uniqueTo": "Adeptus Mechanicus",
+    "replaces": "Factory"
+  },
+  {
+    "name": "Skitarii Armoury",
+    "requiredTech": "Rocket Rounds",
+    "hurryCostModifier": 25,
+    "maintenance": 2,
+    "uniques": [
+      "[+15]% Production when constructing [Military] units [in this city]"
+    ],
+    "uniqueTo": "Adeptus Mechanicus",
+    "replaces": "Arsenal"
+  },
+  {
+    "name": "Trade Forge",
+    "gold": 2,
+    "specialistSlots": {
+      "Merchant": 1
+    },
+    "hurryCostModifier": 25,
+    "percentStatBonus": {
+      "gold": 25
+    },
+    "requiredTech": "Trade Charters",
+    "uniqueTo": "Adeptus Mechanicus",
+    "replaces": "Market"
+  },
+  {
+    "name": "Machine Temple",
+    "faith": 2,
+    "requiredBuilding": "Shrine",
+    "maintenance": 2,
+    "hurryCostModifier": 25,
+    "requiredTech": "Doctrine of Faith",
+    "uniques": [
+      "Only available <when religion is enabled>",
+      "Destroyed when the city is captured"
+    ],
+    "uniqueTo": "Adeptus Mechanicus",
+    "replaces": "Temple"
+  },
+  {
+    "name": "Sacred Library",
+    "hurryCostModifier": 25,
+    "maintenance": 1,
+    "requiredTech": "Sacred Scripture",
+    "uniques": [
+      "[+1 Science] per [2] population [in this city]"
+    ],
+    "uniqueTo": "Adepta Sororitas",
+    "replaces": "Library"
+  },
+  {
+    "name": "Schola of Faith",
+    "maintenance": 2,
+    "hurryCostModifier": 15,
+    "percentStatBonus": {
+      "science": 33
+    },
+    "specialistSlots": {
+      "Scientist": 2
+    },
+    "requiredBuilding": "Library",
+    "requiredTech": "Academies",
+    "uniques": [
+      "[+2 Science] from [Jungle] tiles [in this city]"
+    ],
+    "uniqueTo": "Adepta Sororitas",
+    "replaces": "University"
+  },
+  {
+    "name": "Convent Forge",
+    "production": 4,
+    "percentStatBonus": {
+      "production": 10
+    },
+    "specialistSlots": {
+      "Engineer": 2
+    },
+    "requiredBuilding": "Workshop",
+    "maintenance": 3,
+    "hurryCostModifier": 0,
+    "requiredResource": "Plasteel",
+    "requiredTech": "Mass Production",
+    "uniqueTo": "Adepta Sororitas",
+    "replaces": "Factory"
+  },
+  {
+    "name": "Order Armoury",
+    "requiredTech": "Rocket Rounds",
+    "hurryCostModifier": 25,
+    "maintenance": 2,
+    "uniques": [
+      "[+15]% Production when constructing [Military] units [in this city]"
+    ],
+    "uniqueTo": "Adepta Sororitas",
+    "replaces": "Arsenal"
+  },
+  {
+    "name": "Pilgrim Market",
+    "gold": 2,
+    "specialistSlots": {
+      "Merchant": 1
+    },
+    "hurryCostModifier": 25,
+    "percentStatBonus": {
+      "gold": 25
+    },
+    "requiredTech": "Trade Charters",
+    "uniqueTo": "Adepta Sororitas",
+    "replaces": "Market"
+  },
+  {
+    "name": "Novitiate Barracks",
+    "hurryCostModifier": 25,
+    "maintenance": 1,
+    "requiredTech": "Forge Craft",
+    "uniques": [
+      "New [Military] units start with [15] XP [in this city]",
+      "Destroyed when the city is captured"
+    ],
+    "uniqueTo": "Adepta Sororitas",
+    "replaces": "Barracks"
+  },
+  {
+    "name": "Archive of Pain",
+    "hurryCostModifier": 25,
+    "maintenance": 1,
+    "requiredTech": "Sacred Scripture",
+    "uniques": [
+      "[+1 Science] per [2] population [in this city]"
+    ],
+    "uniqueTo": "Drukhari",
+    "replaces": "Library"
+  },
+  {
+    "name": "Haemonculus Academy",
+    "maintenance": 2,
+    "hurryCostModifier": 15,
+    "percentStatBonus": {
+      "science": 33
+    },
+    "specialistSlots": {
+      "Scientist": 2
+    },
+    "requiredBuilding": "Library",
+    "requiredTech": "Academies",
+    "uniques": [
+      "[+2 Science] from [Jungle] tiles [in this city]"
+    ],
+    "uniqueTo": "Drukhari",
+    "replaces": "University"
+  },
+  {
+    "name": "Talos Works",
+    "production": 4,
+    "percentStatBonus": {
+      "production": 10
+    },
+    "specialistSlots": {
+      "Engineer": 2
+    },
+    "requiredBuilding": "Workshop",
+    "maintenance": 3,
+    "hurryCostModifier": 0,
+    "requiredResource": "Plasteel",
+    "requiredTech": "Mass Production",
+    "uniqueTo": "Drukhari",
+    "replaces": "Factory"
+  },
+  {
+    "name": "Splinter Armoury",
+    "requiredTech": "Rocket Rounds",
+    "hurryCostModifier": 25,
+    "maintenance": 2,
+    "uniques": [
+      "[+15]% Production when constructing [Military] units [in this city]"
+    ],
+    "uniqueTo": "Drukhari",
+    "replaces": "Arsenal"
+  },
+  {
+    "name": "Black Bazaar",
+    "gold": 2,
+    "specialistSlots": {
+      "Merchant": 1
+    },
+    "hurryCostModifier": 25,
+    "percentStatBonus": {
+      "gold": 25
+    },
+    "requiredTech": "Trade Charters",
+    "uniqueTo": "Drukhari",
+    "replaces": "Market"
+  },
+  {
+    "name": "Shrine of Excess",
+    "faith": 2,
+    "requiredBuilding": "Shrine",
+    "maintenance": 2,
+    "hurryCostModifier": 25,
+    "requiredTech": "Doctrine of Faith",
+    "uniques": [
+      "Only available <when religion is enabled>",
+      "Destroyed when the city is captured"
+    ],
+    "uniqueTo": "Drukhari",
+    "replaces": "Temple"
+  }
+]

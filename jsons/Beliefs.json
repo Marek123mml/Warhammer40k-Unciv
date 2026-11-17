@@ -1,0 +1,540 @@
+[
+  {
+    "name": "Fertile Agri-Worlds",
+    "type": "Pantheon",
+    "uniques": [
+      "[+1 Food] from every [Farm]"
+    ]
+  },
+  {
+    "name": "Hammer and Anvil",
+    "type": "Pantheon",
+    "uniques": [
+      "[+1 Production] from every [Mine]"
+    ]
+  },
+  {
+    "name": "Votive Candles",
+    "type": "Pantheon",
+    "uniques": [
+      "[+1 Faith] from every [Shrine]"
+    ]
+  },
+  {
+    "name": "Ancestor Spirits",
+    "type": "Pantheon",
+    "uniques": [
+      "[+1 Culture] from every [Monument]"
+    ]
+  },
+  {
+    "name": "Beast Cults",
+    "type": "Pantheon",
+    "uniques": [
+      "[+1 Production] from every [Pasture]"
+    ]
+  },
+  {
+    "name": "Credo Omnissiah",
+    "type": "Founder",
+    "uniques": [
+      "[+30]% [Production] [in all cities]",
+      "[+30]% [Faith] [in all cities]",
+      "Only available <for [Adeptus Mechanicus] Civilizations>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "The Machine God rewards the faithful: +30% Production and +30% Faith. Adeptus Mechanicus only."
+      }
+    ]
+  },
+  {
+    "name": "The Emperor Protects",
+    "type": "Founder",
+    "uniques": [
+      "[+15]% Strength <when defending>",
+      "[+1 Faith] for each global city following this religion",
+      "Only available <for [Imperium of Man] Civilizations>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Imperium of Man only."
+      }
+    ]
+  },
+  {
+    "name": "Waaagh! Energy",
+    "type": "Founder",
+    "uniques": [
+      "[+15]% Strength <when attacking>",
+      "[+1 Production] for each global city following this religion",
+      "Only available <for [Orks] Civilizations>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Orks only."
+      }
+    ]
+  },
+  {
+    "name": "For the Greater Good",
+    "type": "Founder",
+    "uniques": [
+      "[+2 Culture] for each global city following this religion",
+      "[+15]% [Gold] [in all cities]",
+      "Only available <for [T'au Empire] Civilizations>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "T'au Empire only."
+      }
+    ]
+  },
+  {
+    "name": "Feast of the Star Gods",
+    "type": "Founder",
+    "uniques": [
+      "[+20]% [Science] [in all cities]",
+      "[+1 Production] for each global city following this religion",
+      "Only available <for [Necrons] Civilizations>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Necrons only."
+      }
+    ]
+  },
+  {
+    "name": "Church Tithe",
+    "type": "Founder",
+    "uniques": [
+      "[+2 Gold] for each global city following this religion"
+    ]
+  },
+  {
+    "name": "Pilgrimage",
+    "type": "Founder",
+    "uniques": [
+      "[+1 Faith] for each global city following this religion"
+    ]
+  },
+  {
+    "name": "Cathedral Choirs",
+    "type": "Follower",
+    "uniques": [
+      "[+2 Culture] from every [Temple]"
+    ]
+  },
+  {
+    "name": "Forge Prayers",
+    "type": "Follower",
+    "uniques": [
+      "[+1 Production] from every [Workshop]"
+    ]
+  },
+  {
+    "name": "Feast of the Boyz",
+    "type": "Follower",
+    "uniques": [
+      "[+2 Food] from every [Granary]"
+    ]
+  },
+  {
+    "name": "Sacred Data",
+    "type": "Follower",
+    "uniques": [
+      "[+2 Science] from every [Library]"
+    ]
+  },
+  {
+    "name": "Saints' Relics",
+    "type": "Follower",
+    "uniques": [
+      "[+1 Happiness] from every [Shrine]"
+    ]
+  },
+  {
+    "name": "Holy Inquisition",
+    "type": "Enhancer",
+    "uniques": [
+      "[+15]% [Faith] [in all cities]"
+    ]
+  },
+  {
+    "name": "Missionary Zeal",
+    "type": "Enhancer",
+    "uniques": [
+      "[+15]% [Culture] [in all cities]"
+    ]
+  },
+  {
+    "name": "Saints of the Hive",
+    "type": "Pantheon",
+    "uniques": [
+      "[+1 Production] from every [Workshop]"
+    ]
+  },
+  {
+    "name": "Grox Herders",
+    "type": "Pantheon",
+    "uniques": [
+      "[+1 Food] from every [Pasture]"
+    ]
+  },
+  {
+    "name": "Ash Waste Pilgrims",
+    "type": "Pantheon",
+    "uniques": [
+      "[+1 Faith] from every [Desert]"
+    ]
+  },
+  {
+    "name": "Ice World Hymns",
+    "type": "Pantheon",
+    "uniques": [
+      "[+1 Faith] from [Tundra] tiles without [Forest] [in this city]"
+    ]
+  },
+  {
+    "name": "Death World Rites",
+    "type": "Pantheon",
+    "uniques": [
+      "[+1 Culture] from every [Jungle]"
+    ]
+  },
+  {
+    "name": "Quarry Chants",
+    "type": "Pantheon",
+    "uniques": [
+      "[+2 Faith] from every [Quarry]"
+    ]
+  },
+  {
+    "name": "Fisher Saints",
+    "type": "Pantheon",
+    "uniques": [
+      "[+1 Production] from every [Fishing Boats]"
+    ]
+  },
+  {
+    "name": "Hunter's Cult",
+    "type": "Pantheon",
+    "uniques": [
+      "[+1 Food] from every [Camp]"
+    ]
+  },
+  {
+    "name": "Plantation Psalms",
+    "type": "Pantheon",
+    "uniques": [
+      "[+1 Culture] from every [Plantation]"
+    ]
+  },
+  {
+    "name": "Martyr Shrines",
+    "type": "Pantheon",
+    "uniques": [
+      "[+1 Culture] from every [Shrine]"
+    ]
+  },
+  {
+    "name": "Hive Growth",
+    "type": "Pantheon",
+    "uniques": [
+      "[+10]% growth [in this city]"
+    ]
+  },
+  {
+    "name": "Peace of the Throne",
+    "type": "Pantheon",
+    "uniques": [
+      "[+15]% growth [in this city] <when not at war>"
+    ]
+  },
+  {
+    "name": "Lumber Hymns",
+    "type": "Pantheon",
+    "uniques": [
+      "[+1 Production] from every [Lumber mill]"
+    ]
+  },
+  {
+    "name": "River Blessing",
+    "type": "Pantheon",
+    "uniques": [
+      "[+1 Happiness] in cities on [River] tiles"
+    ]
+  },
+  {
+    "name": "Wonder Worship",
+    "type": "Pantheon",
+    "uniques": [
+      "[+2 Faith] from every [Wonder]"
+    ]
+  },
+  {
+    "name": "Followers' Tithe",
+    "type": "Founder",
+    "uniques": [
+      "[+1 Gold] from every [4] global followers [in all cities]"
+    ]
+  },
+  {
+    "name": "Sermon Broadcasts",
+    "type": "Founder",
+    "uniques": [
+      "[+1 Culture] from every [5] global followers [in foreign cities]"
+    ]
+  },
+  {
+    "name": "Pilgrim Gold",
+    "type": "Founder",
+    "uniques": [
+      "[+100 Gold] when a city adopts this religion for the first time <(modified by game speed)>"
+    ]
+  },
+  {
+    "name": "Faithful Masses",
+    "type": "Founder",
+    "uniques": [
+      "[+1 Happiness] for each global city following this religion"
+    ]
+  },
+  {
+    "name": "Missionary Science",
+    "type": "Founder",
+    "uniques": [
+      "When spreading religion to a city, gain [10] times the amount of followers of other religions as [Science]"
+    ]
+  },
+  {
+    "name": "Tithe of Souls",
+    "type": "Founder",
+    "uniques": [
+      "[+1 Culture] for each global city following this religion"
+    ]
+  },
+  {
+    "name": "Prophet's Gift",
+    "type": "Founder",
+    "uniques": [
+      "Gain [50] [Faith] <upon expending a [Great Person] unit> <(modified by game speed)>"
+    ]
+  },
+  {
+    "name": "Faith Treasury",
+    "type": "Founder",
+    "uniques": [
+      "[+2 Gold] for each global city following this religion"
+    ]
+  },
+  {
+    "name": "Holy Tribute",
+    "type": "Founder",
+    "uniques": [
+      "[+2 Faith] for each global city following this religion"
+    ]
+  },
+  {
+    "name": "Ecumenical Courts",
+    "type": "Founder",
+    "uniques": [
+      "[+1 Happiness] from every [5] global followers [in non-enemy foreign cities]"
+    ]
+  },
+  {
+    "name": "Hab Chapels",
+    "type": "Follower",
+    "uniques": [
+      "[+1 Happiness] [in cities following this religion] <in cities with at least [6] [Population]>"
+    ]
+  },
+  {
+    "name": "Labour Psalms",
+    "type": "Follower",
+    "uniques": [
+      "[+1 Production] [in cities following this religion] <in cities with at least [3] [Population]>"
+    ]
+  },
+  {
+    "name": "Guild Saints",
+    "type": "Follower",
+    "uniques": [
+      "[+2 Production] [in cities following this religion] <in cities with at least [1] [Specialists]>"
+    ]
+  },
+  {
+    "name": "Temple Choirs",
+    "type": "Follower",
+    "uniques": [
+      "[+2 Culture] from every [Temple] <in cities with at least [5] [Followers of this Religion]>"
+    ]
+  },
+  {
+    "name": "Shrine Keepers",
+    "type": "Follower",
+    "uniques": [
+      "[+1 Happiness] from every [Shrine] <in cities with at least [3] [Followers of this Religion]>"
+    ]
+  },
+  {
+    "name": "Arena Blessings",
+    "type": "Follower",
+    "uniques": [
+      "[+1 Faith] from every [Amphitheater] <in cities with at least [3] [Followers of this Religion]>"
+    ]
+  },
+  {
+    "name": "Devoted Workers",
+    "type": "Follower",
+    "uniques": [
+      "[+1]% [Production] from every follower, up to [15]%"
+    ]
+  },
+  {
+    "name": "Sacred Granaries",
+    "type": "Follower",
+    "uniques": [
+      "[+1 Food] from every [Shrine]",
+      "[+1 Food] from every [Temple]"
+    ]
+  },
+  {
+    "name": "Garden of Saints",
+    "type": "Follower",
+    "uniques": [
+      "[+2 Happiness] from every [Temple] <in cities with at least [5] [Followers of this Religion]>"
+    ]
+  },
+  {
+    "name": "Trade Blessings",
+    "type": "Follower",
+    "uniques": [
+      "[+2 Science] from each Trade Route"
+    ]
+  },
+  {
+    "name": "Battle Faith",
+    "type": "Follower",
+    "uniques": [
+      "Earn [50]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion"
+    ]
+  },
+  {
+    "name": "Zealous Preachers",
+    "type": "Enhancer",
+    "uniques": [
+      "Religion naturally spreads to cities [+3] tiles away"
+    ]
+  },
+  {
+    "name": "Holy Writ",
+    "type": "Enhancer",
+    "uniques": [
+      "[+34]% Natural religion spread [in all cities]"
+    ]
+  },
+  {
+    "name": "Zealous Missions",
+    "type": "Enhancer",
+    "uniques": [
+      "[+25]% Spread Religion Strength <for [Missionary] units>"
+    ]
+  },
+  {
+    "name": "Prophet Orders",
+    "type": "Enhancer",
+    "uniques": [
+      "[+25]% Spread Religion Strength <for [Great Prophet] units>",
+      "[-25]% Faith cost of generating Great Prophet equivalents"
+    ]
+  },
+  {
+    "name": "Faith Warriors",
+    "type": "Enhancer",
+    "uniques": [
+      "[+20]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>"
+    ]
+  },
+  {
+    "name": "Fortified Shrines",
+    "type": "Enhancer",
+    "uniques": [
+      "[+30]% Strength for cities <when attacking>"
+    ]
+  },
+  {
+    "name": "Healing Rites",
+    "type": "Enhancer",
+    "uniques": [
+      "[All] Units adjacent to this city heal [+30] HP per turn when healing"
+    ]
+  },
+  {
+    "name": "Cheap Missions",
+    "type": "Enhancer",
+    "uniques": [
+      "[Faith] cost of purchasing [Missionary] units [-30]%",
+      "[Faith] cost of purchasing [Inquisitor] units [-30]%"
+    ]
+  },
+  {
+    "name": "Border Faith",
+    "type": "Enhancer",
+    "uniques": [
+      "[-15]% Culture cost of natural border growth [in cities following this religion]"
+    ]
+  },
+  {
+    "name": "Defender Saints",
+    "type": "Enhancer",
+    "uniques": [
+      "[+20]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
+    ]
+  },
+  {
+    "name": "City-State Missions",
+    "type": "Enhancer",
+    "uniques": [
+      "[+100]% Natural religion spread [in City-State cities]"
+    ]
+  },
+  {
+    "name": "Five-Year Plan",
+    "type": "Founder",
+    "uniques": [
+      "[+1 Production] for each global city following this religion"
+    ]
+  },
+  {
+    "name": "Collective Farms",
+    "type": "Follower",
+    "uniques": [
+      "[+1 Food] from every [Farm]",
+      "[+1 Production] [in cities following this religion] <in cities with at least [3] [Population]>"
+    ]
+  },
+  {
+    "name": "Stakhanovite Labour",
+    "type": "Follower",
+    "uniques": [
+      "[+1]% [Production] from every follower, up to [20]%"
+    ]
+  },
+  {
+    "name": "Cult of Personality",
+    "type": "Enhancer",
+    "uniques": [
+      "[+34]% Natural religion spread [in all cities]",
+      "[+20]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
+    ]
+  },
+  {
+    "name": "Red Banner",
+    "type": "Pantheon",
+    "uniques": [
+      "[+1 Production] from every [Mine]",
+      "[+1 Production] from every [Quarry]"
+    ]
+  }
+]

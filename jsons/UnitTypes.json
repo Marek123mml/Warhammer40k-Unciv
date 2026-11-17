@@ -1,0 +1,71 @@
+[
+  {
+    "name": "Civilian",
+    "movementType": "Land"
+  },
+  {
+    "name": "Sword",
+    "movementType": "Land"
+  },
+  {
+    "name": "Gunpowder",
+    "movementType": "Land"
+  },
+  {
+    "name": "Archery",
+    "movementType": "Land"
+  },
+  {
+    "name": "Ranged Gunpowder",
+    "movementType": "Land"
+  },
+  {
+    "name": "Scout",
+    "movementType": "Land"
+  },
+  {
+    "name": "Mounted",
+    "movementType": "Land"
+  },
+  {
+    "name": "Armored",
+    "movementType": "Land"
+  },
+  {
+    "name": "Siege",
+    "movementType": "Land"
+  },
+  {
+    "name": "Civilian Water",
+    "movementType": "Water"
+  },
+  {
+    "name": "Melee Water",
+    "movementType": "Water"
+  },
+  {
+    "name": "Ranged Water",
+    "movementType": "Water"
+  },
+  {
+    "name": "Fighter",
+    "movementType": "Air",
+    "uniques": [
+      "[+4] Sight",
+      "Can see over obstacles",
+      "Can perform Air Sweep"
+    ]
+  },
+  {
+    "name": "Bomber",
+    "movementType": "Air"
+  },
+  {
+    "name": "Missile",
+    "movementType": "Air",
+    "uniques": [
+      "Self-destructs when attacking",
+      "Cannot be intercepted"
+    ]
+  }
+]

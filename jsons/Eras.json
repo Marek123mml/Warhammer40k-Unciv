@@ -1,0 +1,155 @@
+[
+  {
+    "name": "Ancient era",
+    "researchAgreementCost": 150,
+    "startingSettlerCount": 1,
+    "startingWorkerCount": 0,
+    "startingMilitaryUnitCount": 1,
+    "startingMilitaryUnit": "Warrior",
+    "settlerPopulation": 1,
+    "baseUnitBuyCost": 200,
+    "embarkDefense": 3,
+    "startPercent": 0,
+    "citySound": "cityAncient",
+    "iconRGB": [
+      255,
+      87,
+      35
+    ]
+  },
+  {
+    "name": "Classical era",
+    "researchAgreementCost": 150,
+    "startingSettlerCount": 1,
+    "startingWorkerCount": 0,
+    "startingMilitaryUnitCount": 2,
+    "startingMilitaryUnit": "Brute Squad",
+    "settlerPopulation": 1,
+    "baseUnitBuyCost": 200,
+    "embarkDefense": 4,
+    "startPercent": 10,
+    "citySound": "cityClassical",
+    "iconRGB": [
+      233,
+      31,
+      99
+    ],
+    "startingGold": 10,
+    "startingCulture": 100
+  },
+  {
+    "name": "Medieval era",
+    "researchAgreementCost": 250,
+    "startingSettlerCount": 2,
+    "startingWorkerCount": 1,
+    "startingMilitaryUnitCount": 3,
+    "startingMilitaryUnit": "Bolter Squad",
+    "settlerPopulation": 1,
+    "baseUnitBuyCost": 200,
+    "embarkDefense": 6,
+    "startPercent": 25,
+    "citySound": "cityMedieval",
+    "iconRGB": [
+      157,
+      39,
+      176
+    ],
+    "startingGold": 25,
+    "startingCulture": 200,
+    "settlerBuildings": [
+      "Shrine",
+      "Monument"
+    ]
+  },
+  {
+    "name": "Renaissance era",
+    "researchAgreementCost": 250,
+    "startingSettlerCount": 2,
+    "startingWorkerCount": 1,
+    "startingMilitaryUnitCount": 3,
+    "startingMilitaryUnit": "Flamer Squad",
+    "settlerPopulation": 2,
+    "baseUnitBuyCost": 300,
+    "embarkDefense": 8,
+    "startPercent": 37,
+    "citySound": "cityRenaissance",
+    "iconRGB": [
+      104,
+      58,
+      183
+    ],
+    "startingGold": 50,
+    "startingCulture": 300,
+    "settlerBuildings": [
+      "Shrine",
+      "Monument",
+      "Granary"
+    ],
+    "uniques": [
+      "Every major Civilization gains a spy once a civilization enters this era"
+    ]
+  },
+  {
+    "name": "Industrial era",
+    "researchAgreementCost": 300,
+    "startingSettlerCount": 3,
+    "startingWorkerCount": 2,
+    "startingMilitaryUnitCount": 5,
+    "startingMilitaryUnit": "Plasma Marine",
+    "settlerPopulation": 3,
+    "baseUnitBuyCost": 400,
+    "embarkDefense": 10,
+    "startPercent": 50,
+    "citySound": "cityIndustrial",
+    "iconRGB": [
+      63,
+      81,
+      182
+    ],
+    "startingGold": 100,
+    "startingCulture": 400,
+    "settlerBuildings": [
+      "Monument",
+      "Granary",
+      "Market",
+      "Workshop",
+      "Barracks",
+      "Library"
+    ],
+    "uniques": [
+      "Every major Civilization gains a spy once a civilization enters this era"
+    ]
+  },
+  {
+    "name": "Modern era",
+    "researchAgreementCost": 350,
+    "startingSettlerCount": 3,
+    "startingWorkerCount": 2,
+    "startingMilitaryUnitCount": 5,
+    "startingMilitaryUnit": "Plasma Marine",
+    "settlerPopulation": 3,
+    "baseUnitBuyCost": 600,
+    "embarkDefense": 13,
+    "startPercent": 65,
+    "citySound": "cityModern",
+    "iconRGB": [
+      33,
+      150,
+      243
+    ],
+    "startingGold": 200,
+    "startingCulture": 500,
+    "settlerBuildings": [
+      "Monument",
+      "Granary",
+      "Market",
+      "Workshop",
+      "Barracks",
+      "Library",
+      "Colosseum"
+    ],
+    "uniques": [
+      "Every major Civilization gains a spy once a civilization enters this era"
+    ]
+  }
+]

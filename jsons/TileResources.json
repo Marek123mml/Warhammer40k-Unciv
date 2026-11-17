@@ -1,0 +1,341 @@
+[
+  {
+    "name": "Grox",
+    "resourceType": "Bonus",
+    "terrainsCanBeFoundOn": [
+      "Grassland",
+      "Plains",
+      "Hill"
+    ],
+    "food": 1,
+    "improvedBy": [
+      "Pasture"
+    ],
+    "improvementStats": {
+      "production": 1
+    }
+  },
+  {
+    "name": "Agri-Grain",
+    "resourceType": "Bonus",
+    "terrainsCanBeFoundOn": [
+      "Plains",
+      "Flood plains",
+      "Grassland"
+    ],
+    "food": 1,
+    "improvedBy": [
+      "Farm"
+    ],
+    "improvementStats": {
+      "food": 1
+    }
+  },
+  {
+    "name": "Fungus Grove",
+    "resourceType": "Bonus",
+    "terrainsCanBeFoundOn": [
+      "Jungle",
+      "Forest",
+      "Marsh"
+    ],
+    "food": 1,
+    "improvedBy": [
+      "Plantation"
+    ],
+    "improvementStats": {
+      "food": 1
+    }
+  },
+  {
+    "name": "Reef Krill",
+    "resourceType": "Bonus",
+    "terrainsCanBeFoundOn": [
+      "Coast"
+    ],
+    "food": 2,
+    "improvedBy": [
+      "Fishing Boats"
+    ],
+    "improvementStats": {
+      "food": 1
+    }
+  },
+  {
+    "name": "Ferrocrete",
+    "resourceType": "Bonus",
+    "terrainsCanBeFoundOn": [
+      "Plains",
+      "Grassland",
+      "Desert",
+      "Tundra",
+      "Snow"
+    ],
+    "production": 1,
+    "improvedBy": [
+      "Quarry"
+    ],
+    "improvementStats": {
+      "production": 1
+    }
+  },
+  {
+    "name": "Riding Beasts",
+    "resourceType": "Strategic",
+    "terrainsCanBeFoundOn": [
+      "Grassland",
+      "Plains",
+      "Tundra"
+    ],
+    "production": 1,
+    "improvedBy": [
+      "Pasture"
+    ],
+    "improvementStats": {
+      "production": 1
+    },
+    "revealedBy": "Beast Taming",
+    "majorDepositAmount": {
+      "sparse": 2,
+      "default": 4,
+      "abundant": 4
+    },
+    "minorDepositAmount": {
+      "sparse": 1,
+      "default": 2,
+      "abundant": 3
+    }
+  },
+  {
+    "name": "Adamantium",
+    "resourceType": "Strategic",
+    "terrainsCanBeFoundOn": [
+      "Grassland",
+      "Plains",
+      "Desert",
+      "Tundra",
+      "Snow",
+      "Hill",
+      "Forest",
+      "Jungle",
+      "Marsh"
+    ],
+    "production": 1,
+    "improvedBy": [
+      "Mine"
+    ],
+    "improvementStats": {
+      "production": 1
+    },
+    "revealedBy": "Forge Craft",
+    "majorDepositAmount": {
+      "sparse": 4,
+      "default": 6,
+      "abundant": 9
+    },
+    "minorDepositAmount": {
+      "sparse": 1,
+      "default": 2,
+      "abundant": 3
+    }
+  },
+  {
+    "name": "Plasteel",
+    "resourceType": "Strategic",
+    "terrainsCanBeFoundOn": [
+      "Grassland",
+      "Plains",
+      "Hill",
+      "Marsh",
+      "Jungle",
+      "Forest"
+    ],
+    "production": 1,
+    "improvedBy": [
+      "Mine"
+    ],
+    "improvementStats": {
+      "production": 1
+    },
+    "revealedBy": "Mass Production",
+    "majorDepositAmount": {
+      "sparse": 5,
+      "default": 7,
+      "abundant": 10
+    },
+    "minorDepositAmount": {
+      "sparse": 1,
+      "default": 2,
+      "abundant": 3
+    }
+  },
+  {
+    "name": "Promethium",
+    "resourceType": "Strategic",
+    "terrainsCanBeFoundOn": [
+      "Desert",
+      "Tundra",
+      "Snow",
+      "Marsh",
+      "Jungle"
+    ],
+    "production": 1,
+    "improvedBy": [
+      "Oil well"
+    ],
+    "improvementStats": {
+      "production": 3
+    },
+    "revealedBy": "Promethium Refining",
+    "majorDepositAmount": {
+      "sparse": 5,
+      "default": 7,
+      "abundant": 9
+    },
+    "minorDepositAmount": {
+      "sparse": 1,
+      "default": 2,
+      "abundant": 3
+    }
+  },
+  {
+    "name": "Amasec",
+    "resourceType": "Luxury",
+    "terrainsCanBeFoundOn": [
+      "Grassland",
+      "Plains"
+    ],
+    "gold": 2,
+    "improvedBy": [
+      "Plantation"
+    ],
+    "improvementStats": {
+      "gold": 1
+    }
+  },
+  {
+    "name": "Recaff",
+    "resourceType": "Luxury",
+    "terrainsCanBeFoundOn": [
+      "Jungle",
+      "Plains"
+    ],
+    "gold": 2,
+    "improvedBy": [
+      "Plantation"
+    ],
+    "improvementStats": {
+      "gold": 1
+    }
+  },
+  {
+    "name": "Lho-Leaf",
+    "resourceType": "Luxury",
+    "terrainsCanBeFoundOn": [
+      "Forest",
+      "Grassland"
+    ],
+    "gold": 2,
+    "improvedBy": [
+      "Plantation"
+    ],
+    "improvementStats": {
+      "gold": 1
+    }
+  },
+  {
+    "name": "Sacred Incense",
+    "resourceType": "Luxury",
+    "terrainsCanBeFoundOn": [
+      "Desert",
+      "Plains"
+    ],
+    "gold": 2,
+    "improvedBy": [
+      "Plantation"
+    ],
+    "improvementStats": {
+      "gold": 1
+    }
+  },
+  {
+    "name": "Auramite",
+    "resourceType": "Luxury",
+    "terrainsCanBeFoundOn": [
+      "Hill",
+      "Desert",
+      "Plains"
+    ],
+    "gold": 2,
+    "improvedBy": [
+      "Mine"
+    ],
+    "improvementStats": {
+      "gold": 1
+    }
+  },
+  {
+    "name": "Psy-Crystals",
+    "resourceType": "Luxury",
+    "terrainsCanBeFoundOn": [
+      "Tundra",
+      "Hill",
+      "Jungle",
+      "Snow"
+    ],
+    "gold": 3,
+    "improvedBy": [
+      "Mine"
+    ],
+    "improvementStats": {
+      "gold": 1
+    }
+  },
+  {
+    "name": "Archeotech Relics",
+    "resourceType": "Luxury",
+    "terrainsCanBeFoundOn": [
+      "Desert",
+      "Tundra",
+      "Snow",
+      "Grassland"
+    ],
+    "gold": 2,
+    "science": 1,
+    "improvedBy": [
+      "Quarry"
+    ],
+    "improvementStats": {
+      "gold": 1
+    }
+  },
+  {
+    "name": "Ambull Hides",
+    "resourceType": "Luxury",
+    "terrainsCanBeFoundOn": [
+      "Forest",
+      "Tundra"
+    ],
+    "gold": 2,
+    "improvedBy": [
+      "Camp"
+    ],
+    "improvementStats": {
+      "gold": 1
+    }
+  },
+  {
+    "name": "Void Pearls",
+    "resourceType": "Luxury",
+    "terrainsCanBeFoundOn": [
+      "Coast"
+    ],
+    "gold": 2,
+    "improvedBy": [
+      "Fishing Boats"
+    ],
+    "improvementStats": {
+      "gold": 1
+    }
+  }
+]

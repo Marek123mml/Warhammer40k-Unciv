@@ -1,0 +1,1628 @@
+[
+  {
+    "columnNumber": 0,
+    "era": "Ancient era",
+    "techCost": 20,
+    "buildingCost": 40,
+    "wonderCost": 185,
+    "techs": [
+      {
+        "name": "Survival Doctrine",
+        "row": 6,
+        "prerequisites": [],
+        "quote": "In the grim darkness of the far future, first you must survive."
+      }
+    ]
+  },
+  {
+    "columnNumber": 1,
+    "era": "Ancient era",
+    "techCost": 35,
+    "buildingCost": 60,
+    "wonderCost": 185,
+    "techs": [
+      {
+        "name": "Mining",
+        "row": 3,
+        "prerequisites": [
+          "Survival Doctrine"
+        ],
+        "quote": "Dig deep. The planet owes us its bones."
+      },
+      {
+        "name": "Beast Taming",
+        "row": 5,
+        "prerequisites": [
+          "Survival Doctrine"
+        ],
+        "quote": "Every beast can be broken, ridden or eaten."
+      },
+      {
+        "name": "Stubber Weapons",
+        "row": 7,
+        "prerequisites": [
+          "Survival Doctrine"
+        ],
+        "quote": "Crude, loud and reliable."
+      },
+      {
+        "name": "Seafaring",
+        "row": 9,
+        "prerequisites": [
+          "Survival Doctrine"
+        ],
+        "quote": "Oceans are only the first void to cross."
+      },
+      {
+        "name": "Imperial Tithe Rolls",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Imperium of Man] Civilizations>",
+          "[+1 Gold] [in capital]"
+        ],
+        "row": 13,
+        "prerequisites": []
+      },
+      {
+        "name": "Binharic Cant",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Adeptus Mechanicus] Civilizations>",
+          "[+1 Science] [in capital]"
+        ],
+        "row": 14,
+        "prerequisites": []
+      },
+      {
+        "name": "Convent Prioris",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Adepta Sororitas] Civilizations>",
+          "[+1 Faith] [in capital]"
+        ],
+        "row": 15,
+        "prerequisites": []
+      },
+      {
+        "name": "Krumpin'",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Orks] Civilizations>",
+          "[+10]% Strength <for [Melee] units>"
+        ],
+        "row": 16,
+        "prerequisites": []
+      },
+      {
+        "name": "Path of the Artisan",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Aeldari] Civilizations>",
+          "[+1 Culture] [in all cities]"
+        ],
+        "row": 17,
+        "prerequisites": []
+      },
+      {
+        "name": "Realspace Raids",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Drukhari] Civilizations>",
+          "[+2 Gold] [in all cities]"
+        ],
+        "row": 18,
+        "prerequisites": []
+      },
+      {
+        "name": "Caste System",
+        "quote": "",
+        "uniques": [
+          "Only available <for [T'au Empire] Civilizations>",
+          "[+1 Science] [in capital]"
+        ],
+        "row": 19,
+        "prerequisites": []
+      },
+      {
+        "name": "Dark Pacts",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Chaos] Civilizations>",
+          "[+1 Faith] [in all cities]"
+        ],
+        "row": 20,
+        "prerequisites": []
+      },
+      {
+        "name": "Tomb Awakening",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Necrons] Civilizations>",
+          "[+1 Production] [in all cities]"
+        ],
+        "row": 21,
+        "prerequisites": []
+      },
+      {
+        "name": "Spore Seeding",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Tyranids] Civilizations>",
+          "[+1 Food] [in all cities]"
+        ],
+        "row": 22,
+        "prerequisites": []
+      }
+    ]
+  },
+  {
+    "columnNumber": 2,
+    "era": "Ancient era",
+    "techCost": 55,
+    "buildingCost": 75,
+    "wonderCost": 185,
+    "techs": [
+      {
+        "name": "Stonework",
+        "row": 2,
+        "prerequisites": [
+          "Mining"
+        ],
+        "quote": "Raise the walls high; the dark is patient."
+      },
+      {
+        "name": "Forge Craft",
+        "row": 4,
+        "prerequisites": [
+          "Mining"
+        ],
+        "quote": "Heat, hammer and holy oil."
+      },
+      {
+        "name": "Labour Cybernetics",
+        "row": 6,
+        "prerequisites": [
+          "Mining",
+          "Beast Taming"
+        ],
+        "quote": "A mind is not required for every task."
+      },
+      {
+        "name": "Sacred Scripture",
+        "row": 10,
+        "prerequisites": [
+          "Stubber Weapons"
+        ],
+        "quote": "Faith is written before it is spoken."
+      },
+      {
+        "name": "Logistica",
+        "row": 8,
+        "prerequisites": [
+          "Seafaring"
+        ],
+        "quote": "An army marches on its supply columns."
+      },
+      {
+        "name": "Astartes Gene-Tithe",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Imperium of Man] Civilizations>"
+        ],
+        "row": 13,
+        "prerequisites": [
+          "Imperial Tithe Rolls"
+        ]
+      },
+      {
+        "name": "Noosphere",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Adeptus Mechanicus] Civilizations>",
+          "[+10]% [Science] [in all cities]"
+        ],
+        "row": 14,
+        "prerequisites": [
+          "Binharic Cant"
+        ]
+      },
+      {
+        "name": "Rites of Purity",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Adepta Sororitas] Civilizations>",
+          "[+10]% [Faith] [in all cities]"
+        ],
+        "row": 15,
+        "prerequisites": [
+          "Convent Prioris"
+        ]
+      },
+      {
+        "name": "Mek Workshops",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Orks] Civilizations>",
+          "[+10]% [Production] [in all cities]"
+        ],
+        "row": 16,
+        "prerequisites": [
+          "Krumpin'"
+        ]
+      },
+      {
+        "name": "Spirit Stones",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Aeldari] Civilizations>"
+        ],
+        "row": 17,
+        "prerequisites": [
+          "Path of the Artisan"
+        ]
+      },
+      {
+        "name": "Kabal Politics",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Drukhari] Civilizations>"
+        ],
+        "row": 18,
+        "prerequisites": [
+          "Realspace Raids"
+        ]
+      },
+      {
+        "name": "Pulse Weaponry",
+        "quote": "",
+        "uniques": [
+          "Only available <for [T'au Empire] Civilizations>",
+          "[+10]% Strength <for [Ranged] units>"
+        ],
+        "row": 19,
+        "prerequisites": [
+          "Caste System"
+        ]
+      },
+      {
+        "name": "Mutation Rites",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Chaos] Civilizations>"
+        ],
+        "row": 20,
+        "prerequisites": [
+          "Dark Pacts"
+        ]
+      },
+      {
+        "name": "Gauss Weaponry",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Necrons] Civilizations>",
+          "[+10]% Strength <for [Ranged] units>"
+        ],
+        "row": 21,
+        "prerequisites": [
+          "Tomb Awakening"
+        ]
+      },
+      {
+        "name": "Biomass Digestion",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Tyranids] Civilizations>",
+          "[+10]% [Food] [in all cities]"
+        ],
+        "row": 22,
+        "prerequisites": [
+          "Spore Seeding"
+        ]
+      }
+    ]
+  },
+  {
+    "columnNumber": 3,
+    "era": "Classical era",
+    "techCost": 85,
+    "buildingCost": 100,
+    "wonderCost": 250,
+    "techs": [
+      {
+        "name": "Engineering",
+        "row": 1,
+        "prerequisites": [
+          "Stonework"
+        ],
+        "quote": "Every bridge is a prayer made of stone."
+      },
+      {
+        "name": "Las Weapons",
+        "row": 3,
+        "prerequisites": [
+          "Forge Craft",
+          "Stubber Weapons"
+        ],
+        "quote": "A flashlight, they call it. Until it burns through you."
+      },
+      {
+        "name": "Hydroponics",
+        "row": 5,
+        "prerequisites": [
+          "Labour Cybernetics"
+        ],
+        "quote": "Feed the billions, or watch them feed on each other."
+      },
+      {
+        "name": "Psychic Awakening",
+        "row": 11,
+        "prerequisites": [
+          "Sacred Scripture"
+        ],
+        "quote": "Some minds burn brighter. Some burn everything around them."
+      },
+      {
+        "name": "Trade Charters",
+        "row": 9,
+        "prerequisites": [
+          "Logistica"
+        ],
+        "quote": "Even in war, there are merchants."
+      },
+      {
+        "name": "Frag Grenades",
+        "row": 7,
+        "prerequisites": [
+          "Stubber Weapons"
+        ],
+        "quote": "Pull the pin, count to three, duck.",
+        "uniques": [
+          "[+10]% Strength <for [Sword] units> <when attacking>"
+        ]
+      },
+      {
+        "name": "Ministorum Writs",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Imperium of Man] Civilizations>",
+          "[+10]% [Faith] [in all cities]"
+        ],
+        "row": 13,
+        "prerequisites": [
+          "Astartes Gene-Tithe"
+        ]
+      },
+      {
+        "name": "Forge Rituals",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Adeptus Mechanicus] Civilizations>",
+          "[+10]% [Production] [in all cities]"
+        ],
+        "row": 14,
+        "prerequisites": [
+          "Noosphere"
+        ]
+      },
+      {
+        "name": "Sacred Rose Doctrine",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Adepta Sororitas] Civilizations>"
+        ],
+        "row": 15,
+        "prerequisites": [
+          "Rites of Purity"
+        ]
+      },
+      {
+        "name": "Lootin'",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Orks] Civilizations>",
+          "[+2 Gold] [in all cities]"
+        ],
+        "row": 16,
+        "prerequisites": [
+          "Mek Workshops"
+        ]
+      },
+      {
+        "name": "Aspect Shrines",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Aeldari] Civilizations>",
+          "[+10]% Strength <for [Military] units>"
+        ],
+        "row": 17,
+        "prerequisites": [
+          "Spirit Stones"
+        ]
+      },
+      {
+        "name": "Wych Cult Arenas",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Drukhari] Civilizations>",
+          "[+10]% Strength <for [Melee] units>"
+        ],
+        "row": 18,
+        "prerequisites": [
+          "Kabal Politics"
+        ]
+      },
+      {
+        "name": "Drone Networks",
+        "quote": "",
+        "uniques": [
+          "Only available <for [T'au Empire] Civilizations>"
+        ],
+        "row": 19,
+        "prerequisites": [
+          "Pulse Weaponry"
+        ]
+      },
+      {
+        "name": "Warpsmith Forges",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Chaos] Civilizations>",
+          "[+10]% [Production] [in all cities]"
+        ],
+        "row": 20,
+        "prerequisites": [
+          "Mutation Rites"
+        ]
+      },
+      {
+        "name": "Living Metal",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Necrons] Civilizations>",
+          "[All] Units adjacent to this city heal [+15] HP per turn when healing"
+        ],
+        "row": 21,
+        "prerequisites": [
+          "Gauss Weaponry"
+        ]
+      },
+      {
+        "name": "Synapse Links",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Tyranids] Civilizations>",
+          "[+10]% Strength <for [Military] units>"
+        ],
+        "row": 22,
+        "prerequisites": [
+          "Biomass Digestion"
+        ]
+      }
+    ]
+  },
+  {
+    "columnNumber": 4,
+    "era": "Classical era",
+    "techCost": 120,
+    "buildingCost": 120,
+    "wonderCost": 250,
+    "techs": [
+      {
+        "name": "Rocket Rounds",
+        "row": 3,
+        "prerequisites": [
+          "Las Weapons",
+          "Engineering"
+        ],
+        "quote": "Each shell a small rocket. Each rocket a small sermon."
+      },
+      {
+        "name": "Mechanised Transport",
+        "row": 5,
+        "prerequisites": [
+          "Las Weapons",
+          "Hydroponics"
+        ],
+        "quote": "Armour plating and a stubborn engine."
+      },
+      {
+        "name": "Doctrine of Faith",
+        "row": 9,
+        "prerequisites": [
+          "Psychic Awakening"
+        ],
+        "quote": "One faith, one voice, one billion candles."
+      },
+      {
+        "name": "Telepathic Signalling",
+        "row": 7,
+        "prerequisites": [
+          "Psychic Awakening",
+          "Trade Charters"
+        ],
+        "quote": "A scream across the stars is still a message."
+      },
+      {
+        "name": "Departmento Munitorum",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Imperium of Man] Civilizations>",
+          "[+10]% Production when constructing [Military] units [in all cities]"
+        ],
+        "row": 13,
+        "prerequisites": [
+          "Ministorum Writs"
+        ]
+      },
+      {
+        "name": "Lexmechanic Archives",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Adeptus Mechanicus] Civilizations>"
+        ],
+        "row": 14,
+        "prerequisites": [
+          "Forge Rituals"
+        ]
+      },
+      {
+        "name": "Hospitaller Orders",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Adepta Sororitas] Civilizations>",
+          "[All] Units adjacent to this city heal [+15] HP per turn when healing"
+        ],
+        "row": 15,
+        "prerequisites": [
+          "Sacred Rose Doctrine"
+        ]
+      },
+      {
+        "name": "Dakka Doctrine",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Orks] Civilizations>",
+          "[+10]% Strength <for [Ranged] units>"
+        ],
+        "row": 16,
+        "prerequisites": [
+          "Lootin'"
+        ]
+      },
+      {
+        "name": "Wraithbone Singing",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Aeldari] Civilizations>",
+          "[+10]% [Production] [in all cities]"
+        ],
+        "row": 17,
+        "prerequisites": [
+          "Aspect Shrines"
+        ]
+      },
+      {
+        "name": "Haemonculus Flesh-craft",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Drukhari] Civilizations>",
+          "[All] Units adjacent to this city heal [+15] HP per turn when healing"
+        ],
+        "row": 18,
+        "prerequisites": [
+          "Wych Cult Arenas"
+        ]
+      },
+      {
+        "name": "Water Caste Diplomacy",
+        "quote": "",
+        "uniques": [
+          "Only available <for [T'au Empire] Civilizations>",
+          "[+15]% [Gold] [in all cities]"
+        ],
+        "row": 19,
+        "prerequisites": [
+          "Drone Networks"
+        ]
+      },
+      {
+        "name": "Black Legion Tactics",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Chaos] Civilizations>",
+          "[+10]% Strength <for [Military] units> <when attacking>"
+        ],
+        "row": 20,
+        "prerequisites": [
+          "Warpsmith Forges"
+        ]
+      },
+      {
+        "name": "Dynastic Codes",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Necrons] Civilizations>"
+        ],
+        "row": 21,
+        "prerequisites": [
+          "Living Metal"
+        ]
+      },
+      {
+        "name": "Synaptic Web",
+        "row": 22,
+        "prerequisites": [
+          "Synapse Links"
+        ],
+        "quote": "The Hive Mind hungers, and every swarm obeys.",
+        "uniques": [
+          "Only available <for [Tyranids] Civilizations>",
+          "[+15]% [Food] [in all cities]",
+          "[+20]% Strength <for [Hormagaunt] units>",
+          "[+20]% Strength <for [Termagants] units>",
+          "[+20]% Strength <for [Genestealer] units>",
+          "[+20]% Strength <for [Carnifex] units>",
+          "[+20]% Strength <for [Trygon] units>"
+        ]
+      }
+    ]
+  },
+  {
+    "columnNumber": 5,
+    "era": "Medieval era",
+    "techCost": 175,
+    "buildingCost": 160,
+    "wonderCost": 300,
+    "techs": [
+      {
+        "name": "Flamer Weapons",
+        "row": 1,
+        "prerequisites": [
+          "Rocket Rounds"
+        ],
+        "quote": "Cleanse it with fire. Then check again."
+      },
+      {
+        "name": "Fortress Doctrine",
+        "row": 3,
+        "prerequisites": [
+          "Rocket Rounds"
+        ],
+        "quote": "Dig in. Hold. Do not ask for how long."
+      },
+      {
+        "name": "Void Shipbuilding",
+        "row": 7,
+        "prerequisites": [
+          "Mechanised Transport"
+        ],
+        "quote": "A ship is a city that has learned to sail the dark."
+      },
+      {
+        "name": "Warp Navigation",
+        "row": 9,
+        "prerequisites": [
+          "Telepathic Signalling"
+        ],
+        "quote": "The shortest road between stars runs through nightmare."
+      },
+      {
+        "name": "Academies",
+        "row": 11,
+        "prerequisites": [
+          "Doctrine of Faith"
+        ],
+        "quote": "Teach them young, teach them well, teach them obedience."
+      },
+      {
+        "name": "Extra Infantry Armour",
+        "row": 5,
+        "prerequisites": [
+          "Forge Craft"
+        ],
+        "quote": "Another plate between you and the end.",
+        "uniques": [
+          "[+10]% Strength <for [Sword] units> <when defending>",
+          "[+10]% Strength <for [Gunpowder] units> <when defending>"
+        ]
+      },
+      {
+        "name": "Officio Assassinorum",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Imperium of Man] Civilizations>",
+          "[+10]% Strength <for [Military] units> <when attacking>"
+        ],
+        "row": 13,
+        "prerequisites": [
+          "Departmento Munitorum"
+        ]
+      },
+      {
+        "name": "Cybernetica Cortex",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Adeptus Mechanicus] Civilizations>",
+          "[+10]% Strength <for [Armored] units>"
+        ],
+        "row": 14,
+        "prerequisites": [
+          "Lexmechanic Archives"
+        ]
+      },
+      {
+        "name": "Penitent Crusades",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Adepta Sororitas] Civilizations>",
+          "[+10]% Strength <for [Military] units> <when attacking>"
+        ],
+        "row": 15,
+        "prerequisites": [
+          "Hospitaller Orders"
+        ]
+      },
+      {
+        "name": "Speed Freeks",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Orks] Civilizations>",
+          "[+1] Movement <for [Mounted] units>"
+        ],
+        "row": 16,
+        "prerequisites": [
+          "Dakka Doctrine"
+        ]
+      },
+      {
+        "name": "Webway Gates",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Aeldari] Civilizations>",
+          "[+1] Movement <for [Military] units>"
+        ],
+        "row": 17,
+        "prerequisites": [
+          "Wraithbone Singing"
+        ]
+      },
+      {
+        "name": "Splinter Venoms",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Drukhari] Civilizations>",
+          "[+10]% Strength <for [Ranged] units>"
+        ],
+        "row": 18,
+        "prerequisites": [
+          "Haemonculus Flesh-craft"
+        ]
+      },
+      {
+        "name": "Battlesuit Prototypes",
+        "quote": "",
+        "uniques": [
+          "Only available <for [T'au Empire] Civilizations>",
+          "[+10]% Strength <for [Military] units>"
+        ],
+        "row": 19,
+        "prerequisites": [
+          "Water Caste Diplomacy"
+        ]
+      },
+      {
+        "name": "Daemon Engines",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Chaos] Civilizations>",
+          "[+15]% Strength <for [Armored] units>"
+        ],
+        "row": 20,
+        "prerequisites": [
+          "Black Legion Tactics"
+        ]
+      },
+      {
+        "name": "Reanimation Protocols",
+        "row": 21,
+        "prerequisites": [
+          "Dynastic Codes"
+        ],
+        "quote": "We have slept. Now we rise again.",
+        "uniques": [
+          "Only available <for [Necrons] Civilizations>",
+          "[+10]% [Science] [in all cities]",
+          "[+20]% Strength <for [Necron Warrior] units>",
+          "[+20]% Strength <for [Immortal] units>",
+          "[+20]% Strength <for [Lychguard] units>",
+          "[+20]% Strength <for [Monolith] units>",
+          "[+20]% Strength <for [Doomsday Ark] units>"
+        ]
+      },
+      {
+        "name": "Adaptive Carapace",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Tyranids] Civilizations>",
+          "[+10]% Strength <for [Military] units> <when defending>"
+        ],
+        "row": 22,
+        "prerequisites": [
+          "Synaptic Web"
+        ]
+      }
+    ]
+  },
+  {
+    "columnNumber": 6,
+    "era": "Medieval era",
+    "techCost": 250,
+    "buildingCost": 200,
+    "wonderCost": 300,
+    "techs": [
+      {
+        "name": "Melta Weapons",
+        "row": 2,
+        "prerequisites": [
+          "Flamer Weapons"
+        ],
+        "quote": "Armour is merely a suggestion."
+      },
+      {
+        "name": "Artillery Doctrine",
+        "row": 4,
+        "prerequisites": [
+          "Fortress Doctrine"
+        ],
+        "quote": "The guns speak; the enemy listens."
+      },
+      {
+        "name": "Gellar Field Theory",
+        "row": 8,
+        "prerequisites": [
+          "Warp Navigation",
+          "Void Shipbuilding"
+        ],
+        "quote": "A thin shield between the ship and the screaming dark."
+      },
+      {
+        "name": "Tithes",
+        "row": 10,
+        "prerequisites": [
+          "Academies",
+          "Telepathic Signalling"
+        ],
+        "quote": "Every world gives. Every world."
+      },
+      {
+        "name": "Krak Grenades",
+        "row": 6,
+        "prerequisites": [
+          "Frag Grenades"
+        ],
+        "quote": "Small enough to throw, strong enough to stop a tank.",
+        "uniques": [
+          "[+15]% Strength <vs [Armored] units>"
+        ]
+      },
+      {
+        "name": "Navis Nobilite Charters",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Imperium of Man] Civilizations>",
+          "[+1] Movement <for [Water] units>"
+        ],
+        "row": 13,
+        "prerequisites": [
+          "Officio Assassinorum"
+        ]
+      },
+      {
+        "name": "Conversion Fields",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Adeptus Mechanicus] Civilizations>",
+          "[+10]% Strength <for [Military] units> <when defending>"
+        ],
+        "row": 14,
+        "prerequisites": [
+          "Cybernetica Cortex"
+        ]
+      },
+      {
+        "name": "Acts of Faith",
+        "row": 15,
+        "prerequisites": [
+          "Penitent Crusades"
+        ],
+        "quote": "Faith is the shield, and the bolter is the sword.",
+        "uniques": [
+          "Only available <for [Adepta Sororitas] Civilizations>",
+          "[+15]% [Faith] [in all cities]",
+          "[+20]% Strength <for [Battle Sister] units>",
+          "[+20]% Strength <for [Seraphim] units>",
+          "[+20]% Strength <for [Retributor Squad] units>",
+          "[+20]% Strength <for [Celestian Sacresants] units>",
+          "[+20]% Strength <for [Penitent Engine] units>"
+        ]
+      },
+      {
+        "name": "Mekboy Kustomisin'",
+        "row": 16,
+        "prerequisites": [
+          "Speed Freeks"
+        ],
+        "quote": "If it's red, it goes fasta. If it's big, it hits 'arda.",
+        "uniques": [
+          "Only available <for [Orks] Civilizations>",
+          "[+10]% [Production] [in all cities]",
+          "[+20]% Strength <for [Deff Dread] units>",
+          "[+20]% Strength <for [Gorkanaut] units>",
+          "[+20]% Strength <for [Battlewagon] units>",
+          "[+20]% Strength <for [Stompa] units>"
+        ]
+      },
+      {
+        "name": "Infinity Circuit",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Aeldari] Civilizations>",
+          "[+15]% [Culture] [in all cities]"
+        ],
+        "row": 17,
+        "prerequisites": [
+          "Webway Gates"
+        ]
+      },
+      {
+        "name": "Pain Engines",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Drukhari] Civilizations>",
+          "[+15]% Strength <for [Armored] units>"
+        ],
+        "row": 18,
+        "prerequisites": [
+          "Splinter Venoms"
+        ]
+      },
+      {
+        "name": "Ion Technology",
+        "quote": "",
+        "uniques": [
+          "Only available <for [T'au Empire] Civilizations>",
+          "[+15]% [Science] [in all cities]"
+        ],
+        "row": 19,
+        "prerequisites": [
+          "Battlesuit Prototypes"
+        ]
+      },
+      {
+        "name": "Eye of Terror Charts",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Chaos] Civilizations>",
+          "[+1] Movement <for [Water] units>"
+        ],
+        "row": 20,
+        "prerequisites": [
+          "Daemon Engines"
+        ]
+      },
+      {
+        "name": "Tesla Arcs",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Necrons] Civilizations>",
+          "[+10]% Strength <for [Military] units>"
+        ],
+        "row": 21,
+        "prerequisites": [
+          "Reanimation Protocols"
+        ]
+      },
+      {
+        "name": "Bio-Artillery",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Tyranids] Civilizations>",
+          "[+15]% Strength <for [Ranged] units>"
+        ],
+        "row": 22,
+        "prerequisites": [
+          "Adaptive Carapace"
+        ]
+      }
+    ]
+  },
+  {
+    "columnNumber": 7,
+    "era": "Renaissance era",
+    "techCost": 350,
+    "buildingCost": 250,
+    "wonderCost": 400,
+    "techs": [
+      {
+        "name": "Plasma Weaponry",
+        "row": 1,
+        "prerequisites": [
+          "Melta Weapons"
+        ],
+        "quote": "Capture a star's fury in a bottle, then point the bottle."
+      },
+      {
+        "name": "Promethium Refining",
+        "row": 3,
+        "prerequisites": [
+          "Artillery Doctrine"
+        ],
+        "quote": "The blood of the machine, the breath of the flame."
+      },
+      {
+        "name": "Ancient Tech Recovery",
+        "row": 7,
+        "prerequisites": [
+          "Gellar Field Theory"
+        ],
+        "quote": "We did not invent these machines. We merely woke them."
+      },
+      {
+        "name": "Hidden Paths Mapping",
+        "row": 11,
+        "prerequisites": [
+          "Gellar Field Theory"
+        ],
+        "quote": "There are roads older than any empire."
+      },
+      {
+        "name": "Mass Production",
+        "row": 9,
+        "prerequisites": [
+          "Tithes"
+        ],
+        "quote": "A million hands, one rhythm."
+      },
+      {
+        "name": "Hammer of Wrath",
+        "row": 5,
+        "prerequisites": [
+          "Mechanised Transport"
+        ],
+        "quote": "Strike first, strike from above.",
+        "uniques": [
+          "[+1] Movement <for [Mounted] units>"
+        ]
+      },
+      {
+        "name": "Custodes Protocols",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Imperium of Man] Civilizations>",
+          "[+10]% Strength <for [Military] units>"
+        ],
+        "row": 13,
+        "prerequisites": [
+          "Navis Nobilite Charters"
+        ]
+      },
+      {
+        "name": "Omnissian Revelation",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Adeptus Mechanicus] Civilizations>",
+          "[+15]% [Science] [in all cities]"
+        ],
+        "row": 14,
+        "prerequisites": [
+          "Conversion Fields"
+        ]
+      },
+      {
+        "name": "Martyr's Sanctity",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Adepta Sororitas] Civilizations>",
+          "[+15]% [Faith] [in all cities]"
+        ],
+        "row": 15,
+        "prerequisites": [
+          "Acts of Faith"
+        ]
+      },
+      {
+        "name": "Waaagh! Energy",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Orks] Civilizations>",
+          "[+10]% Strength <for [Military] units> <when attacking>"
+        ],
+        "row": 16,
+        "prerequisites": [
+          "Mekboy Kustomisin'"
+        ]
+      },
+      {
+        "name": "Runes of Fate",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Aeldari] Civilizations>",
+          "[+15]% [Science] [in all cities]"
+        ],
+        "row": 17,
+        "prerequisites": [
+          "Infinity Circuit"
+        ]
+      },
+      {
+        "name": "Haemonculus Arts",
+        "row": 18,
+        "prerequisites": [
+          "Pain Engines"
+        ],
+        "quote": "Pain is an art, and we are its masters.",
+        "uniques": [
+          "Only available <for [Drukhari] Civilizations>",
+          "[+15]% Strength <for [Military] units> <when attacking>",
+          "[+20]% Strength <for [Wych] units>",
+          "[+20]% Strength <for [Incubi] units>",
+          "[+20]% Strength <for [Talos] units>",
+          "[+20]% Strength <for [Cronos] units>",
+          "[+20]% Strength <for [Archon] units>"
+        ]
+      },
+      {
+        "name": "Mont'ka Doctrine",
+        "quote": "",
+        "uniques": [
+          "Only available <for [T'au Empire] Civilizations>",
+          "[+15]% Strength <for [Military] units> <when attacking>"
+        ],
+        "row": 19,
+        "prerequisites": [
+          "Ion Technology"
+        ]
+      },
+      {
+        "name": "Daemonic Pacts",
+        "row": 20,
+        "prerequisites": [
+          "Eye of Terror Charts"
+        ],
+        "quote": "Every gift of the gods has its price.",
+        "uniques": [
+          "Only available <for [Chaos] Civilizations>",
+          "[+15]% [Faith] [in all cities]",
+          "[+20]% Strength <for [Helbrute] units>",
+          "[+20]% Strength <for [Chaos Spawn] units>",
+          "[+20]% Strength <for [Obliterators] units>",
+          "[+20]% Strength <for [Defiler] units>",
+          "[+20]% Strength <for [Forgefiend] units>"
+        ]
+      },
+      {
+        "name": "Dolmen Gates",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Necrons] Civilizations>",
+          "[+1] Movement <for [Military] units>"
+        ],
+        "row": 21,
+        "prerequisites": [
+          "Tesla Arcs"
+        ]
+      },
+      {
+        "name": "Hive Fleet Tendrils",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Tyranids] Civilizations>",
+          "[+1] Movement <for [Military] units>"
+        ],
+        "row": 22,
+        "prerequisites": [
+          "Bio-Artillery"
+        ]
+      }
+    ]
+  },
+  {
+    "columnNumber": 8,
+    "era": "Renaissance era",
+    "techCost": 480,
+    "buildingCost": 300,
+    "wonderCost": 400,
+    "techs": [
+      {
+        "name": "Power Armor Engineering",
+        "row": 1,
+        "prerequisites": [
+          "Plasma Weaponry"
+        ],
+        "quote": "Ceramite and prayer, in equal measure."
+      },
+      {
+        "name": "Armoured Warfare",
+        "row": 5,
+        "prerequisites": [
+          "Promethium Refining"
+        ],
+        "quote": "Tracks, turrets and terrible patience."
+      },
+      {
+        "name": "Battle Robotics",
+        "row": 9,
+        "prerequisites": [
+          "Ancient Tech Recovery"
+        ],
+        "quote": "Load the doctrina wafer. Point. Wait."
+      },
+      {
+        "name": "Psychic Mastery",
+        "row": 11,
+        "prerequisites": [
+          "Hidden Paths Mapping"
+        ],
+        "quote": "The mind is a weapon with no safety catch."
+      },
+      {
+        "name": "Extra Vehicle Armour",
+        "row": 3,
+        "prerequisites": [
+          "Promethium Refining"
+        ],
+        "quote": "Weld it on, bless it, repeat.",
+        "uniques": [
+          "[+15]% Strength <for [Armored] units> <when defending>"
+        ]
+      },
+      {
+        "name": "Aeronautica",
+        "row": 7,
+        "prerequisites": [
+          "Promethium Refining"
+        ],
+        "quote": "The sky belongs to whoever can hold it.",
+        "uniques": []
+      },
+      {
+        "name": "Rites of the Golden Throne",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Imperium of Man] Civilizations>",
+          "[+15]% [Culture] [in all cities]"
+        ],
+        "row": 13,
+        "prerequisites": [
+          "Custodes Protocols"
+        ]
+      },
+      {
+        "name": "Ark Mechanicus Protocols",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Adeptus Mechanicus] Civilizations>",
+          "[+15]% Production when constructing [Wonders] buildings [in all cities]"
+        ],
+        "row": 14,
+        "prerequisites": [
+          "Omnissian Revelation"
+        ]
+      },
+      {
+        "name": "Living Saint Visions",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Adepta Sororitas] Civilizations>",
+          "[+10]% Strength <for [Military] units>"
+        ],
+        "row": 15,
+        "prerequisites": [
+          "Martyr's Sanctity"
+        ]
+      },
+      {
+        "name": "Big Mek Kustoms",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Orks] Civilizations>",
+          "[+15]% Strength <for [Armored] units>"
+        ],
+        "row": 16,
+        "prerequisites": [
+          "Waaagh! Energy"
+        ]
+      },
+      {
+        "name": "Path of the Seer",
+        "row": 17,
+        "prerequisites": [
+          "Runes of Fate"
+        ],
+        "quote": "The future is a river; we choose where it bends.",
+        "uniques": [
+          "Only available <for [Aeldari] Civilizations>",
+          "[+15]% [Culture] [in all cities]",
+          "[+20]% Strength <for [Wraithguard] units>",
+          "[+20]% Strength <for [Wraithlord] units>",
+          "[+20]% Strength <for [Wraithknight] units>",
+          "[+20]% Strength <for [Phantom Titan] units>"
+        ]
+      },
+      {
+        "name": "Soul Harvest",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Drukhari] Civilizations>",
+          "[+15]% Strength <for [Military] units> <when attacking>"
+        ],
+        "row": 18,
+        "prerequisites": [
+          "Haemonculus Arts"
+        ]
+      },
+      {
+        "name": "Battlesuit Engineering",
+        "row": 19,
+        "prerequisites": [
+          "Mont'ka Doctrine"
+        ],
+        "quote": "Strike swiftly, strike precisely, for the Greater Good.",
+        "uniques": [
+          "Only available <for [T'au Empire] Civilizations>",
+          "[+10]% [Gold] [in all cities]",
+          "[+20]% Strength <for [Crisis Battlesuit] units>",
+          "[+20]% Strength <for [Stealth Battlesuits] units>",
+          "[+20]% Strength <for [Broadside Battlesuits] units>",
+          "[+20]% Strength <for [Riptide Battlesuit] units>",
+          "[+20]% Strength <for [Ghostkeel Battlesuit] units>",
+          "[+20]% Strength <for [Stormsurge] units>"
+        ]
+      },
+      {
+        "name": "Possession",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Chaos] Civilizations>",
+          "[+10]% Strength <for [Military] units>"
+        ],
+        "row": 20,
+        "prerequisites": [
+          "Daemonic Pacts"
+        ]
+      },
+      {
+        "name": "Celestial Orrery",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Necrons] Civilizations>",
+          "[+15]% [Science] [in all cities]"
+        ],
+        "row": 21,
+        "prerequisites": [
+          "Dolmen Gates"
+        ]
+      },
+      {
+        "name": "Shadow in the Warp",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Tyranids] Civilizations>",
+          "[+15]% Strength <for [Military] units> <when attacking>"
+        ],
+        "row": 22,
+        "prerequisites": [
+          "Hive Fleet Tendrils"
+        ]
+      }
+    ]
+  },
+  {
+    "columnNumber": 9,
+    "era": "Industrial era",
+    "techCost": 650,
+    "buildingCost": 360,
+    "wonderCost": 500,
+    "techs": [
+      {
+        "name": "Genetic Engineering",
+        "row": 3,
+        "prerequisites": [
+          "Power Armor Engineering"
+        ],
+        "quote": "Build the warrior before the war begins."
+      },
+      {
+        "name": "Walker Forges",
+        "row": 7,
+        "prerequisites": [
+          "Armoured Warfare",
+          "Battle Robotics"
+        ],
+        "quote": "A noble house walks to war on iron legs."
+      },
+      {
+        "name": "Dark Age Archives",
+        "row": 9,
+        "prerequisites": [
+          "Psychic Mastery",
+          "Mass Production"
+        ],
+        "quote": "What was lost was never truly destroyed."
+      },
+      {
+        "name": "Smoke Launchers",
+        "row": 5,
+        "prerequisites": [
+          "Extra Vehicle Armour"
+        ],
+        "quote": "What they cannot see, they cannot hit.",
+        "uniques": [
+          "[+20]% Strength <for [Armored] units> <vs [Ranged] units> <when defending>"
+        ]
+      },
+      {
+        "name": "Codex Astartes",
+        "row": 13,
+        "prerequisites": [
+          "Rites of the Golden Throne"
+        ],
+        "quote": "They shall know no fear.",
+        "uniques": [
+          "Only available <for [Imperium of Man] Civilizations>",
+          "[+10]% [Faith] [in all cities]",
+          "[+25]% Strength <for [Space Marine] units>",
+          "[+25]% Strength <for [Terminator Squad] units>",
+          "[+25]% Strength <for [Baneblade] units>",
+          "[+25]% Strength <for [Primaris Marine] units>"
+        ]
+      },
+      {
+        "name": "Machine Spirit Rites",
+        "row": 14,
+        "prerequisites": [
+          "Ark Mechanicus Protocols"
+        ],
+        "quote": "Anoint the engine, and it will answer.",
+        "uniques": [
+          "Only available <for [Adeptus Mechanicus] Civilizations>",
+          "[+30]% Strength <for [Warlord Titan] units> <when defending>",
+          "[+30]% Strength <for [Kastelan Robot] units> <when defending>",
+          "[+30]% Strength <for [Imperial Knight] units> <when defending>",
+          "[+30]% Strength <for [Dreadnought] units> <when defending>"
+        ]
+      },
+      {
+        "name": "Ecclesiarchal Crusade",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Adepta Sororitas] Civilizations>",
+          "[+1] Movement <for [Military] units>"
+        ],
+        "row": 15,
+        "prerequisites": [
+          "Living Saint Visions"
+        ]
+      },
+      {
+        "name": "Great Waaagh!",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Orks] Civilizations>",
+          "[+15]% Strength <for [Military] units>"
+        ],
+        "row": 16,
+        "prerequisites": [
+          "Big Mek Kustoms"
+        ]
+      },
+      {
+        "name": "Craftworld Exodus",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Aeldari] Civilizations>",
+          "[+15]% Strength <for [Military] units> <when defending>"
+        ],
+        "row": 17,
+        "prerequisites": [
+          "Path of the Seer"
+        ]
+      },
+      {
+        "name": "Commorragh Ascendant",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Drukhari] Civilizations>",
+          "[+15]% [Gold] [in all cities]"
+        ],
+        "row": 18,
+        "prerequisites": [
+          "Soul Harvest"
+        ]
+      },
+      {
+        "name": "Sphere Expansion",
+        "quote": "",
+        "uniques": [
+          "Only available <for [T'au Empire] Civilizations>",
+          "[+1] Movement <for [Military] units>"
+        ],
+        "row": 19,
+        "prerequisites": [
+          "Battlesuit Engineering"
+        ]
+      },
+      {
+        "name": "Black Crusade",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Chaos] Civilizations>",
+          "[+15]% Strength <for [Military] units> <when attacking>"
+        ],
+        "row": 20,
+        "prerequisites": [
+          "Possession"
+        ]
+      },
+      {
+        "name": "C'tan Shackles",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Necrons] Civilizations>",
+          "[+15]% Strength <for [Armored] units>"
+        ],
+        "row": 21,
+        "prerequisites": [
+          "Celestial Orrery"
+        ]
+      },
+      {
+        "name": "Great Devourer",
+        "quote": "",
+        "uniques": [
+          "Only available <for [Tyranids] Civilizations>",
+          "[+15]% [Food] [in all cities]"
+        ],
+        "row": 22,
+        "prerequisites": [
+          "Shadow in the Warp"
+        ]
+      }
+    ]
+  },
+  {
+    "columnNumber": 10,
+    "era": "Modern era",
+    "techCost": 850,
+    "buildingCost": 420,
+    "wonderCost": 600,
+    "techs": [
+      {
+        "name": "Titan Construction",
+        "row": 6,
+        "prerequisites": [
+          "Walker Forges"
+        ],
+        "quote": "Build a walking fortress, and name it like a god."
+      },
+      {
+        "name": "Warp Mastery",
+        "row": 4,
+        "prerequisites": [
+          "Dark Age Archives",
+          "Genetic Engineering"
+        ],
+        "quote": "Open the gate. Hold your breath."
+      },
+      {
+        "name": "World-Ending Protocols",
+        "row": 8,
+        "prerequisites": [
+          "Dark Age Archives"
+        ],
+        "quote": "Some worlds can only be saved by fire.",
+        "uniques": []
+      }
+    ]
+  }
+]

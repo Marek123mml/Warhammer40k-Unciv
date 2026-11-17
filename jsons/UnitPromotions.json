@@ -1,0 +1,462 @@
+[
+  {
+    "name": "Shock I",
+    "prerequisites": [],
+    "uniques": [
+      "[+15]% Strength <when fighting in [Open terrain] tiles>"
+    ],
+    "unitTypes": [
+      "Sword",
+      "Gunpowder",
+      "Mounted",
+      "Armored"
+    ]
+  },
+  {
+    "name": "Shock II",
+    "prerequisites": [
+      "Shock I"
+    ],
+    "uniques": [
+      "[+15]% Strength <when fighting in [Open terrain] tiles>"
+    ],
+    "unitTypes": [
+      "Sword",
+      "Gunpowder",
+      "Mounted",
+      "Armored"
+    ]
+  },
+  {
+    "name": "Shock III",
+    "prerequisites": [
+      "Shock II"
+    ],
+    "uniques": [
+      "[+15]% Strength <when fighting in [Open terrain] tiles>"
+    ],
+    "unitTypes": [
+      "Sword",
+      "Gunpowder",
+      "Mounted",
+      "Armored"
+    ]
+  },
+  {
+    "name": "Drill I",
+    "prerequisites": [],
+    "uniques": [
+      "[+15]% Strength <when fighting in [Rough terrain] tiles>"
+    ],
+    "unitTypes": [
+      "Sword",
+      "Gunpowder",
+      "Mounted",
+      "Armored"
+    ]
+  },
+  {
+    "name": "Drill II",
+    "prerequisites": [
+      "Drill I"
+    ],
+    "uniques": [
+      "[+15]% Strength <when fighting in [Rough terrain] tiles>"
+    ],
+    "unitTypes": [
+      "Sword",
+      "Gunpowder",
+      "Mounted",
+      "Armored"
+    ]
+  },
+  {
+    "name": "Drill III",
+    "prerequisites": [
+      "Drill II"
+    ],
+    "uniques": [
+      "[+15]% Strength <when fighting in [Rough terrain] tiles>"
+    ],
+    "unitTypes": [
+      "Sword",
+      "Gunpowder",
+      "Mounted",
+      "Armored"
+    ]
+  },
+  {
+    "name": "Accuracy I",
+    "prerequisites": [],
+    "uniques": [
+      "[+15]% Strength <when fighting in [Open terrain] tiles>"
+    ],
+    "unitTypes": [
+      "Archery",
+      "Ranged Gunpowder",
+      "Siege"
+    ]
+  },
+  {
+    "name": "Accuracy II",
+    "prerequisites": [
+      "Accuracy I"
+    ],
+    "uniques": [
+      "[+15]% Strength <when fighting in [Open terrain] tiles>"
+    ],
+    "unitTypes": [
+      "Archery",
+      "Ranged Gunpowder",
+      "Siege"
+    ]
+  },
+  {
+    "name": "Barrage I",
+    "prerequisites": [],
+    "uniques": [
+      "[+15]% Strength <when fighting in [Rough terrain] tiles>"
+    ],
+    "unitTypes": [
+      "Archery",
+      "Ranged Gunpowder",
+      "Siege"
+    ]
+  },
+  {
+    "name": "Barrage II",
+    "prerequisites": [
+      "Barrage I"
+    ],
+    "uniques": [
+      "[+15]% Strength <when fighting in [Rough terrain] tiles>"
+    ],
+    "unitTypes": [
+      "Archery",
+      "Ranged Gunpowder",
+      "Siege"
+    ]
+  },
+  {
+    "name": "Cover I",
+    "prerequisites": [],
+    "uniques": [
+      "[+33]% Strength <vs [Ranged] units> <when defending>"
+    ],
+    "unitTypes": [
+      "Sword",
+      "Gunpowder",
+      "Mounted",
+      "Armored",
+      "Archery",
+      "Ranged Gunpowder",
+      "Siege",
+      "Scout"
+    ]
+  },
+  {
+    "name": "Cover II",
+    "prerequisites": [
+      "Cover I"
+    ],
+    "uniques": [
+      "[+33]% Strength <vs [Ranged] units> <when defending>"
+    ],
+    "unitTypes": [
+      "Sword",
+      "Gunpowder",
+      "Mounted",
+      "Armored",
+      "Archery",
+      "Ranged Gunpowder",
+      "Siege",
+      "Scout"
+    ]
+  },
+  {
+    "name": "Siege",
+    "prerequisites": [
+      "Shock I",
+      "Accuracy I"
+    ],
+    "uniques": [
+      "[+50]% Strength <vs cities>"
+    ],
+    "unitTypes": [
+      "Sword",
+      "Gunpowder",
+      "Mounted",
+      "Armored",
+      "Archery",
+      "Ranged Gunpowder",
+      "Siege"
+    ]
+  },
+  {
+    "name": "Medic",
+    "prerequisites": [
+      "Shock I",
+      "Drill I",
+      "Accuracy I",
+      "Barrage I"
+    ],
+    "uniques": [
+      "All adjacent units heal [+5] HP when healing"
+    ],
+    "unitTypes": [
+      "Sword",
+      "Gunpowder",
+      "Mounted",
+      "Armored",
+      "Archery",
+      "Ranged Gunpowder",
+      "Siege",
+      "Scout"
+    ]
+  },
+  {
+    "name": "March",
+    "prerequisites": [
+      "Medic"
+    ],
+    "uniques": [
+      "Unit will heal every turn, even if it performs an action"
+    ],
+    "unitTypes": [
+      "Sword",
+      "Gunpowder",
+      "Mounted",
+      "Armored",
+      "Archery",
+      "Ranged Gunpowder",
+      "Siege",
+      "Scout"
+    ]
+  },
+  {
+    "name": "Mobility",
+    "prerequisites": [
+      "Shock II",
+      "Drill II"
+    ],
+    "uniques": [
+      "[+1] Movement"
+    ],
+    "unitTypes": [
+      "Sword",
+      "Gunpowder",
+      "Mounted",
+      "Armored",
+      "Scout"
+    ]
+  },
+  {
+    "name": "Blitz",
+    "prerequisites": [
+      "Shock III",
+      "Drill III"
+    ],
+    "uniques": [
+      "[1] additional attacks per turn"
+    ],
+    "unitTypes": [
+      "Sword",
+      "Gunpowder",
+      "Mounted",
+      "Armored"
+    ]
+  },
+  {
+    "name": "Range",
+    "prerequisites": [
+      "Accuracy II",
+      "Barrage II"
+    ],
+    "uniques": [
+      "[+1] Range"
+    ],
+    "unitTypes": [
+      "Archery",
+      "Ranged Gunpowder",
+      "Siege"
+    ]
+  },
+  {
+    "name": "Logistics",
+    "prerequisites": [
+      "Range"
+    ],
+    "uniques": [
+      "[1] additional attacks per turn"
+    ],
+    "unitTypes": [
+      "Archery",
+      "Ranged Gunpowder",
+      "Siege"
+    ]
+  },
+  {
+    "name": "Sentry",
+    "prerequisites": [
+      "Cover I"
+    ],
+    "uniques": [
+      "[+1] Sight"
+    ],
+    "unitTypes": [
+      "Sword",
+      "Gunpowder",
+      "Mounted",
+      "Armored",
+      "Archery",
+      "Ranged Gunpowder",
+      "Siege",
+      "Scout",
+      "Melee Water",
+      "Ranged Water"
+    ]
+  },
+  {
+    "name": "Boarding Party I",
+    "prerequisites": [],
+    "uniques": [
+      "[+15]% Strength <vs [Water] units>"
+    ],
+    "unitTypes": [
+      "Melee Water"
+    ]
+  },
+  {
+    "name": "Boarding Party II",
+    "prerequisites": [
+      "Boarding Party I"
+    ],
+    "uniques": [
+      "[+15]% Strength <vs [Water] units>"
+    ],
+    "unitTypes": [
+      "Melee Water"
+    ]
+  },
+  {
+    "name": "Bombardment I",
+    "prerequisites": [],
+    "uniques": [
+      "[+15]% Strength <vs cities>"
+    ],
+    "unitTypes": [
+      "Ranged Water"
+    ]
+  },
+  {
+    "name": "Bombardment II",
+    "prerequisites": [
+      "Bombardment I"
+    ],
+    "uniques": [
+      "[+15]% Strength <vs cities>"
+    ],
+    "unitTypes": [
+      "Ranged Water"
+    ]
+  },
+  {
+    "name": "Ignore terrain cost",
+    "prerequisites": [],
+    "uniques": [
+      "Ignores terrain cost"
+    ],
+    "unitTypes": []
+  },
+  {
+    "name": "Psychic Hood",
+    "prerequisites": [],
+    "uniques": [
+      "[+25]% Strength <vs [Psyker] units>"
+    ],
+    "unitTypes": []
+  },
+  {
+    "name": "Interception I",
+    "prerequisites": [],
+    "unitTypes": [
+      "Fighter"
+    ],
+    "uniques": [
+      "[+33]% Strength <vs [Bomber] units>"
+    ]
+  },
+  {
+    "name": "Interception II",
+    "prerequisites": [
+      "Interception I"
+    ],
+    "unitTypes": [
+      "Fighter"
+    ],
+    "uniques": [
+      "[+33]% Strength <vs [Bomber] units>"
+    ]
+  },
+  {
+    "name": "Air Targeting I",
+    "prerequisites": [],
+    "unitTypes": [
+      "Fighter",
+      "Bomber"
+    ],
+    "uniques": [
+      "[+33]% Strength <vs [Land] units>"
+    ]
+  },
+  {
+    "name": "Air Targeting II",
+    "prerequisites": [
+      "Air Targeting I"
+    ],
+    "unitTypes": [
+      "Fighter",
+      "Bomber"
+    ],
+    "uniques": [
+      "[+33]% Strength <vs [Land] units>"
+    ]
+  },
+  {
+    "name": "Air Siege I",
+    "prerequisites": [],
+    "unitTypes": [
+      "Bomber"
+    ],
+    "uniques": [
+      "[+33]% Strength <vs cities>"
+    ]
+  },
+  {
+    "name": "Air Siege II",
+    "prerequisites": [
+      "Air Siege I"
+    ],
+    "unitTypes": [
+      "Bomber"
+    ],
+    "uniques": [
+      "[+33]% Strength <vs cities>"
+    ]
+  },
+  {
+    "name": "Air Range",
+    "prerequisites": [
+      "Air Targeting I",
+      "Air Siege I",
+      "Interception I"
+    ],
+    "unitTypes": [
+      "Fighter",
+      "Bomber"
+    ],
+    "uniques": [
+      "[+2] Range"
+    ]
+  }
+]

@@ -1,0 +1,930 @@
+[
+  {
+    "name": "Rule of the Sovereign",
+    "era": "Ancient era",
+    "uniques": [
+      "[+3 Culture] [in capital]"
+    ],
+    "policies": [
+      {
+        "name": "Administration",
+        "row": 1,
+        "column": 1,
+        "uniques": [
+          "[+2 Production] [in capital]"
+        ]
+      },
+      {
+        "name": "Wardens of Law",
+        "row": 1,
+        "column": 3,
+        "uniques": [
+          "[+1 Happiness] [in all cities]"
+        ]
+      },
+      {
+        "name": "Tax Grades",
+        "row": 2,
+        "column": 2,
+        "uniques": [
+          "[+15]% [Gold] [in all cities]"
+        ],
+        "requires": [
+          "Administration",
+          "Wardens of Law"
+        ]
+      },
+      {
+        "name": "Planetary Governors",
+        "row": 3,
+        "column": 2,
+        "uniques": [
+          "[+2 Culture] [in all cities]"
+        ],
+        "requires": [
+          "Tax Grades"
+        ]
+      },
+      {
+        "name": "Rule of the Sovereign Complete",
+        "uniques": [
+          "[+15]% [Production] [in all cities]"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Crusade Doctrine",
+    "era": "Ancient era",
+    "uniques": [
+      "[+10]% Strength"
+    ],
+    "policies": [
+      {
+        "name": "Drill Masters",
+        "row": 1,
+        "column": 1,
+        "uniques": [
+          "New [Military] units start with [15] XP [in all cities]"
+        ]
+      },
+      {
+        "name": "War Production",
+        "row": 1,
+        "column": 3,
+        "uniques": [
+          "[+15]% Production when constructing [Military] units [in all cities]"
+        ]
+      },
+      {
+        "name": "Veteran Cadres",
+        "row": 2,
+        "column": 2,
+        "uniques": [
+          "[+15]% Strength <when defending>"
+        ],
+        "requires": [
+          "Drill Masters",
+          "War Production"
+        ]
+      },
+      {
+        "name": "Total War",
+        "row": 3,
+        "column": 2,
+        "uniques": [
+          "[+1] Movement <for [Military] units>"
+        ],
+        "requires": [
+          "Veteran Cadres"
+        ]
+      },
+      {
+        "name": "Crusade Doctrine Complete",
+        "uniques": [
+          "[+15]% Strength <when attacking>"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Machine Lore",
+    "era": "Ancient era",
+    "uniques": [
+      "[+10]% [Science] [in all cities]"
+    ],
+    "policies": [
+      {
+        "name": "Data Shrines",
+        "row": 1,
+        "column": 1,
+        "uniques": [
+          "[+2 Science] [in capital]"
+        ]
+      },
+      {
+        "name": "Clerks of Number",
+        "row": 1,
+        "column": 3,
+        "uniques": [
+          "[+1 Science] from every [Library]"
+        ]
+      },
+      {
+        "name": "Noosphere",
+        "row": 2,
+        "column": 2,
+        "uniques": [
+          "[+15]% [Science] [in all cities]"
+        ],
+        "requires": [
+          "Data Shrines",
+          "Clerks of Number"
+        ]
+      },
+      {
+        "name": "Ancient Blueprints",
+        "row": 3,
+        "column": 2,
+        "uniques": [
+          "[+25]% Production when constructing [Wonders] buildings [in all cities]"
+        ],
+        "requires": [
+          "Noosphere"
+        ]
+      },
+      {
+        "name": "Machine Lore Complete",
+        "uniques": [
+          "[+3 Science] [in all cities]"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Clergy",
+    "era": "Ancient era",
+    "uniques": [
+      "[+1 Faith] [in all cities]"
+    ],
+    "policies": [
+      {
+        "name": "Missionary Orders",
+        "row": 1,
+        "column": 1,
+        "uniques": [
+          "[+15]% [Faith] [in all cities]"
+        ]
+      },
+      {
+        "name": "Relic Shrines",
+        "row": 1,
+        "column": 3,
+        "uniques": [
+          "[+1 Culture] from every [Shrine]"
+        ]
+      },
+      {
+        "name": "Pilgrim Fleets",
+        "row": 2,
+        "column": 2,
+        "uniques": [
+          "[+3 Gold] [in capital]"
+        ],
+        "requires": [
+          "Missionary Orders",
+          "Relic Shrines"
+        ]
+      },
+      {
+        "name": "Heroes' Day",
+        "row": 3,
+        "column": 2,
+        "uniques": [
+          "[+1 Happiness] from every [Temple]"
+        ],
+        "requires": [
+          "Pilgrim Fleets"
+        ]
+      },
+      {
+        "name": "Clergy Complete",
+        "uniques": [
+          "[+20]% [Faith] [in all cities]"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mercantile Guilds",
+    "era": "Ancient era",
+    "uniques": [
+      "[+1 Gold] [in all cities]"
+    ],
+    "policies": [
+      {
+        "name": "Rogue Traders",
+        "row": 1,
+        "column": 1,
+        "uniques": [
+          "[+2 Gold] from every [Market]"
+        ]
+      },
+      {
+        "name": "Void Convoys",
+        "row": 1,
+        "column": 3,
+        "uniques": [
+          "[+1 Gold] from every [Trading post]"
+        ]
+      },
+      {
+        "name": "Tax Exemptions",
+        "row": 2,
+        "column": 2,
+        "uniques": [
+          "[+15]% [Gold] [in all cities]"
+        ],
+        "requires": [
+          "Rogue Traders",
+          "Void Convoys"
+        ]
+      },
+      {
+        "name": "Merchant Houses",
+        "row": 3,
+        "column": 2,
+        "uniques": [
+          "[+2 Culture] [in capital]"
+        ],
+        "requires": [
+          "Tax Exemptions"
+        ]
+      },
+      {
+        "name": "Mercantile Guilds Complete",
+        "uniques": [
+          "[+25]% [Gold] [in capital]"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hive Industry",
+    "era": "Ancient era",
+    "uniques": [
+      "[+1 Production] [in capital]"
+    ],
+    "policies": [
+      {
+        "name": "Shift Work",
+        "row": 1,
+        "column": 1,
+        "uniques": [
+          "[+10]% [Production] [in all cities]"
+        ]
+      },
+      {
+        "name": "Bonded Labour",
+        "row": 1,
+        "column": 3,
+        "uniques": [
+          "[+1 Production] from every [Mine]"
+        ]
+      },
+      {
+        "name": "Promethium Lines",
+        "row": 2,
+        "column": 2,
+        "uniques": [
+          "[+1 Production] from every [Workshop]"
+        ],
+        "requires": [
+          "Shift Work",
+          "Bonded Labour"
+        ]
+      },
+      {
+        "name": "Ash Waste Quarries",
+        "row": 3,
+        "column": 2,
+        "uniques": [
+          "[+1 Production] from every [Quarry]"
+        ],
+        "requires": [
+          "Promethium Lines"
+        ]
+      },
+      {
+        "name": "Hive Industry Complete",
+        "uniques": [
+          "[+25]% Production when constructing [Wonders] buildings [in all cities]"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Void Dominion",
+    "era": "Ancient era",
+    "uniques": [
+      "[+1] Movement <for [Water] units>"
+    ],
+    "policies": [
+      {
+        "name": "Battlefleet",
+        "row": 1,
+        "column": 1,
+        "uniques": [
+          "[+15]% Strength <for [Water] units>"
+        ]
+      },
+      {
+        "name": "Colony Ships",
+        "row": 1,
+        "column": 3,
+        "uniques": [
+          "[+15]% Production when constructing [Settler] units [in all cities]"
+        ]
+      },
+      {
+        "name": "Admiralty",
+        "row": 2,
+        "column": 2,
+        "uniques": [
+          "[+1 Gold] from every [Harbor]"
+        ],
+        "requires": [
+          "Battlefleet",
+          "Colony Ships"
+        ]
+      },
+      {
+        "name": "Orbital Supremacy",
+        "row": 3,
+        "column": 2,
+        "uniques": [
+          "[+1] Sight <for [Military] units>"
+        ],
+        "requires": [
+          "Admiralty"
+        ]
+      },
+      {
+        "name": "Void Dominion Complete",
+        "uniques": [
+          "[+1 Food] [in all cities]"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Imperial Truth",
+    "era": "Ancient era",
+    "uniques": [
+      "Only available <for [Imperium of Man] Civilizations>",
+      "[+1 Culture] [in all cities]"
+    ],
+    "policies": [
+      {
+        "name": "Lex Imperialis",
+        "row": 1,
+        "column": 1,
+        "uniques": [
+          "[+1 Happiness] [in all cities]"
+        ]
+      },
+      {
+        "name": "High Lords' Council",
+        "row": 1,
+        "column": 3,
+        "uniques": [
+          "[+3 Culture] [in capital]"
+        ]
+      },
+      {
+        "name": "Guard Levy",
+        "row": 2,
+        "column": 2,
+        "uniques": [
+          "[+15]% Production when constructing [Military] units [in all cities]"
+        ],
+        "requires": [
+          "Lex Imperialis",
+          "High Lords' Council"
+        ]
+      },
+      {
+        "name": "Emperor Protects",
+        "row": 3,
+        "column": 2,
+        "uniques": [
+          "[+15]% Strength <for [Military] units> <when fighting in [Friendly Land] tiles>"
+        ],
+        "requires": [
+          "Guard Levy"
+        ]
+      },
+      {
+        "name": "Imperial Truth Complete",
+        "uniques": [
+          "[+10]% Strength <for [Military] units>"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Quest for Knowledge",
+    "era": "Ancient era",
+    "uniques": [
+      "Only available <for [Adeptus Mechanicus] Civilizations>",
+      "[+1 Science] [in all cities]"
+    ],
+    "policies": [
+      {
+        "name": "Standard Template Lore",
+        "row": 1,
+        "column": 1,
+        "uniques": [
+          "[+15]% [Science] [in all cities]"
+        ]
+      },
+      {
+        "name": "Servitor Labour Corps",
+        "row": 1,
+        "column": 3,
+        "uniques": [
+          "[+1 Production] from every [Mine]"
+        ]
+      },
+      {
+        "name": "Holy Machine Spirits",
+        "row": 2,
+        "column": 2,
+        "uniques": [
+          "[+15]% Strength <for [Armored] units>"
+        ],
+        "requires": [
+          "Standard Template Lore",
+          "Servitor Labour Corps"
+        ]
+      },
+      {
+        "name": "Fabricator's Edict",
+        "row": 3,
+        "column": 2,
+        "uniques": [
+          "[+3 Science] [in capital]"
+        ],
+        "requires": [
+          "Holy Machine Spirits"
+        ]
+      },
+      {
+        "name": "Quest for Knowledge Complete",
+        "uniques": [
+          "[+15]% [Production] [in all cities]"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Acts of Martyrdom",
+    "era": "Ancient era",
+    "uniques": [
+      "Only available <for [Adepta Sororitas] Civilizations>",
+      "[+1 Faith] [in all cities]"
+    ],
+    "policies": [
+      {
+        "name": "Shield of Faith",
+        "row": 1,
+        "column": 1,
+        "uniques": [
+          "[+15]% Strength <for [Military] units> <when defending>"
+        ]
+      },
+      {
+        "name": "Holy Pilgrimage",
+        "row": 1,
+        "column": 3,
+        "uniques": [
+          "[+2 Culture] from every [Temple]"
+        ]
+      },
+      {
+        "name": "Litanies of Battle",
+        "row": 2,
+        "column": 2,
+        "uniques": [
+          "[+15]% Strength <for [Military] units> <when attacking>"
+        ],
+        "requires": [
+          "Shield of Faith",
+          "Holy Pilgrimage"
+        ]
+      },
+      {
+        "name": "Blessed Relics",
+        "row": 3,
+        "column": 2,
+        "uniques": [
+          "[+20]% [Faith] [in all cities]"
+        ],
+        "requires": [
+          "Litanies of Battle"
+        ]
+      },
+      {
+        "name": "Acts of Martyrdom Complete",
+        "uniques": [
+          "[+2 Happiness] [in all cities]"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Da Big Waaagh",
+    "era": "Ancient era",
+    "uniques": [
+      "Only available <for [Orks] Civilizations>",
+      "[+10]% Strength <for [Melee] units>"
+    ],
+    "policies": [
+      {
+        "name": "More Dakka",
+        "row": 1,
+        "column": 1,
+        "uniques": [
+          "[+15]% Strength <for [Ranged] units>"
+        ]
+      },
+      {
+        "name": "Red Wunz Go Fasta",
+        "row": 1,
+        "column": 3,
+        "uniques": [
+          "[+1] Movement <for [Military] units>"
+        ]
+      },
+      {
+        "name": "Krump 'Em All",
+        "row": 2,
+        "column": 2,
+        "uniques": [
+          "[+15]% Strength <for [Military] units> <when attacking>"
+        ],
+        "requires": [
+          "More Dakka",
+          "Red Wunz Go Fasta"
+        ]
+      },
+      {
+        "name": "Boss Pole",
+        "row": 3,
+        "column": 2,
+        "uniques": [
+          "[+2 Happiness] [in all cities]"
+        ],
+        "requires": [
+          "Krump 'Em All"
+        ]
+      },
+      {
+        "name": "Da Big Waaagh Complete",
+        "uniques": [
+          "[+20]% Production when constructing [Military] units [in all cities]"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Path of the Seer",
+    "era": "Ancient era",
+    "uniques": [
+      "Only available <for [Aeldari] Civilizations>",
+      "[+1 Culture] [in all cities]"
+    ],
+    "policies": [
+      {
+        "name": "Path of the Warrior",
+        "row": 1,
+        "column": 1,
+        "uniques": [
+          "[+15]% Strength <for [Military] units>"
+        ]
+      },
+      {
+        "name": "Path of the Mariner",
+        "row": 1,
+        "column": 3,
+        "uniques": [
+          "[+15]% Strength <for [Water] units>"
+        ]
+      },
+      {
+        "name": "Farsight Visions",
+        "row": 2,
+        "column": 2,
+        "uniques": [
+          "[+2 Culture] [in capital]"
+        ],
+        "requires": [
+          "Path of the Warrior",
+          "Path of the Mariner"
+        ]
+      },
+      {
+        "name": "Asuryani Grace",
+        "row": 3,
+        "column": 2,
+        "uniques": [
+          "[+15]% [Culture] [in all cities]"
+        ],
+        "requires": [
+          "Farsight Visions"
+        ]
+      },
+      {
+        "name": "Path of the Seer Complete",
+        "uniques": [
+          "[+15]% [Science] [in all cities]"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Dark City Cruelty",
+    "era": "Ancient era",
+    "uniques": [
+      "Only available <for [Drukhari] Civilizations>",
+      "[+1 Gold] [in all cities]"
+    ],
+    "policies": [
+      {
+        "name": "Lightning Raids",
+        "row": 1,
+        "column": 1,
+        "uniques": [
+          "[+1] Movement <for [Military] units>"
+        ]
+      },
+      {
+        "name": "Exquisite Agony",
+        "row": 1,
+        "column": 3,
+        "uniques": [
+          "[+15]% Strength <for [Military] units> <when attacking>"
+        ]
+      },
+      {
+        "name": "Tribute of Pain",
+        "row": 2,
+        "column": 2,
+        "uniques": [
+          "[+15]% [Gold] [in all cities]"
+        ],
+        "requires": [
+          "Lightning Raids",
+          "Exquisite Agony"
+        ]
+      },
+      {
+        "name": "Archon's Court",
+        "row": 3,
+        "column": 2,
+        "uniques": [
+          "[+3 Culture] [in capital]"
+        ],
+        "requires": [
+          "Tribute of Pain"
+        ]
+      },
+      {
+        "name": "Dark City Cruelty Complete",
+        "uniques": [
+          "[+2 Happiness] [in all cities]"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "The Greater Good",
+    "era": "Ancient era",
+    "uniques": [
+      "Only available <for [T'au Empire] Civilizations>",
+      "[+1 Science] [in all cities]"
+    ],
+    "policies": [
+      {
+        "name": "Kauyon",
+        "row": 1,
+        "column": 1,
+        "uniques": [
+          "[+15]% Strength <for [Military] units> <when defending>"
+        ]
+      },
+      {
+        "name": "Mont'ka",
+        "row": 1,
+        "column": 3,
+        "uniques": [
+          "[+15]% Strength <for [Military] units> <when attacking>"
+        ]
+      },
+      {
+        "name": "Auxiliary Treaties",
+        "row": 2,
+        "column": 2,
+        "uniques": [
+          "[+15]% [Gold] [in all cities]"
+        ],
+        "requires": [
+          "Kauyon",
+          "Mont'ka"
+        ]
+      },
+      {
+        "name": "Ethereal Guidance",
+        "row": 3,
+        "column": 2,
+        "uniques": [
+          "[+2 Happiness] [in all cities]"
+        ],
+        "requires": [
+          "Auxiliary Treaties"
+        ]
+      },
+      {
+        "name": "The Greater Good Complete",
+        "uniques": [
+          "[+15]% [Science] [in all cities]"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Path to Glory",
+    "era": "Ancient era",
+    "uniques": [
+      "Only available <for [Chaos] Civilizations>",
+      "[+10]% Strength <for [Military] units> <when attacking>"
+    ],
+    "policies": [
+      {
+        "name": "Gifts of the Gods",
+        "row": 1,
+        "column": 1,
+        "uniques": [
+          "[+15]% [Faith] [in all cities]"
+        ]
+      },
+      {
+        "name": "Warband Raids",
+        "row": 1,
+        "column": 3,
+        "uniques": [
+          "[+2 Gold] [in all cities]"
+        ]
+      },
+      {
+        "name": "Daemonic Ascension",
+        "row": 2,
+        "column": 2,
+        "uniques": [
+          "[+15]% Strength <for [Military] units>"
+        ],
+        "requires": [
+          "Gifts of the Gods",
+          "Warband Raids"
+        ]
+      },
+      {
+        "name": "Terror Tactics",
+        "row": 3,
+        "column": 2,
+        "uniques": [
+          "[+1] Movement <for [Military] units>"
+        ],
+        "requires": [
+          "Daemonic Ascension"
+        ]
+      },
+      {
+        "name": "Path to Glory Complete",
+        "uniques": [
+          "[+20]% Production when constructing [Military] units [in all cities]"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Dynastic Glory",
+    "era": "Ancient era",
+    "uniques": [
+      "Only available <for [Necrons] Civilizations>",
+      "[+1 Production] [in all cities]"
+    ],
+    "policies": [
+      {
+        "name": "Reclamation Protocols",
+        "row": 1,
+        "column": 1,
+        "uniques": [
+          "[+15]% [Production] [in all cities]"
+        ]
+      },
+      {
+        "name": "Undying Legions",
+        "row": 1,
+        "column": 3,
+        "uniques": [
+          "[+15]% Strength <for [Military] units> <when defending>"
+        ]
+      },
+      {
+        "name": "Phaeron's Command",
+        "row": 2,
+        "column": 2,
+        "uniques": [
+          "[+3 Culture] [in capital]"
+        ],
+        "requires": [
+          "Reclamation Protocols",
+          "Undying Legions"
+        ]
+      },
+      {
+        "name": "Cryptek Arcana",
+        "row": 3,
+        "column": 2,
+        "uniques": [
+          "[+15]% [Science] [in all cities]"
+        ],
+        "requires": [
+          "Phaeron's Command"
+        ]
+      },
+      {
+        "name": "Dynastic Glory Complete",
+        "uniques": [
+          "[+15]% Strength <for [Military] units>"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "The Hive Mind",
+    "era": "Ancient era",
+    "uniques": [
+      "Only available <for [Tyranids] Civilizations>",
+      "[+1 Food] [in all cities]"
+    ],
+    "policies": [
+      {
+        "name": "Endless Swarm",
+        "row": 1,
+        "column": 1,
+        "uniques": [
+          "[+20]% Production when constructing [Military] units [in all cities]"
+        ]
+      },
+      {
+        "name": "Instinctive Hunt",
+        "row": 1,
+        "column": 3,
+        "uniques": [
+          "[+15]% Strength <for [Military] units> <when attacking>"
+        ]
+      },
+      {
+        "name": "Bio-Adaptation",
+        "row": 2,
+        "column": 2,
+        "uniques": [
+          "[+15]% Strength <for [Military] units> <when defending>"
+        ],
+        "requires": [
+          "Endless Swarm",
+          "Instinctive Hunt"
+        ]
+      },
+      {
+        "name": "Consume the World",
+        "row": 3,
+        "column": 2,
+        "uniques": [
+          "[+15]% [Food] [in all cities]"
+        ],
+        "requires": [
+          "Bio-Adaptation"
+        ]
+      },
+      {
+        "name": "The Hive Mind Complete",
+        "uniques": [
+          "[+1] Movement <for [Military] units>"
+        ]
+      }
+    ]
+  }
+]

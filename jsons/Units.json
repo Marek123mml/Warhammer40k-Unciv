@@ -1,0 +1,4950 @@
+[
+  {
+    "name": "Settler",
+    "unitType": "Civilian",
+    "movement": 2,
+    "cost": 106,
+    "requiredTech": "Survival Doctrine",
+    "uniques": [
+      "Founds a new city <by consuming this unit>",
+      "Excess Food converted to Production when under construction",
+      "Requires at least [2] population"
+    ],
+    "hurryCostModifier": 20
+  },
+  {
+    "name": "Worker",
+    "unitType": "Civilian",
+    "movement": 2,
+    "cost": 70,
+    "requiredTech": "Survival Doctrine",
+    "uniques": [
+      "Can build [Land] improvements on tiles",
+      "Automation is a primary action"
+    ]
+  },
+  {
+    "name": "Servitor",
+    "unitType": "Civilian",
+    "movement": 2,
+    "cost": 55,
+    "requiredTech": "Labour Cybernetics",
+    "uniques": [
+      "Can build [Land] improvements on tiles",
+      "Automation is a primary action",
+      "Uncapturable"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A lobotomised cyborg labourer. Cheaper than a Worker and cannot be captured."
+      }
+    ]
+  },
+  {
+    "name": "Work Boats",
+    "unitType": "Civilian Water",
+    "movement": 4,
+    "cost": 30,
+    "requiredTech": "Seafaring",
+    "uniques": [
+      "Cannot enter ocean tiles <before discovering [Void Shipbuilding]>",
+      "May create improvements on water resources",
+      "Uncapturable",
+      "Automation is a primary action"
+    ]
+  },
+  {
+    "name": "Scout",
+    "unitType": "Scout",
+    "movement": 2,
+    "cost": 25,
+    "strength": 5,
+    "requiredTech": "Survival Doctrine",
+    "uniques": [
+      "Never appears as a Barbarian unit"
+    ],
+    "promotions": [
+      "Ignore terrain cost"
+    ]
+  },
+  {
+    "name": "Great Artist",
+    "unitType": "Civilian",
+    "movement": 2,
+    "cost": 0,
+    "uniques": [
+      "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+      "Can instantly construct a [Landmark] improvement <by consuming this unit>",
+      "Is part of Great Person group [Great Person]",
+      "Great Person - [Culture]",
+      "Unbuildable",
+      "Uncapturable"
+    ]
+  },
+  {
+    "name": "Great Scientist",
+    "unitType": "Civilian",
+    "movement": 2,
+    "cost": 0,
+    "uniques": [
+      "Can hurry technology research",
+      "Can instantly construct a [Academy] improvement <by consuming this unit>",
+      "Is part of Great Person group [Great Person]",
+      "Great Person - [Science]",
+      "Unbuildable",
+      "Uncapturable"
+    ]
+  },
+  {
+    "name": "Great Merchant",
+    "unitType": "Civilian",
+    "movement": 2,
+    "cost": 0,
+    "uniques": [
+      "Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+      "Can instantly construct a [Customs house] improvement <by consuming this unit>",
+      "Is part of Great Person group [Great Person]",
+      "Great Person - [Gold]",
+      "Unbuildable",
+      "Uncapturable"
+    ]
+  },
+  {
+    "name": "Great Engineer",
+    "unitType": "Civilian",
+    "movement": 2,
+    "cost": 0,
+    "uniques": [
+      "Can speed up construction of a building",
+      "Can instantly construct a [Manufactory] improvement <by consuming this unit>",
+      "Is part of Great Person group [Great Person]",
+      "Great Person - [Production]",
+      "Unbuildable",
+      "Uncapturable"
+    ]
+  },
+  {
+    "name": "Great Prophet",
+    "unitType": "Civilian",
+    "movement": 2,
+    "cost": 0,
+    "uniques": [
+      "Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>",
+      "Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>",
+      "Removes other religions when spreading religion",
+      "May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
+      "May enhance a religion <by consuming this unit> <if it hasn't used other actions yet>",
+      "Is part of Great Person group [Prophet]",
+      "May enter foreign tiles without open borders",
+      "[-1] Sight",
+      "Great Person - [Faith]",
+      "Unbuildable",
+      "Religious Unit",
+      "Only available <when religion is enabled>",
+      "Takes your religion over the one in their birth city"
+    ],
+    "religiousStrength": 1000
+  },
+  {
+    "name": "Great General",
+    "unitType": "Civilian",
+    "movement": 2,
+    "cost": 0,
+    "uniques": [
+      "[+15]% Strength bonus for [{Military} {Land}] units within [2] tiles",
+      "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+      "Can be earned through combat <for [Land] units>",
+      "Is part of Great Person group [General]",
+      "Great Person - [War]",
+      "Unbuildable",
+      "Uncapturable"
+    ]
+  },
+  {
+    "name": "Missionary",
+    "unitType": "Civilian",
+    "movement": 4,
+    "cost": 0,
+    "uniques": [
+      "Can Spread Religion <for [4] movement> <[2] times> <after which this unit is consumed>",
+      "May enter foreign tiles without open borders, but loses [250] religious strength each turn it ends there",
+      "Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+      "[-1] Sight",
+      "Unbuildable",
+      "Religious Unit",
+      "Only available <when religion is enabled>"
+    ],
+    "religiousStrength": 1000
+  },
+  {
+    "name": "Inquisitor",
+    "unitType": "Civilian",
+    "movement": 3,
+    "cost": 0,
+    "uniques": [
+      "Prevents spreading of religion to the city it is next to",
+      "Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
+      "Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+      "[+1] Sight",
+      "Unbuildable",
+      "Religious Unit",
+      "Only available <when religion is enabled>"
+    ]
+  },
+  {
+    "name": "Warrior",
+    "unitType": "Sword",
+    "movement": 2,
+    "cost": 40,
+    "strength": 8,
+    "requiredTech": "Survival Doctrine",
+    "upgradesTo": "Brute Squad",
+    "civilopediaText": [
+      {
+        "text": "Conscripts with clubs and stubborn courage."
+      }
+    ],
+    "obsoleteTech": "Forge Craft"
+  },
+  {
+    "name": "Stubber Gunner",
+    "unitType": "Archery",
+    "movement": 2,
+    "cost": 40,
+    "strength": 5,
+    "rangedStrength": 8,
+    "range": 2,
+    "requiredTech": "Stubber Weapons",
+    "upgradesTo": "Guardsman",
+    "civilopediaText": [
+      {
+        "text": "Solid-slug guns: loud, crude and effective."
+      }
+    ],
+    "obsoleteTech": "Las Weapons"
+  },
+  {
+    "name": "Rough Rider",
+    "unitType": "Mounted",
+    "movement": 4,
+    "cost": 60,
+    "strength": 12,
+    "requiredTech": "Beast Taming",
+    "upgradesTo": "Chimera",
+    "requiredResource": "Riding Beasts",
+    "civilopediaText": [
+      {
+        "text": "Cavalry on hardy beasts, armed with explosive lances."
+      }
+    ],
+    "obsoleteTech": "Mechanised Transport"
+  },
+  {
+    "name": "Brute Squad",
+    "unitType": "Sword",
+    "movement": 2,
+    "cost": 60,
+    "strength": 14,
+    "requiredTech": "Forge Craft",
+    "upgradesTo": "Bolter Squad",
+    "requiredResource": "Adamantium",
+    "civilopediaText": [
+      {
+        "text": "Heavily armed shock infantry."
+      }
+    ],
+    "obsoleteTech": "Rocket Rounds"
+  },
+  {
+    "name": "Raider Boat",
+    "unitType": "Melee Water",
+    "movement": 4,
+    "cost": 45,
+    "strength": 10,
+    "requiredTech": "Seafaring",
+    "upgradesTo": "Void Frigate",
+    "uniques": [
+      "Cannot enter ocean tiles",
+      "Never appears as a Barbarian unit"
+    ],
+    "obsoleteTech": "Void Shipbuilding"
+  },
+  {
+    "name": "Guardsman",
+    "unitType": "Archery",
+    "movement": 2,
+    "cost": 75,
+    "strength": 9,
+    "rangedStrength": 13,
+    "range": 2,
+    "requiredTech": "Las Weapons",
+    "upgradesTo": "Heavy Weapons Team",
+    "civilopediaText": [
+      {
+        "text": "The backbone of any army: a soldier with a lasgun."
+      }
+    ],
+    "obsoleteTech": "Artillery Doctrine"
+  },
+  {
+    "name": "Psyker",
+    "unitType": "Archery",
+    "movement": 2,
+    "cost": 90,
+    "strength": 8,
+    "rangedStrength": 16,
+    "range": 2,
+    "requiredTech": "Psychic Awakening",
+    "upgradesTo": "Librarian",
+    "uniques": [
+      "Ignores terrain cost"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A gifted mind that strikes with the power of the Warp."
+      }
+    ],
+    "obsoleteTech": "Psychic Mastery"
+  },
+  {
+    "name": "Bolter Squad",
+    "unitType": "Sword",
+    "movement": 2,
+    "cost": 90,
+    "strength": 20,
+    "requiredTech": "Rocket Rounds",
+    "upgradesTo": "Flamer Squad",
+    "requiredResource": "Adamantium",
+    "civilopediaText": [
+      {
+        "text": "Infantry with mass-reactive bolt weapons."
+      }
+    ],
+    "obsoleteTech": "Flamer Weapons"
+  },
+  {
+    "name": "Chimera",
+    "unitType": "Mounted",
+    "movement": 4,
+    "cost": 100,
+    "strength": 22,
+    "requiredTech": "Mechanised Transport",
+    "upgradesTo": "Battle Tank",
+    "civilopediaText": [
+      {
+        "text": "An armoured transport with a turret on top."
+      }
+    ],
+    "obsoleteTech": "Armoured Warfare"
+  },
+  {
+    "name": "Flamer Squad",
+    "unitType": "Sword",
+    "movement": 2,
+    "cost": 120,
+    "strength": 27,
+    "requiredTech": "Flamer Weapons",
+    "upgradesTo": "Plasma Marine",
+    "uniques": [
+      "[+25]% Strength <when fighting in [Rough terrain] tiles>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Fire flushes the enemy out of any cover."
+      }
+    ],
+    "obsoleteTech": "Plasma Weaponry"
+  },
+  {
+    "name": "Melta Squad",
+    "unitType": "Sword",
+    "movement": 2,
+    "cost": 140,
+    "strength": 30,
+    "requiredTech": "Melta Weapons",
+    "upgradesTo": "Plasma Marine",
+    "uniques": [
+      "[+50]% Strength <vs cities>",
+      "[+50]% Strength <vs [Armored] units>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Fusion weapons that melt armour and walls."
+      }
+    ],
+    "obsoleteTech": "Plasma Weaponry"
+  },
+  {
+    "name": "Mortar Battery",
+    "unitType": "Siege",
+    "movement": 2,
+    "cost": 130,
+    "strength": 7,
+    "rangedStrength": 24,
+    "range": 2,
+    "requiredTech": "Artillery Doctrine",
+    "upgradesTo": "Basilisk",
+    "uniques": [
+      "Must set up to ranged attack",
+      "[+100]% Strength <vs cities>"
+    ],
+    "obsoleteTech": "Promethium Refining"
+  },
+  {
+    "name": "Heavy Weapons Team",
+    "unitType": "Ranged Gunpowder",
+    "movement": 2,
+    "cost": 150,
+    "strength": 18,
+    "rangedStrength": 30,
+    "range": 2,
+    "requiredTech": "Artillery Doctrine",
+    "civilopediaText": [
+      {
+        "text": "Crew-served heavy bolters and autocannons."
+      }
+    ]
+  },
+  {
+    "name": "Void Frigate",
+    "unitType": "Ranged Water",
+    "movement": 5,
+    "cost": 120,
+    "strength": 20,
+    "rangedStrength": 28,
+    "range": 2,
+    "requiredTech": "Void Shipbuilding",
+    "upgradesTo": "Void Battleship",
+    "obsoleteTech": "Warp Mastery"
+  },
+  {
+    "name": "Plasma Marine",
+    "unitType": "Gunpowder",
+    "movement": 2,
+    "cost": 180,
+    "strength": 40,
+    "requiredTech": "Plasma Weaponry",
+    "upgradesTo": "Primaris Marine",
+    "civilopediaText": [
+      {
+        "text": "Heavy infantry armed with plasma weapons."
+      }
+    ],
+    "obsoleteTech": "Genetic Engineering"
+  },
+  {
+    "name": "Battle Tank",
+    "unitType": "Armored",
+    "movement": 4,
+    "cost": 240,
+    "strength": 50,
+    "requiredTech": "Armoured Warfare",
+    "requiredResource": "Promethium",
+    "civilopediaText": [
+      {
+        "text": "A slab-sided tank with a battle cannon."
+      }
+    ]
+  },
+  {
+    "name": "Basilisk",
+    "unitType": "Siege",
+    "movement": 2,
+    "cost": 220,
+    "strength": 14,
+    "rangedStrength": 45,
+    "range": 3,
+    "requiredTech": "Promethium Refining",
+    "uniques": [
+      "Must set up to ranged attack",
+      "[+100]% Strength <vs cities>"
+    ]
+  },
+  {
+    "name": "Dreadnought",
+    "unitType": "Armored",
+    "movement": 2,
+    "cost": 280,
+    "strength": 60,
+    "requiredTech": "Power Armor Engineering",
+    "civilopediaText": [
+      {
+        "text": "A towering war machine piloted by a fallen hero."
+      }
+    ]
+  },
+  {
+    "name": "Librarian",
+    "unitType": "Archery",
+    "movement": 2,
+    "cost": 260,
+    "strength": 25,
+    "rangedStrength": 50,
+    "range": 2,
+    "requiredTech": "Psychic Mastery",
+    "uniques": [
+      "Ignores terrain cost"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A master of the psychic arts, shielded by a psychic hood."
+      }
+    ],
+    "promotions": [
+      "Psychic Hood"
+    ]
+  },
+  {
+    "name": "Primaris Marine",
+    "unitType": "Gunpowder",
+    "movement": 2,
+    "cost": 300,
+    "strength": 58,
+    "requiredTech": "Genetic Engineering",
+    "civilopediaText": [
+      {
+        "text": "The next generation of gene-crafted warriors."
+      }
+    ]
+  },
+  {
+    "name": "Imperial Knight",
+    "unitType": "Armored",
+    "movement": 3,
+    "cost": 360,
+    "strength": 72,
+    "requiredTech": "Walker Forges",
+    "requiredResource": "Adamantium",
+    "civilopediaText": [
+      {
+        "text": "A noble pilot in a walking war engine."
+      }
+    ]
+  },
+  {
+    "name": "Warlord Titan",
+    "unitType": "Armored",
+    "movement": 2,
+    "cost": 700,
+    "strength": 110,
+    "requiredTech": "Titan Construction",
+    "uniques": [
+      "[+50]% Strength <vs cities>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A god-engine the size of a cathedral."
+      }
+    ]
+  },
+  {
+    "name": "Void Battleship",
+    "unitType": "Ranged Water",
+    "movement": 5,
+    "cost": 400,
+    "strength": 45,
+    "rangedStrength": 60,
+    "range": 3,
+    "requiredTech": "Warp Mastery"
+  },
+  {
+    "name": "Space Marine",
+    "unitType": "Sword",
+    "movement": 2,
+    "cost": 100,
+    "strength": 26,
+    "requiredTech": "Rocket Rounds",
+    "upgradesTo": "Flamer Squad",
+    "uniques": [
+      "[+15]% Strength <when fighting in [Friendly Land] tiles>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Genetically enhanced warriors in power armor."
+      }
+    ],
+    "uniqueTo": "Imperium of Man",
+    "replaces": "Bolter Squad",
+    "obsoleteTech": "Flamer Weapons"
+  },
+  {
+    "name": "Ork Boy",
+    "unitType": "Sword",
+    "movement": 2,
+    "cost": 35,
+    "strength": 9,
+    "requiredTech": "Survival Doctrine",
+    "upgradesTo": "Brute Squad",
+    "uniques": [
+      "[+20]% Strength <when attacking>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Cheap, brutal and always eager for a fight."
+      }
+    ],
+    "uniqueTo": "Orks",
+    "replaces": "Warrior",
+    "obsoleteTech": "Forge Craft"
+  },
+  {
+    "name": "Aeldari Ranger",
+    "unitType": "Archery",
+    "movement": 3,
+    "cost": 75,
+    "strength": 8,
+    "rangedStrength": 14,
+    "range": 2,
+    "requiredTech": "Las Weapons",
+    "upgradesTo": "Heavy Weapons Team",
+    "uniques": [
+      "Ignores terrain cost"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Elusive marksmen who strike from the shadows."
+      }
+    ],
+    "uniqueTo": "Aeldari",
+    "replaces": "Guardsman",
+    "obsoleteTech": "Artillery Doctrine"
+  },
+  {
+    "name": "Fire Warrior",
+    "unitType": "Archery",
+    "movement": 2,
+    "cost": 80,
+    "strength": 9,
+    "rangedStrength": 16,
+    "range": 2,
+    "requiredTech": "Las Weapons",
+    "upgradesTo": "Heavy Weapons Team",
+    "civilopediaText": [
+      {
+        "text": "Disciplined infantry armed with pulse rifles."
+      }
+    ],
+    "uniqueTo": "T'au Empire",
+    "replaces": "Guardsman",
+    "obsoleteTech": "Artillery Doctrine"
+  },
+  {
+    "name": "Chaos Marine",
+    "unitType": "Sword",
+    "movement": 2,
+    "cost": 95,
+    "strength": 25,
+    "requiredTech": "Rocket Rounds",
+    "upgradesTo": "Flamer Squad",
+    "uniques": [
+      "Heals [10] damage if it kills a unit"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Fallen warriors who serve the dark gods."
+      }
+    ],
+    "uniqueTo": "Chaos",
+    "replaces": "Bolter Squad",
+    "obsoleteTech": "Flamer Weapons"
+  },
+  {
+    "name": "Necron Warrior",
+    "unitType": "Sword",
+    "movement": 2,
+    "cost": 60,
+    "strength": 17,
+    "requiredTech": "Forge Craft",
+    "upgradesTo": "Bolter Squad",
+    "uniques": [
+      "Heals [10] damage if it kills a unit"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Soulless metal soldiers that rise again after falling."
+      }
+    ],
+    "uniqueTo": "Necrons",
+    "replaces": "Brute Squad",
+    "obsoleteTech": "Rocket Rounds"
+  },
+  {
+    "name": "Hormagaunt",
+    "unitType": "Mounted",
+    "movement": 4,
+    "cost": 50,
+    "strength": 12,
+    "requiredTech": "Beast Taming",
+    "upgradesTo": "Chimera",
+    "civilopediaText": [
+      {
+        "text": "Fast swarm creatures bred for the hunt. Needs no Riding Beasts."
+      }
+    ],
+    "uniqueTo": "Tyranids",
+    "replaces": "Rough Rider",
+    "obsoleteTech": "Mechanised Transport"
+  },
+  {
+    "name": "Skitarii Ranger",
+    "unitType": "Archery",
+    "movement": 2,
+    "cost": 75,
+    "strength": 8,
+    "rangedStrength": 14,
+    "range": 2,
+    "requiredTech": "Las Weapons",
+    "upgradesTo": "Heavy Weapons Team",
+    "uniques": [
+      "[+10]% Strength <when fighting in [Friendly Land] tiles>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Augmented soldiers of the Machine Cult."
+      }
+    ],
+    "uniqueTo": "Adeptus Mechanicus",
+    "replaces": "Guardsman",
+    "obsoleteTech": "Artillery Doctrine"
+  },
+  {
+    "name": "Kastelan Robot",
+    "unitType": "Armored",
+    "movement": 2,
+    "cost": 260,
+    "strength": 58,
+    "requiredTech": "Battle Robotics",
+    "civilopediaText": [
+      {
+        "text": "An ancient battle robot run by doctrina wafers."
+      }
+    ],
+    "uniqueTo": "Adeptus Mechanicus"
+  },
+  {
+    "name": "Terminator Squad",
+    "unitType": "Gunpowder",
+    "movement": 2,
+    "cost": 190,
+    "strength": 46,
+    "requiredTech": "Plasma Weaponry",
+    "upgradesTo": "Primaris Marine",
+    "obsoleteTech": "Genetic Engineering",
+    "uniqueTo": "Imperium of Man",
+    "replaces": "Plasma Marine",
+    "civilopediaText": [
+      {
+        "text": "Veterans in massive tactical dreadnought armour."
+      }
+    ],
+    "uniques": [
+      "[+15]% Strength <when defending>"
+    ]
+  },
+  {
+    "name": "Baneblade",
+    "unitType": "Armored",
+    "movement": 4,
+    "cost": 300,
+    "strength": 62,
+    "requiredTech": "Armoured Warfare",
+    "requiredResource": "Promethium",
+    "uniqueTo": "Imperium of Man",
+    "replaces": "Battle Tank",
+    "civilopediaText": [
+      {
+        "text": "A super-heavy tank bristling with guns."
+      }
+    ]
+  },
+  {
+    "name": "Weirdboy",
+    "unitType": "Archery",
+    "movement": 2,
+    "cost": 90,
+    "strength": 8,
+    "rangedStrength": 18,
+    "range": 2,
+    "requiredTech": "Psychic Awakening",
+    "upgradesTo": "Librarian",
+    "obsoleteTech": "Psychic Mastery",
+    "uniqueTo": "Orks",
+    "replaces": "Psyker",
+    "civilopediaText": [
+      {
+        "text": "An ork psyker who channels the Waaagh! energy of the mob."
+      }
+    ]
+  },
+  {
+    "name": "Deff Dread",
+    "unitType": "Armored",
+    "movement": 2,
+    "cost": 260,
+    "strength": 64,
+    "requiredTech": "Power Armor Engineering",
+    "uniqueTo": "Orks",
+    "replaces": "Dreadnought",
+    "civilopediaText": [
+      {
+        "text": "A stompy walker with a very angry ork inside."
+      }
+    ]
+  },
+  {
+    "name": "Gorkanaut",
+    "unitType": "Armored",
+    "movement": 3,
+    "cost": 380,
+    "strength": 80,
+    "requiredTech": "Walker Forges",
+    "uniqueTo": "Orks",
+    "replaces": "Imperial Knight",
+    "civilopediaText": [
+      {
+        "text": "A huge walking fortress of scrap and guns."
+      }
+    ]
+  },
+  {
+    "name": "Warlock",
+    "unitType": "Archery",
+    "movement": 2,
+    "cost": 90,
+    "strength": 8,
+    "rangedStrength": 18,
+    "range": 2,
+    "requiredTech": "Psychic Awakening",
+    "upgradesTo": "Librarian",
+    "obsoleteTech": "Psychic Mastery",
+    "uniqueTo": "Aeldari",
+    "replaces": "Psyker",
+    "civilopediaText": [
+      {
+        "text": "A seer-warrior who walks the path of the witch."
+      }
+    ],
+    "uniques": [
+      "Ignores terrain cost"
+    ]
+  },
+  {
+    "name": "Wraithlord",
+    "unitType": "Armored",
+    "movement": 2,
+    "cost": 280,
+    "strength": 64,
+    "requiredTech": "Power Armor Engineering",
+    "uniqueTo": "Aeldari",
+    "replaces": "Dreadnought",
+    "civilopediaText": [
+      {
+        "text": "A towering wraithbone construct guided by a dead hero."
+      }
+    ]
+  },
+  {
+    "name": "Fire Prism",
+    "unitType": "Armored",
+    "movement": 5,
+    "cost": 240,
+    "strength": 55,
+    "requiredTech": "Armoured Warfare",
+    "requiredResource": "Promethium",
+    "uniqueTo": "Aeldari",
+    "replaces": "Battle Tank",
+    "civilopediaText": [
+      {
+        "text": "A grav-tank that fires a focused prism beam."
+      }
+    ]
+  },
+  {
+    "name": "Crisis Battlesuit",
+    "unitType": "Gunpowder",
+    "movement": 3,
+    "cost": 180,
+    "strength": 44,
+    "requiredTech": "Plasma Weaponry",
+    "upgradesTo": "Primaris Marine",
+    "obsoleteTech": "Genetic Engineering",
+    "uniqueTo": "T'au Empire",
+    "replaces": "Plasma Marine",
+    "civilopediaText": [
+      {
+        "text": "An agile battlesuit armed for any threat."
+      }
+    ]
+  },
+  {
+    "name": "Hammerhead Gunship",
+    "unitType": "Armored",
+    "movement": 5,
+    "cost": 240,
+    "strength": 55,
+    "requiredTech": "Armoured Warfare",
+    "requiredResource": "Promethium",
+    "uniqueTo": "T'au Empire",
+    "replaces": "Battle Tank",
+    "civilopediaText": [
+      {
+        "text": "A hovering tank with a long-range railgun."
+      }
+    ]
+  },
+  {
+    "name": "Riptide Battlesuit",
+    "unitType": "Armored",
+    "movement": 3,
+    "cost": 360,
+    "strength": 78,
+    "requiredTech": "Walker Forges",
+    "uniqueTo": "T'au Empire",
+    "replaces": "Imperial Knight",
+    "civilopediaText": [
+      {
+        "text": "A massive battlesuit with an ion accelerator."
+      }
+    ]
+  },
+  {
+    "name": "Khorne Berzerker",
+    "unitType": "Sword",
+    "movement": 2,
+    "cost": 120,
+    "strength": 31,
+    "requiredTech": "Flamer Weapons",
+    "upgradesTo": "Plasma Marine",
+    "obsoleteTech": "Plasma Weaponry",
+    "uniqueTo": "Chaos",
+    "replaces": "Flamer Squad",
+    "civilopediaText": [
+      {
+        "text": "Frenzied warriors who live only for slaughter."
+      }
+    ],
+    "uniques": [
+      "[+20]% Strength <when attacking>"
+    ]
+  },
+  {
+    "name": "Helbrute",
+    "unitType": "Armored",
+    "movement": 2,
+    "cost": 280,
+    "strength": 64,
+    "requiredTech": "Power Armor Engineering",
+    "uniqueTo": "Chaos",
+    "replaces": "Dreadnought",
+    "civilopediaText": [
+      {
+        "text": "A maddened warrior entombed in a corrupted walker."
+      }
+    ]
+  },
+  {
+    "name": "Defiler",
+    "unitType": "Siege",
+    "movement": 2,
+    "cost": 220,
+    "strength": 14,
+    "rangedStrength": 48,
+    "range": 3,
+    "requiredTech": "Promethium Refining",
+    "uniqueTo": "Chaos",
+    "replaces": "Basilisk",
+    "civilopediaText": [
+      {
+        "text": "A daemon engine of claws and cannons. Needs no set-up to fire."
+      }
+    ],
+    "uniques": [
+      "[+100]% Strength <vs cities>"
+    ]
+  },
+  {
+    "name": "Immortal",
+    "unitType": "Sword",
+    "movement": 2,
+    "cost": 90,
+    "strength": 23,
+    "requiredTech": "Rocket Rounds",
+    "upgradesTo": "Flamer Squad",
+    "obsoleteTech": "Flamer Weapons",
+    "requiredResource": "Adamantium",
+    "uniqueTo": "Necrons",
+    "replaces": "Bolter Squad",
+    "civilopediaText": [
+      {
+        "text": "Elite metal warriors with gauss blasters."
+      }
+    ]
+  },
+  {
+    "name": "Canoptek Wraith",
+    "unitType": "Mounted",
+    "movement": 4,
+    "cost": 100,
+    "strength": 24,
+    "requiredTech": "Mechanised Transport",
+    "upgradesTo": "Battle Tank",
+    "obsoleteTech": "Armoured Warfare",
+    "uniqueTo": "Necrons",
+    "replaces": "Chimera",
+    "civilopediaText": [
+      {
+        "text": "A phasing construct that hunts through walls."
+      }
+    ]
+  },
+  {
+    "name": "Monolith",
+    "unitType": "Armored",
+    "movement": 2,
+    "cost": 360,
+    "strength": 80,
+    "requiredTech": "Walker Forges",
+    "uniqueTo": "Necrons",
+    "replaces": "Imperial Knight",
+    "civilopediaText": [
+      {
+        "text": "A floating pyramid of living metal."
+      }
+    ],
+    "uniques": [
+      "[+25]% Strength <when defending>"
+    ]
+  },
+  {
+    "name": "Genestealer",
+    "unitType": "Sword",
+    "movement": 3,
+    "cost": 90,
+    "strength": 22,
+    "requiredTech": "Rocket Rounds",
+    "upgradesTo": "Flamer Squad",
+    "obsoleteTech": "Flamer Weapons",
+    "uniqueTo": "Tyranids",
+    "replaces": "Bolter Squad",
+    "civilopediaText": [
+      {
+        "text": "Fast, clawed infiltrators of the swarm."
+      }
+    ]
+  },
+  {
+    "name": "Zoanthrope",
+    "unitType": "Archery",
+    "movement": 2,
+    "cost": 90,
+    "strength": 8,
+    "rangedStrength": 18,
+    "range": 2,
+    "requiredTech": "Psychic Awakening",
+    "upgradesTo": "Librarian",
+    "obsoleteTech": "Psychic Mastery",
+    "uniqueTo": "Tyranids",
+    "replaces": "Psyker",
+    "civilopediaText": [
+      {
+        "text": "A floating synapse creature that hurls warp blasts."
+      }
+    ]
+  },
+  {
+    "name": "Carnifex",
+    "unitType": "Armored",
+    "movement": 4,
+    "cost": 240,
+    "strength": 56,
+    "requiredTech": "Armoured Warfare",
+    "uniqueTo": "Tyranids",
+    "replaces": "Battle Tank",
+    "civilopediaText": [
+      {
+        "text": "A living battering ram. Needs no Promethium."
+      }
+    ]
+  },
+  {
+    "name": "Hive Tyrant",
+    "unitType": "Armored",
+    "movement": 3,
+    "cost": 360,
+    "strength": 80,
+    "requiredTech": "Walker Forges",
+    "uniqueTo": "Tyranids",
+    "replaces": "Imperial Knight",
+    "civilopediaText": [
+      {
+        "text": "The towering commander of the swarm."
+      }
+    ]
+  },
+  {
+    "name": "Onager Dunecrawler",
+    "unitType": "Armored",
+    "movement": 4,
+    "cost": 240,
+    "strength": 54,
+    "requiredTech": "Armoured Warfare",
+    "requiredResource": "Promethium",
+    "uniqueTo": "Adeptus Mechanicus",
+    "replaces": "Battle Tank",
+    "civilopediaText": [
+      {
+        "text": "A four-legged walker with an eradication beamer."
+      }
+    ]
+  },
+  {
+    "name": "Electro-Priest",
+    "unitType": "Sword",
+    "movement": 2,
+    "cost": 120,
+    "strength": 30,
+    "requiredTech": "Flamer Weapons",
+    "upgradesTo": "Plasma Marine",
+    "obsoleteTech": "Plasma Weaponry",
+    "uniqueTo": "Adeptus Mechanicus",
+    "replaces": "Flamer Squad",
+    "civilopediaText": [
+      {
+        "text": "Zealots who discharge the Motive Force in battle."
+      }
+    ]
+  },
+  {
+    "name": "Battle Sister",
+    "unitType": "Sword",
+    "movement": 2,
+    "cost": 90,
+    "strength": 22,
+    "requiredTech": "Rocket Rounds",
+    "upgradesTo": "Flamer Squad",
+    "obsoleteTech": "Flamer Weapons",
+    "requiredResource": "Adamantium",
+    "uniqueTo": "Adepta Sororitas",
+    "replaces": "Bolter Squad",
+    "civilopediaText": [
+      {
+        "text": "Warrior-nuns armed with bolters and unshakable faith."
+      }
+    ],
+    "uniques": [
+      "[+10]% Strength <when defending>"
+    ]
+  },
+  {
+    "name": "Seraphim",
+    "unitType": "Sword",
+    "movement": 3,
+    "cost": 120,
+    "strength": 28,
+    "requiredTech": "Flamer Weapons",
+    "upgradesTo": "Plasma Marine",
+    "obsoleteTech": "Plasma Weaponry",
+    "uniqueTo": "Adepta Sororitas",
+    "replaces": "Flamer Squad",
+    "civilopediaText": [
+      {
+        "text": "Jump-pack angels with twin pistols."
+      }
+    ]
+  },
+  {
+    "name": "Exorcist",
+    "unitType": "Siege",
+    "movement": 2,
+    "cost": 220,
+    "strength": 14,
+    "rangedStrength": 48,
+    "range": 3,
+    "requiredTech": "Promethium Refining",
+    "uniqueTo": "Adepta Sororitas",
+    "replaces": "Basilisk",
+    "civilopediaText": [
+      {
+        "text": "A rolling organ of missiles."
+      }
+    ]
+  },
+  {
+    "name": "Wych",
+    "unitType": "Sword",
+    "movement": 2,
+    "cost": 60,
+    "strength": 15,
+    "requiredTech": "Forge Craft",
+    "upgradesTo": "Bolter Squad",
+    "obsoleteTech": "Rocket Rounds",
+    "uniqueTo": "Drukhari",
+    "replaces": "Brute Squad",
+    "civilopediaText": [
+      {
+        "text": "Gladiators who dance through the blades of the enemy."
+      }
+    ],
+    "uniques": [
+      "[+15]% Strength <when attacking>"
+    ]
+  },
+  {
+    "name": "Ravager",
+    "unitType": "Mounted",
+    "movement": 5,
+    "cost": 100,
+    "strength": 24,
+    "requiredTech": "Mechanised Transport",
+    "upgradesTo": "Battle Tank",
+    "obsoleteTech": "Armoured Warfare",
+    "uniqueTo": "Drukhari",
+    "replaces": "Chimera",
+    "civilopediaText": [
+      {
+        "text": "A fast raider skiff armed with dark lances."
+      }
+    ]
+  },
+  {
+    "name": "Talos",
+    "unitType": "Armored",
+    "movement": 2,
+    "cost": 280,
+    "strength": 62,
+    "requiredTech": "Power Armor Engineering",
+    "uniqueTo": "Drukhari",
+    "replaces": "Dreadnought",
+    "civilopediaText": [
+      {
+        "text": "A nightmarish engine built by the Haemonculi."
+      }
+    ]
+  },
+  {
+    "name": "Thunderbolt Fighter",
+    "unitType": "Fighter",
+    "movement": 1,
+    "strength": 45,
+    "rangedStrength": 45,
+    "range": 8,
+    "cost": 300,
+    "requiredTech": "Aeronautica",
+    "requiredResource": "Promethium",
+    "uniques": [
+      "[100]% chance to intercept air attacks",
+      "[+100]% Strength <vs [Bomber] units>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A rugged fighter that guards the skies over cities."
+      }
+    ]
+  },
+  {
+    "name": "Marauder Bomber",
+    "unitType": "Bomber",
+    "movement": 1,
+    "strength": 65,
+    "rangedStrength": 65,
+    "range": 10,
+    "cost": 360,
+    "requiredTech": "Aeronautica",
+    "requiredResource": "Promethium",
+    "uniques": [
+      "[+50]% Strength <vs cities>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A heavy bomber that levels fortifications."
+      }
+    ]
+  },
+  {
+    "name": "Dakkajet",
+    "unitType": "Fighter",
+    "movement": 1,
+    "strength": 50,
+    "rangedStrength": 50,
+    "range": 7,
+    "cost": 280,
+    "requiredTech": "Aeronautica",
+    "uniqueTo": "Orks",
+    "replaces": "Thunderbolt Fighter",
+    "uniques": [
+      "[100]% chance to intercept air attacks",
+      "[+100]% Strength <vs [Bomber] units>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Loud, fast and covered in guns. Needs no Promethium."
+      }
+    ]
+  },
+  {
+    "name": "Sun Shark Bomber",
+    "unitType": "Bomber",
+    "movement": 1,
+    "strength": 68,
+    "rangedStrength": 68,
+    "range": 11,
+    "cost": 360,
+    "requiredTech": "Aeronautica",
+    "requiredResource": "Promethium",
+    "uniqueTo": "T'au Empire",
+    "replaces": "Marauder Bomber",
+    "uniques": [
+      "[+50]% Strength <vs cities>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A precise bomber escorted by drones."
+      }
+    ]
+  },
+  {
+    "name": "Exterminatus Warhead",
+    "unitType": "Missile",
+    "movement": 1,
+    "strength": 0,
+    "rangedStrength": 0,
+    "range": 200,
+    "cost": 2000,
+    "requiredTech": "World-Ending Protocols",
+    "uniques": [
+      "Nuclear weapon of Strength [2]",
+      "Blast radius [80]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "The final sanction. Its blast can wipe out the whole planet."
+      }
+    ]
+  },
+  {
+    "name": "Gretchin Mob",
+    "unitType": "Archery",
+    "movement": 2,
+    "cost": 38,
+    "strength": 6,
+    "rangedStrength": 8,
+    "range": 2,
+    "requiredTech": "Stubber Weapons",
+    "upgradesTo": "Guardsman",
+    "civilopediaText": [
+      {
+        "text": "Solid-slug guns: loud, crude and effective."
+      }
+    ],
+    "obsoleteTech": "Las Weapons",
+    "uniqueTo": "Orks",
+    "replaces": "Stubber Gunner"
+  },
+  {
+    "name": "Squighog Boyz",
+    "unitType": "Mounted",
+    "movement": 4,
+    "cost": 57,
+    "strength": 13,
+    "requiredTech": "Beast Taming",
+    "upgradesTo": "Chimera",
+    "requiredResource": "Riding Beasts",
+    "civilopediaText": [
+      {
+        "text": "Cavalry on hardy beasts, armed with explosive lances."
+      }
+    ],
+    "obsoleteTech": "Mechanised Transport",
+    "uniqueTo": "Orks",
+    "replaces": "Rough Rider"
+  },
+  {
+    "name": "Slugga Boyz",
+    "unitType": "Sword",
+    "movement": 2,
+    "cost": 57,
+    "strength": 15,
+    "requiredTech": "Forge Craft",
+    "upgradesTo": "Bolter Squad",
+    "requiredResource": "Adamantium",
+    "civilopediaText": [
+      {
+        "text": "Heavily armed shock infantry."
+      }
+    ],
+    "obsoleteTech": "Rocket Rounds",
+    "uniqueTo": "Orks",
+    "replaces": "Brute Squad"
+  },
+  {
+    "name": "Ram Raft",
+    "unitType": "Melee Water",
+    "movement": 4,
+    "cost": 43,
+    "strength": 11,
+    "requiredTech": "Seafaring",
+    "upgradesTo": "Void Frigate",
+    "uniques": [
+      "Cannot enter ocean tiles",
+      "Never appears as a Barbarian unit"
+    ],
+    "obsoleteTech": "Void Shipbuilding",
+    "uniqueTo": "Orks",
+    "replaces": "Raider Boat"
+  },
+  {
+    "name": "Shoota Boyz",
+    "unitType": "Archery",
+    "movement": 2,
+    "cost": 71,
+    "strength": 10,
+    "rangedStrength": 13,
+    "range": 2,
+    "requiredTech": "Las Weapons",
+    "upgradesTo": "Heavy Weapons Team",
+    "civilopediaText": [
+      {
+        "text": "The backbone of any army: a soldier with a lasgun."
+      }
+    ],
+    "obsoleteTech": "Artillery Doctrine",
+    "uniqueTo": "Orks",
+    "replaces": "Guardsman"
+  },
+  {
+    "name": "Ard Boyz",
+    "unitType": "Sword",
+    "movement": 2,
+    "cost": 86,
+    "strength": 22,
+    "requiredTech": "Rocket Rounds",
+    "upgradesTo": "Flamer Squad",
+    "requiredResource": "Adamantium",
+    "civilopediaText": [
+      {
+        "text": "Infantry with mass-reactive bolt weapons."
+      }
+    ],
+    "obsoleteTech": "Flamer Weapons",
+    "uniqueTo": "Orks",
+    "replaces": "Bolter Squad"
+  },
+  {
+    "name": "Trukk",
+    "unitType": "Mounted",
+    "movement": 4,
+    "cost": 95,
+    "strength": 24,
+    "requiredTech": "Mechanised Transport",
+    "upgradesTo": "Battle Tank",
+    "civilopediaText": [
+      {
+        "text": "An armoured transport with a turret on top."
+      }
+    ],
+    "obsoleteTech": "Armoured Warfare",
+    "uniqueTo": "Orks",
+    "replaces": "Chimera"
+  },
+  {
+    "name": "Burna Boyz",
+    "unitType": "Sword",
+    "movement": 2,
+    "cost": 114,
+    "strength": 30,
+    "requiredTech": "Flamer Weapons",
+    "upgradesTo": "Plasma Marine",
+    "uniques": [
+      "[+25]% Strength <when fighting in [Rough terrain] tiles>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Fire flushes the enemy out of any cover."
+      }
+    ],
+    "obsoleteTech": "Plasma Weaponry",
+    "uniqueTo": "Orks",
+    "replaces": "Flamer Squad"
+  },
+  {
+    "name": "Tankbustas",
+    "unitType": "Sword",
+    "movement": 2,
+    "cost": 133,
+    "strength": 33,
+    "requiredTech": "Melta Weapons",
+    "upgradesTo": "Plasma Marine",
+    "uniques": [
+      "[+50]% Strength <vs cities>",
+      "[+50]% Strength <vs [Armored] units>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Fusion weapons that melt armour and walls."
+      }
+    ],
+    "obsoleteTech": "Plasma Weaponry",
+    "uniqueTo": "Orks",
+    "replaces": "Melta Squad"
+  },
+  {
+    "name": "Mek Gun Battery",
+    "unitType": "Siege",
+    "movement": 2,
+    "cost": 124,
+    "strength": 8,
+    "rangedStrength": 24,
+    "range": 2,
+    "requiredTech": "Artillery Doctrine",
+    "upgradesTo": "Basilisk",
+    "uniques": [
+      "Must set up to ranged attack",
+      "[+100]% Strength <vs cities>"
+    ],
+    "obsoleteTech": "Promethium Refining",
+    "uniqueTo": "Orks",
+    "replaces": "Mortar Battery"
+  },
+  {
+    "name": "Lootas",
+    "unitType": "Ranged Gunpowder",
+    "movement": 2,
+    "cost": 142,
+    "strength": 20,
+    "rangedStrength": 30,
+    "range": 2,
+    "requiredTech": "Artillery Doctrine",
+    "civilopediaText": [
+      {
+        "text": "Crew-served heavy bolters and autocannons."
+      }
+    ],
+    "uniqueTo": "Orks",
+    "replaces": "Heavy Weapons Team"
+  },
+  {
+    "name": "Ork Kroozer",
+    "unitType": "Ranged Water",
+    "movement": 5,
+    "cost": 114,
+    "strength": 22,
+    "rangedStrength": 28,
+    "range": 2,
+    "requiredTech": "Void Shipbuilding",
+    "upgradesTo": "Void Battleship",
+    "obsoleteTech": "Warp Mastery",
+    "uniqueTo": "Orks",
+    "replaces": "Void Frigate"
+  },
+  {
+    "name": "Meganobz",
+    "unitType": "Gunpowder",
+    "movement": 2,
+    "cost": 171,
+    "strength": 44,
+    "requiredTech": "Plasma Weaponry",
+    "upgradesTo": "Primaris Marine",
+    "civilopediaText": [
+      {
+        "text": "Heavy infantry armed with plasma weapons."
+      }
+    ],
+    "obsoleteTech": "Genetic Engineering",
+    "uniqueTo": "Orks",
+    "replaces": "Plasma Marine"
+  },
+  {
+    "name": "Battlewagon",
+    "unitType": "Armored",
+    "movement": 4,
+    "cost": 228,
+    "strength": 55,
+    "requiredTech": "Armoured Warfare",
+    "requiredResource": "Promethium",
+    "civilopediaText": [
+      {
+        "text": "A slab-sided tank with a battle cannon."
+      }
+    ],
+    "uniqueTo": "Orks",
+    "replaces": "Battle Tank"
+  },
+  {
+    "name": "Lobba Battery",
+    "unitType": "Siege",
+    "movement": 2,
+    "cost": 209,
+    "strength": 15,
+    "rangedStrength": 45,
+    "range": 3,
+    "requiredTech": "Promethium Refining",
+    "uniques": [
+      "Must set up to ranged attack",
+      "[+100]% Strength <vs cities>"
+    ],
+    "uniqueTo": "Orks",
+    "replaces": "Basilisk"
+  },
+  {
+    "name": "Warphead",
+    "unitType": "Archery",
+    "movement": 2,
+    "cost": 247,
+    "strength": 28,
+    "rangedStrength": 50,
+    "range": 2,
+    "requiredTech": "Psychic Mastery",
+    "uniques": [
+      "Ignores terrain cost"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A master of the psychic arts, shielded by a psychic hood."
+      }
+    ],
+    "promotions": [
+      "Psychic Hood"
+    ],
+    "uniqueTo": "Orks",
+    "replaces": "Librarian"
+  },
+  {
+    "name": "Flash Gitz",
+    "unitType": "Gunpowder",
+    "movement": 2,
+    "cost": 285,
+    "strength": 64,
+    "requiredTech": "Genetic Engineering",
+    "civilopediaText": [
+      {
+        "text": "The next generation of gene-crafted warriors."
+      }
+    ],
+    "uniqueTo": "Orks",
+    "replaces": "Primaris Marine"
+  },
+  {
+    "name": "Stompa",
+    "unitType": "Armored",
+    "movement": 2,
+    "cost": 665,
+    "strength": 121,
+    "requiredTech": "Titan Construction",
+    "uniques": [
+      "[+50]% Strength <vs cities>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A god-engine the size of a cathedral."
+      }
+    ],
+    "uniqueTo": "Orks",
+    "replaces": "Warlord Titan"
+  },
+  {
+    "name": "Ork Battlekroozer",
+    "unitType": "Ranged Water",
+    "movement": 5,
+    "cost": 380,
+    "strength": 50,
+    "rangedStrength": 60,
+    "range": 3,
+    "requiredTech": "Warp Mastery",
+    "uniqueTo": "Orks",
+    "replaces": "Void Battleship"
+  },
+  {
+    "name": "Burna-Bommer",
+    "unitType": "Bomber",
+    "movement": 1,
+    "strength": 72,
+    "rangedStrength": 65,
+    "range": 10,
+    "cost": 342,
+    "requiredTech": "Aeronautica",
+    "requiredResource": "Promethium",
+    "uniques": [
+      "[+50]% Strength <vs cities>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A heavy bomber that levels fortifications."
+      }
+    ],
+    "uniqueTo": "Orks",
+    "replaces": "Marauder Bomber"
+  },
+  {
+    "name": "Guardian Defenders",
+    "unitType": "Sword",
+    "movement": 3,
+    "cost": 44,
+    "strength": 8,
+    "requiredTech": "Survival Doctrine",
+    "upgradesTo": "Brute Squad",
+    "civilopediaText": [
+      {
+        "text": "Conscripts with clubs and stubborn courage."
+      }
+    ],
+    "obsoleteTech": "Forge Craft",
+    "uniqueTo": "Aeldari",
+    "replaces": "Warrior"
+  },
+  {
+    "name": "Storm Guardians",
+    "unitType": "Archery",
+    "movement": 3,
+    "cost": 44,
+    "strength": 5,
+    "rangedStrength": 8,
+    "range": 2,
+    "requiredTech": "Stubber Weapons",
+    "upgradesTo": "Guardsman",
+    "civilopediaText": [
+      {
+        "text": "Solid-slug guns: loud, crude and effective."
+      }
+    ],
+    "obsoleteTech": "Las Weapons",
+    "uniqueTo": "Aeldari",
+    "replaces": "Stubber Gunner"
+  },
+  {
+    "name": "Windriders",
+    "unitType": "Mounted",
+    "movement": 5,
+    "cost": 66,
+    "strength": 12,
+    "requiredTech": "Beast Taming",
+    "upgradesTo": "Chimera",
+    "requiredResource": "Riding Beasts",
+    "civilopediaText": [
+      {
+        "text": "Cavalry on hardy beasts, armed with explosive lances."
+      }
+    ],
+    "obsoleteTech": "Mechanised Transport",
+    "uniqueTo": "Aeldari",
+    "replaces": "Rough Rider"
+  },
+  {
+    "name": "Howling Banshees",
+    "unitType": "Sword",
+    "movement": 3,
+    "cost": 66,
+    "strength": 14,
+    "requiredTech": "Forge Craft",
+    "upgradesTo": "Bolter Squad",
+    "requiredResource": "Adamantium",
+    "civilopediaText": [
+      {
+        "text": "Heavily armed shock infantry."
+      }
+    ],
+    "obsoleteTech": "Rocket Rounds",
+    "uniqueTo": "Aeldari",
+    "replaces": "Brute Squad"
+  },
+  {
+    "name": "Corsair Skiff",
+    "unitType": "Melee Water",
+    "movement": 4,
+    "cost": 50,
+    "strength": 10,
+    "requiredTech": "Seafaring",
+    "upgradesTo": "Void Frigate",
+    "uniques": [
+      "Cannot enter ocean tiles",
+      "Never appears as a Barbarian unit"
+    ],
+    "obsoleteTech": "Void Shipbuilding",
+    "uniqueTo": "Aeldari",
+    "replaces": "Raider Boat"
+  },
+  {
+    "name": "Dire Avengers",
+    "unitType": "Sword",
+    "movement": 3,
+    "cost": 99,
+    "strength": 20,
+    "requiredTech": "Rocket Rounds",
+    "upgradesTo": "Flamer Squad",
+    "requiredResource": "Adamantium",
+    "civilopediaText": [
+      {
+        "text": "Infantry with mass-reactive bolt weapons."
+      }
+    ],
+    "obsoleteTech": "Flamer Weapons",
+    "uniqueTo": "Aeldari",
+    "replaces": "Bolter Squad"
+  },
+  {
+    "name": "Wave Serpent",
+    "unitType": "Mounted",
+    "movement": 5,
+    "cost": 110,
+    "strength": 22,
+    "requiredTech": "Mechanised Transport",
+    "upgradesTo": "Battle Tank",
+    "civilopediaText": [
+      {
+        "text": "An armoured transport with a turret on top."
+      }
+    ],
+    "obsoleteTech": "Armoured Warfare",
+    "uniqueTo": "Aeldari",
+    "replaces": "Chimera"
+  },
+  {
+    "name": "Striking Scorpions",
+    "unitType": "Sword",
+    "movement": 3,
+    "cost": 132,
+    "strength": 27,
+    "requiredTech": "Flamer Weapons",
+    "upgradesTo": "Plasma Marine",
+    "uniques": [
+      "[+25]% Strength <when fighting in [Rough terrain] tiles>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Fire flushes the enemy out of any cover."
+      }
+    ],
+    "obsoleteTech": "Plasma Weaponry",
+    "uniqueTo": "Aeldari",
+    "replaces": "Flamer Squad"
+  },
+  {
+    "name": "Fire Dragons",
+    "unitType": "Sword",
+    "movement": 3,
+    "cost": 154,
+    "strength": 30,
+    "requiredTech": "Melta Weapons",
+    "upgradesTo": "Plasma Marine",
+    "uniques": [
+      "[+50]% Strength <vs cities>",
+      "[+50]% Strength <vs [Armored] units>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Fusion weapons that melt armour and walls."
+      }
+    ],
+    "obsoleteTech": "Plasma Weaponry",
+    "uniqueTo": "Aeldari",
+    "replaces": "Melta Squad"
+  },
+  {
+    "name": "Vaul's Wrath Battery",
+    "unitType": "Siege",
+    "movement": 3,
+    "cost": 143,
+    "strength": 7,
+    "rangedStrength": 24,
+    "range": 2,
+    "requiredTech": "Artillery Doctrine",
+    "upgradesTo": "Basilisk",
+    "uniques": [
+      "Must set up to ranged attack",
+      "[+100]% Strength <vs cities>"
+    ],
+    "obsoleteTech": "Promethium Refining",
+    "uniqueTo": "Aeldari",
+    "replaces": "Mortar Battery"
+  },
+  {
+    "name": "Dark Reapers",
+    "unitType": "Ranged Gunpowder",
+    "movement": 3,
+    "cost": 165,
+    "strength": 18,
+    "rangedStrength": 30,
+    "range": 2,
+    "requiredTech": "Artillery Doctrine",
+    "civilopediaText": [
+      {
+        "text": "Crew-served heavy bolters and autocannons."
+      }
+    ],
+    "uniqueTo": "Aeldari",
+    "replaces": "Heavy Weapons Team"
+  },
+  {
+    "name": "Shadow Cruiser",
+    "unitType": "Ranged Water",
+    "movement": 5,
+    "cost": 132,
+    "strength": 20,
+    "rangedStrength": 28,
+    "range": 2,
+    "requiredTech": "Void Shipbuilding",
+    "upgradesTo": "Void Battleship",
+    "obsoleteTech": "Warp Mastery",
+    "uniqueTo": "Aeldari",
+    "replaces": "Void Frigate"
+  },
+  {
+    "name": "Wraithguard",
+    "unitType": "Gunpowder",
+    "movement": 3,
+    "cost": 198,
+    "strength": 40,
+    "requiredTech": "Plasma Weaponry",
+    "upgradesTo": "Primaris Marine",
+    "civilopediaText": [
+      {
+        "text": "Heavy infantry armed with plasma weapons."
+      }
+    ],
+    "obsoleteTech": "Genetic Engineering",
+    "uniqueTo": "Aeldari",
+    "replaces": "Plasma Marine"
+  },
+  {
+    "name": "Night Spinner",
+    "unitType": "Siege",
+    "movement": 3,
+    "cost": 242,
+    "strength": 14,
+    "rangedStrength": 45,
+    "range": 3,
+    "requiredTech": "Promethium Refining",
+    "uniques": [
+      "Must set up to ranged attack",
+      "[+100]% Strength <vs cities>"
+    ],
+    "uniqueTo": "Aeldari",
+    "replaces": "Basilisk"
+  },
+  {
+    "name": "Farseer",
+    "unitType": "Archery",
+    "movement": 3,
+    "cost": 286,
+    "strength": 25,
+    "rangedStrength": 50,
+    "range": 2,
+    "requiredTech": "Psychic Mastery",
+    "uniques": [
+      "Ignores terrain cost"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A master of the psychic arts, shielded by a psychic hood."
+      }
+    ],
+    "promotions": [
+      "Psychic Hood"
+    ],
+    "uniqueTo": "Aeldari",
+    "replaces": "Librarian"
+  },
+  {
+    "name": "Wraithblades",
+    "unitType": "Gunpowder",
+    "movement": 3,
+    "cost": 330,
+    "strength": 58,
+    "requiredTech": "Genetic Engineering",
+    "civilopediaText": [
+      {
+        "text": "The next generation of gene-crafted warriors."
+      }
+    ],
+    "uniqueTo": "Aeldari",
+    "replaces": "Primaris Marine"
+  },
+  {
+    "name": "Wraithknight",
+    "unitType": "Armored",
+    "movement": 4,
+    "cost": 396,
+    "strength": 72,
+    "requiredTech": "Walker Forges",
+    "requiredResource": "Adamantium",
+    "civilopediaText": [
+      {
+        "text": "A noble pilot in a walking war engine."
+      }
+    ],
+    "uniqueTo": "Aeldari",
+    "replaces": "Imperial Knight"
+  },
+  {
+    "name": "Phantom Titan",
+    "unitType": "Armored",
+    "movement": 3,
+    "cost": 770,
+    "strength": 110,
+    "requiredTech": "Titan Construction",
+    "uniques": [
+      "[+50]% Strength <vs cities>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A god-engine the size of a cathedral."
+      }
+    ],
+    "uniqueTo": "Aeldari",
+    "replaces": "Warlord Titan"
+  },
+  {
+    "name": "Eclipse Cruiser",
+    "unitType": "Ranged Water",
+    "movement": 5,
+    "cost": 440,
+    "strength": 45,
+    "rangedStrength": 60,
+    "range": 3,
+    "requiredTech": "Warp Mastery",
+    "uniqueTo": "Aeldari",
+    "replaces": "Void Battleship"
+  },
+  {
+    "name": "Crimson Hunter",
+    "unitType": "Fighter",
+    "movement": 1,
+    "strength": 45,
+    "rangedStrength": 45,
+    "range": 8,
+    "cost": 330,
+    "requiredTech": "Aeronautica",
+    "requiredResource": "Promethium",
+    "uniques": [
+      "[100]% chance to intercept air attacks",
+      "[+100]% Strength <vs [Bomber] units>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A rugged fighter that guards the skies over cities."
+      }
+    ],
+    "uniqueTo": "Aeldari",
+    "replaces": "Thunderbolt Fighter"
+  },
+  {
+    "name": "Hemlock Wraithfighter",
+    "unitType": "Bomber",
+    "movement": 1,
+    "strength": 65,
+    "rangedStrength": 65,
+    "range": 10,
+    "cost": 396,
+    "requiredTech": "Aeronautica",
+    "requiredResource": "Promethium",
+    "uniques": [
+      "[+50]% Strength <vs cities>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A heavy bomber that levels fortifications."
+      }
+    ],
+    "uniqueTo": "Aeldari",
+    "replaces": "Marauder Bomber"
+  },
+  {
+    "name": "Kroot Carnivores",
+    "unitType": "Sword",
+    "movement": 2,
+    "cost": 40,
+    "strength": 8,
+    "requiredTech": "Survival Doctrine",
+    "upgradesTo": "Brute Squad",
+    "civilopediaText": [
+      {
+        "text": "Conscripts with clubs and stubborn courage."
+      }
+    ],
+    "obsoleteTech": "Forge Craft",
+    "uniqueTo": "T'au Empire",
+    "replaces": "Warrior"
+  },
+  {
+    "name": "Gun Drones",
+    "unitType": "Archery",
+    "movement": 2,
+    "cost": 40,
+    "strength": 5,
+    "rangedStrength": 9,
+    "range": 2,
+    "requiredTech": "Stubber Weapons",
+    "upgradesTo": "Guardsman",
+    "civilopediaText": [
+      {
+        "text": "Solid-slug guns: loud, crude and effective."
+      }
+    ],
+    "obsoleteTech": "Las Weapons",
+    "uniqueTo": "T'au Empire",
+    "replaces": "Stubber Gunner"
+  },
+  {
+    "name": "Krootox Riders",
+    "unitType": "Mounted",
+    "movement": 4,
+    "cost": 60,
+    "strength": 12,
+    "requiredTech": "Beast Taming",
+    "upgradesTo": "Chimera",
+    "requiredResource": "Riding Beasts",
+    "civilopediaText": [
+      {
+        "text": "Cavalry on hardy beasts, armed with explosive lances."
+      }
+    ],
+    "obsoleteTech": "Mechanised Transport",
+    "uniqueTo": "T'au Empire",
+    "replaces": "Rough Rider"
+  },
+  {
+    "name": "Kroot Hounds",
+    "unitType": "Sword",
+    "movement": 2,
+    "cost": 60,
+    "strength": 14,
+    "requiredTech": "Forge Craft",
+    "upgradesTo": "Bolter Squad",
+    "requiredResource": "Adamantium",
+    "civilopediaText": [
+      {
+        "text": "Heavily armed shock infantry."
+      }
+    ],
+    "obsoleteTech": "Rocket Rounds",
+    "uniqueTo": "T'au Empire",
+    "replaces": "Brute Squad"
+  },
+  {
+    "name": "Orca Boat",
+    "unitType": "Melee Water",
+    "movement": 4,
+    "cost": 45,
+    "strength": 10,
+    "requiredTech": "Seafaring",
+    "upgradesTo": "Void Frigate",
+    "uniques": [
+      "Cannot enter ocean tiles",
+      "Never appears as a Barbarian unit"
+    ],
+    "obsoleteTech": "Void Shipbuilding",
+    "uniqueTo": "T'au Empire",
+    "replaces": "Raider Boat"
+  },
+  {
+    "name": "Ethereal",
+    "unitType": "Archery",
+    "movement": 2,
+    "cost": 90,
+    "strength": 8,
+    "rangedStrength": 18,
+    "range": 2,
+    "requiredTech": "Psychic Awakening",
+    "upgradesTo": "Librarian",
+    "uniques": [
+      "Ignores terrain cost"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A gifted mind that strikes with the power of the Warp."
+      }
+    ],
+    "obsoleteTech": "Psychic Mastery",
+    "uniqueTo": "T'au Empire",
+    "replaces": "Psyker"
+  },
+  {
+    "name": "Breacher Team",
+    "unitType": "Sword",
+    "movement": 2,
+    "cost": 90,
+    "strength": 20,
+    "requiredTech": "Rocket Rounds",
+    "upgradesTo": "Flamer Squad",
+    "requiredResource": "Adamantium",
+    "civilopediaText": [
+      {
+        "text": "Infantry with mass-reactive bolt weapons."
+      }
+    ],
+    "obsoleteTech": "Flamer Weapons",
+    "uniqueTo": "T'au Empire",
+    "replaces": "Bolter Squad"
+  },
+  {
+    "name": "Devilfish",
+    "unitType": "Mounted",
+    "movement": 4,
+    "cost": 100,
+    "strength": 22,
+    "requiredTech": "Mechanised Transport",
+    "upgradesTo": "Battle Tank",
+    "civilopediaText": [
+      {
+        "text": "An armoured transport with a turret on top."
+      }
+    ],
+    "obsoleteTech": "Armoured Warfare",
+    "uniqueTo": "T'au Empire",
+    "replaces": "Chimera"
+  },
+  {
+    "name": "Pathfinders",
+    "unitType": "Sword",
+    "movement": 2,
+    "cost": 120,
+    "strength": 27,
+    "requiredTech": "Flamer Weapons",
+    "upgradesTo": "Plasma Marine",
+    "uniques": [
+      "[+25]% Strength <when fighting in [Rough terrain] tiles>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Fire flushes the enemy out of any cover."
+      }
+    ],
+    "obsoleteTech": "Plasma Weaponry",
+    "uniqueTo": "T'au Empire",
+    "replaces": "Flamer Squad"
+  },
+  {
+    "name": "Stealth Battlesuits",
+    "unitType": "Sword",
+    "movement": 2,
+    "cost": 140,
+    "strength": 30,
+    "requiredTech": "Melta Weapons",
+    "upgradesTo": "Plasma Marine",
+    "uniques": [
+      "[+50]% Strength <vs cities>",
+      "[+50]% Strength <vs [Armored] units>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Fusion weapons that melt armour and walls."
+      }
+    ],
+    "obsoleteTech": "Plasma Weaponry",
+    "uniqueTo": "T'au Empire",
+    "replaces": "Melta Squad"
+  },
+  {
+    "name": "Tidewall Gunrig",
+    "unitType": "Siege",
+    "movement": 2,
+    "cost": 130,
+    "strength": 7,
+    "rangedStrength": 28,
+    "range": 2,
+    "requiredTech": "Artillery Doctrine",
+    "upgradesTo": "Basilisk",
+    "uniques": [
+      "Must set up to ranged attack",
+      "[+100]% Strength <vs cities>"
+    ],
+    "obsoleteTech": "Promethium Refining",
+    "uniqueTo": "T'au Empire",
+    "replaces": "Mortar Battery"
+  },
+  {
+    "name": "Broadside Battlesuits",
+    "unitType": "Ranged Gunpowder",
+    "movement": 2,
+    "cost": 150,
+    "strength": 18,
+    "rangedStrength": 34,
+    "range": 2,
+    "requiredTech": "Artillery Doctrine",
+    "civilopediaText": [
+      {
+        "text": "Crew-served heavy bolters and autocannons."
+      }
+    ],
+    "uniqueTo": "T'au Empire",
+    "replaces": "Heavy Weapons Team"
+  },
+  {
+    "name": "Kor'vattra Frigate",
+    "unitType": "Ranged Water",
+    "movement": 5,
+    "cost": 120,
+    "strength": 20,
+    "rangedStrength": 32,
+    "range": 2,
+    "requiredTech": "Void Shipbuilding",
+    "upgradesTo": "Void Battleship",
+    "obsoleteTech": "Warp Mastery",
+    "uniqueTo": "T'au Empire",
+    "replaces": "Void Frigate"
+  },
+  {
+    "name": "Sky Ray",
+    "unitType": "Siege",
+    "movement": 2,
+    "cost": 220,
+    "strength": 14,
+    "rangedStrength": 52,
+    "range": 3,
+    "requiredTech": "Promethium Refining",
+    "uniques": [
+      "Must set up to ranged attack",
+      "[+100]% Strength <vs cities>"
+    ],
+    "uniqueTo": "T'au Empire",
+    "replaces": "Basilisk"
+  },
+  {
+    "name": "Ghostkeel Battlesuit",
+    "unitType": "Armored",
+    "movement": 2,
+    "cost": 280,
+    "strength": 60,
+    "requiredTech": "Power Armor Engineering",
+    "civilopediaText": [
+      {
+        "text": "A towering war machine piloted by a fallen hero."
+      }
+    ],
+    "uniqueTo": "T'au Empire",
+    "replaces": "Dreadnought"
+  },
+  {
+    "name": "Ethereal Supreme",
+    "unitType": "Archery",
+    "movement": 2,
+    "cost": 260,
+    "strength": 25,
+    "rangedStrength": 57,
+    "range": 2,
+    "requiredTech": "Psychic Mastery",
+    "uniques": [
+      "Ignores terrain cost"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A master of the psychic arts, shielded by a psychic hood."
+      }
+    ],
+    "promotions": [
+      "Psychic Hood"
+    ],
+    "uniqueTo": "T'au Empire",
+    "replaces": "Librarian"
+  },
+  {
+    "name": "Coldstar Commander",
+    "unitType": "Gunpowder",
+    "movement": 2,
+    "cost": 300,
+    "strength": 58,
+    "requiredTech": "Genetic Engineering",
+    "civilopediaText": [
+      {
+        "text": "The next generation of gene-crafted warriors."
+      }
+    ],
+    "uniqueTo": "T'au Empire",
+    "replaces": "Primaris Marine"
+  },
+  {
+    "name": "Stormsurge",
+    "unitType": "Armored",
+    "movement": 2,
+    "cost": 700,
+    "strength": 110,
+    "requiredTech": "Titan Construction",
+    "uniques": [
+      "[+50]% Strength <vs cities>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A god-engine the size of a cathedral."
+      }
+    ],
+    "uniqueTo": "T'au Empire",
+    "replaces": "Warlord Titan"
+  },
+  {
+    "name": "Custodian Battleship",
+    "unitType": "Ranged Water",
+    "movement": 5,
+    "cost": 400,
+    "strength": 45,
+    "rangedStrength": 69,
+    "range": 3,
+    "requiredTech": "Warp Mastery",
+    "uniqueTo": "T'au Empire",
+    "replaces": "Void Battleship"
+  },
+  {
+    "name": "Barracuda",
+    "unitType": "Fighter",
+    "movement": 1,
+    "strength": 45,
+    "rangedStrength": 52,
+    "range": 8,
+    "cost": 300,
+    "requiredTech": "Aeronautica",
+    "requiredResource": "Promethium",
+    "uniques": [
+      "[100]% chance to intercept air attacks",
+      "[+100]% Strength <vs [Bomber] units>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A rugged fighter that guards the skies over cities."
+      }
+    ],
+    "uniqueTo": "T'au Empire",
+    "replaces": "Thunderbolt Fighter"
+  },
+  {
+    "name": "Cultist Mob",
+    "unitType": "Sword",
+    "movement": 2,
+    "cost": 40,
+    "strength": 8,
+    "requiredTech": "Survival Doctrine",
+    "upgradesTo": "Brute Squad",
+    "civilopediaText": [
+      {
+        "text": "Conscripts with clubs and stubborn courage."
+      }
+    ],
+    "obsoleteTech": "Forge Craft",
+    "uniqueTo": "Chaos",
+    "replaces": "Warrior",
+    "uniques": [
+      "Heals [5] damage if it kills a unit"
+    ]
+  },
+  {
+    "name": "Cultist Gunners",
+    "unitType": "Archery",
+    "movement": 2,
+    "cost": 40,
+    "strength": 5,
+    "rangedStrength": 8,
+    "range": 2,
+    "requiredTech": "Stubber Weapons",
+    "upgradesTo": "Guardsman",
+    "civilopediaText": [
+      {
+        "text": "Solid-slug guns: loud, crude and effective."
+      }
+    ],
+    "obsoleteTech": "Las Weapons",
+    "uniqueTo": "Chaos",
+    "replaces": "Stubber Gunner",
+    "uniques": [
+      "Heals [5] damage if it kills a unit"
+    ]
+  },
+  {
+    "name": "Chaos Bikers",
+    "unitType": "Mounted",
+    "movement": 4,
+    "cost": 60,
+    "strength": 13,
+    "requiredTech": "Beast Taming",
+    "upgradesTo": "Chimera",
+    "requiredResource": "Riding Beasts",
+    "civilopediaText": [
+      {
+        "text": "Cavalry on hardy beasts, armed with explosive lances."
+      }
+    ],
+    "obsoleteTech": "Mechanised Transport",
+    "uniqueTo": "Chaos",
+    "replaces": "Rough Rider",
+    "uniques": [
+      "Heals [5] damage if it kills a unit"
+    ]
+  },
+  {
+    "name": "Chaos Spawn",
+    "unitType": "Sword",
+    "movement": 2,
+    "cost": 60,
+    "strength": 15,
+    "requiredTech": "Forge Craft",
+    "upgradesTo": "Bolter Squad",
+    "requiredResource": "Adamantium",
+    "civilopediaText": [
+      {
+        "text": "Heavily armed shock infantry."
+      }
+    ],
+    "obsoleteTech": "Rocket Rounds",
+    "uniqueTo": "Chaos",
+    "replaces": "Brute Squad",
+    "uniques": [
+      "Heals [5] damage if it kills a unit"
+    ]
+  },
+  {
+    "name": "Corsair Raider",
+    "unitType": "Melee Water",
+    "movement": 4,
+    "cost": 45,
+    "strength": 10,
+    "requiredTech": "Seafaring",
+    "upgradesTo": "Void Frigate",
+    "uniques": [
+      "Cannot enter ocean tiles",
+      "Never appears as a Barbarian unit",
+      "Heals [5] damage if it kills a unit"
+    ],
+    "obsoleteTech": "Void Shipbuilding",
+    "uniqueTo": "Chaos",
+    "replaces": "Raider Boat"
+  },
+  {
+    "name": "Traitor Guardsmen",
+    "unitType": "Archery",
+    "movement": 2,
+    "cost": 75,
+    "strength": 9,
+    "rangedStrength": 13,
+    "range": 2,
+    "requiredTech": "Las Weapons",
+    "upgradesTo": "Heavy Weapons Team",
+    "civilopediaText": [
+      {
+        "text": "The backbone of any army: a soldier with a lasgun."
+      }
+    ],
+    "obsoleteTech": "Artillery Doctrine",
+    "uniqueTo": "Chaos",
+    "replaces": "Guardsman",
+    "uniques": [
+      "Heals [5] damage if it kills a unit"
+    ]
+  },
+  {
+    "name": "Sorcerer Acolyte",
+    "unitType": "Archery",
+    "movement": 2,
+    "cost": 90,
+    "strength": 8,
+    "rangedStrength": 16,
+    "range": 2,
+    "requiredTech": "Psychic Awakening",
+    "upgradesTo": "Librarian",
+    "uniques": [
+      "Ignores terrain cost",
+      "Heals [5] damage if it kills a unit"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A gifted mind that strikes with the power of the Warp."
+      }
+    ],
+    "obsoleteTech": "Psychic Mastery",
+    "uniqueTo": "Chaos",
+    "replaces": "Psyker"
+  },
+  {
+    "name": "Chaos Rhino",
+    "unitType": "Mounted",
+    "movement": 4,
+    "cost": 100,
+    "strength": 23,
+    "requiredTech": "Mechanised Transport",
+    "upgradesTo": "Battle Tank",
+    "civilopediaText": [
+      {
+        "text": "An armoured transport with a turret on top."
+      }
+    ],
+    "obsoleteTech": "Armoured Warfare",
+    "uniqueTo": "Chaos",
+    "replaces": "Chimera",
+    "uniques": [
+      "Heals [5] damage if it kills a unit"
+    ]
+  },
+  {
+    "name": "Obliterators",
+    "unitType": "Sword",
+    "movement": 2,
+    "cost": 140,
+    "strength": 32,
+    "requiredTech": "Melta Weapons",
+    "upgradesTo": "Plasma Marine",
+    "uniques": [
+      "[+50]% Strength <vs cities>",
+      "[+50]% Strength <vs [Armored] units>",
+      "Heals [5] damage if it kills a unit"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Fusion weapons that melt armour and walls."
+      }
+    ],
+    "obsoleteTech": "Plasma Weaponry",
+    "uniqueTo": "Chaos",
+    "replaces": "Melta Squad"
+  },
+  {
+    "name": "Hellforged Battery",
+    "unitType": "Siege",
+    "movement": 2,
+    "cost": 130,
+    "strength": 7,
+    "rangedStrength": 24,
+    "range": 2,
+    "requiredTech": "Artillery Doctrine",
+    "upgradesTo": "Basilisk",
+    "uniques": [
+      "Must set up to ranged attack",
+      "[+100]% Strength <vs cities>",
+      "Heals [5] damage if it kills a unit"
+    ],
+    "obsoleteTech": "Promethium Refining",
+    "uniqueTo": "Chaos",
+    "replaces": "Mortar Battery"
+  },
+  {
+    "name": "Havocs",
+    "unitType": "Ranged Gunpowder",
+    "movement": 2,
+    "cost": 150,
+    "strength": 19,
+    "rangedStrength": 30,
+    "range": 2,
+    "requiredTech": "Artillery Doctrine",
+    "civilopediaText": [
+      {
+        "text": "Crew-served heavy bolters and autocannons."
+      }
+    ],
+    "uniqueTo": "Chaos",
+    "replaces": "Heavy Weapons Team",
+    "uniques": [
+      "Heals [5] damage if it kills a unit"
+    ]
+  },
+  {
+    "name": "Iconoclast Destroyer",
+    "unitType": "Ranged Water",
+    "movement": 5,
+    "cost": 120,
+    "strength": 21,
+    "rangedStrength": 28,
+    "range": 2,
+    "requiredTech": "Void Shipbuilding",
+    "upgradesTo": "Void Battleship",
+    "obsoleteTech": "Warp Mastery",
+    "uniqueTo": "Chaos",
+    "replaces": "Void Frigate",
+    "uniques": [
+      "Heals [5] damage if it kills a unit"
+    ]
+  },
+  {
+    "name": "Chaos Terminators",
+    "unitType": "Gunpowder",
+    "movement": 2,
+    "cost": 180,
+    "strength": 42,
+    "requiredTech": "Plasma Weaponry",
+    "upgradesTo": "Primaris Marine",
+    "civilopediaText": [
+      {
+        "text": "Heavy infantry armed with plasma weapons."
+      }
+    ],
+    "obsoleteTech": "Genetic Engineering",
+    "uniqueTo": "Chaos",
+    "replaces": "Plasma Marine",
+    "uniques": [
+      "Heals [5] damage if it kills a unit"
+    ]
+  },
+  {
+    "name": "Chaos Predator",
+    "unitType": "Armored",
+    "movement": 4,
+    "cost": 240,
+    "strength": 52,
+    "requiredTech": "Armoured Warfare",
+    "requiredResource": "Promethium",
+    "civilopediaText": [
+      {
+        "text": "A slab-sided tank with a battle cannon."
+      }
+    ],
+    "uniqueTo": "Chaos",
+    "replaces": "Battle Tank",
+    "uniques": [
+      "Heals [5] damage if it kills a unit"
+    ]
+  },
+  {
+    "name": "Sorcerer Lord",
+    "unitType": "Archery",
+    "movement": 2,
+    "cost": 260,
+    "strength": 26,
+    "rangedStrength": 50,
+    "range": 2,
+    "requiredTech": "Psychic Mastery",
+    "uniques": [
+      "Ignores terrain cost",
+      "Heals [5] damage if it kills a unit"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A master of the psychic arts, shielded by a psychic hood."
+      }
+    ],
+    "promotions": [
+      "Psychic Hood"
+    ],
+    "uniqueTo": "Chaos",
+    "replaces": "Librarian"
+  },
+  {
+    "name": "Rubric Marines",
+    "unitType": "Gunpowder",
+    "movement": 2,
+    "cost": 300,
+    "strength": 61,
+    "requiredTech": "Genetic Engineering",
+    "civilopediaText": [
+      {
+        "text": "The next generation of gene-crafted warriors."
+      }
+    ],
+    "uniqueTo": "Chaos",
+    "replaces": "Primaris Marine",
+    "uniques": [
+      "Heals [5] damage if it kills a unit"
+    ]
+  },
+  {
+    "name": "Forgefiend",
+    "unitType": "Armored",
+    "movement": 3,
+    "cost": 360,
+    "strength": 76,
+    "requiredTech": "Walker Forges",
+    "requiredResource": "Adamantium",
+    "civilopediaText": [
+      {
+        "text": "A noble pilot in a walking war engine."
+      }
+    ],
+    "uniqueTo": "Chaos",
+    "replaces": "Imperial Knight",
+    "uniques": [
+      "Heals [5] damage if it kills a unit"
+    ]
+  },
+  {
+    "name": "Banelord Titan",
+    "unitType": "Armored",
+    "movement": 2,
+    "cost": 700,
+    "strength": 116,
+    "requiredTech": "Titan Construction",
+    "uniques": [
+      "[+50]% Strength <vs cities>",
+      "Heals [5] damage if it kills a unit"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A god-engine the size of a cathedral."
+      }
+    ],
+    "uniqueTo": "Chaos",
+    "replaces": "Warlord Titan"
+  },
+  {
+    "name": "Despoiler Battleship",
+    "unitType": "Ranged Water",
+    "movement": 5,
+    "cost": 400,
+    "strength": 47,
+    "rangedStrength": 60,
+    "range": 3,
+    "requiredTech": "Warp Mastery",
+    "uniqueTo": "Chaos",
+    "replaces": "Void Battleship",
+    "uniques": [
+      "Heals [5] damage if it kills a unit"
+    ]
+  },
+  {
+    "name": "Hell Blade",
+    "unitType": "Fighter",
+    "movement": 1,
+    "strength": 47,
+    "rangedStrength": 45,
+    "range": 8,
+    "cost": 300,
+    "requiredTech": "Aeronautica",
+    "requiredResource": "Promethium",
+    "uniques": [
+      "[100]% chance to intercept air attacks",
+      "[+100]% Strength <vs [Bomber] units>",
+      "Heals [5] damage if it kills a unit"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A rugged fighter that guards the skies over cities."
+      }
+    ],
+    "uniqueTo": "Chaos",
+    "replaces": "Thunderbolt Fighter"
+  },
+  {
+    "name": "Hell Talon",
+    "unitType": "Bomber",
+    "movement": 1,
+    "strength": 68,
+    "rangedStrength": 65,
+    "range": 10,
+    "cost": 360,
+    "requiredTech": "Aeronautica",
+    "requiredResource": "Promethium",
+    "uniques": [
+      "[+50]% Strength <vs cities>",
+      "Heals [5] damage if it kills a unit"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A heavy bomber that levels fortifications."
+      }
+    ],
+    "uniqueTo": "Chaos",
+    "replaces": "Marauder Bomber"
+  },
+  {
+    "name": "Canoptek Scarabs",
+    "unitType": "Sword",
+    "movement": 2,
+    "cost": 44,
+    "strength": 9,
+    "requiredTech": "Survival Doctrine",
+    "upgradesTo": "Brute Squad",
+    "civilopediaText": [
+      {
+        "text": "Conscripts with clubs and stubborn courage."
+      }
+    ],
+    "obsoleteTech": "Forge Craft",
+    "uniqueTo": "Necrons",
+    "replaces": "Warrior"
+  },
+  {
+    "name": "Flayed Ones",
+    "unitType": "Archery",
+    "movement": 2,
+    "cost": 44,
+    "strength": 6,
+    "rangedStrength": 8,
+    "range": 2,
+    "requiredTech": "Stubber Weapons",
+    "upgradesTo": "Guardsman",
+    "civilopediaText": [
+      {
+        "text": "Solid-slug guns: loud, crude and effective."
+      }
+    ],
+    "obsoleteTech": "Las Weapons",
+    "uniqueTo": "Necrons",
+    "replaces": "Stubber Gunner"
+  },
+  {
+    "name": "Tomb Blades",
+    "unitType": "Mounted",
+    "movement": 4,
+    "cost": 66,
+    "strength": 13,
+    "requiredTech": "Beast Taming",
+    "upgradesTo": "Chimera",
+    "requiredResource": "Riding Beasts",
+    "civilopediaText": [
+      {
+        "text": "Cavalry on hardy beasts, armed with explosive lances."
+      }
+    ],
+    "obsoleteTech": "Mechanised Transport",
+    "uniqueTo": "Necrons",
+    "replaces": "Rough Rider"
+  },
+  {
+    "name": "Dirge Raider",
+    "unitType": "Melee Water",
+    "movement": 4,
+    "cost": 50,
+    "strength": 11,
+    "requiredTech": "Seafaring",
+    "upgradesTo": "Void Frigate",
+    "uniques": [
+      "Cannot enter ocean tiles",
+      "Never appears as a Barbarian unit"
+    ],
+    "obsoleteTech": "Void Shipbuilding",
+    "uniqueTo": "Necrons",
+    "replaces": "Raider Boat"
+  },
+  {
+    "name": "Deathmarks",
+    "unitType": "Archery",
+    "movement": 2,
+    "cost": 82,
+    "strength": 10,
+    "rangedStrength": 13,
+    "range": 2,
+    "requiredTech": "Las Weapons",
+    "upgradesTo": "Heavy Weapons Team",
+    "civilopediaText": [
+      {
+        "text": "The backbone of any army: a soldier with a lasgun."
+      }
+    ],
+    "obsoleteTech": "Artillery Doctrine",
+    "uniqueTo": "Necrons",
+    "replaces": "Guardsman"
+  },
+  {
+    "name": "Cryptek",
+    "unitType": "Archery",
+    "movement": 2,
+    "cost": 99,
+    "strength": 9,
+    "rangedStrength": 16,
+    "range": 2,
+    "requiredTech": "Psychic Awakening",
+    "upgradesTo": "Librarian",
+    "uniques": [
+      "Ignores terrain cost"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A gifted mind that strikes with the power of the Warp."
+      }
+    ],
+    "obsoleteTech": "Psychic Mastery",
+    "uniqueTo": "Necrons",
+    "replaces": "Psyker"
+  },
+  {
+    "name": "Lychguard",
+    "unitType": "Sword",
+    "movement": 2,
+    "cost": 132,
+    "strength": 30,
+    "requiredTech": "Flamer Weapons",
+    "upgradesTo": "Plasma Marine",
+    "uniques": [
+      "[+25]% Strength <when fighting in [Rough terrain] tiles>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Fire flushes the enemy out of any cover."
+      }
+    ],
+    "obsoleteTech": "Plasma Weaponry",
+    "uniqueTo": "Necrons",
+    "replaces": "Flamer Squad"
+  },
+  {
+    "name": "Destroyers",
+    "unitType": "Sword",
+    "movement": 2,
+    "cost": 154,
+    "strength": 33,
+    "requiredTech": "Melta Weapons",
+    "upgradesTo": "Plasma Marine",
+    "uniques": [
+      "[+50]% Strength <vs cities>",
+      "[+50]% Strength <vs [Armored] units>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Fusion weapons that melt armour and walls."
+      }
+    ],
+    "obsoleteTech": "Plasma Weaponry",
+    "uniqueTo": "Necrons",
+    "replaces": "Melta Squad"
+  },
+  {
+    "name": "Tesla Battery",
+    "unitType": "Siege",
+    "movement": 2,
+    "cost": 143,
+    "strength": 8,
+    "rangedStrength": 24,
+    "range": 2,
+    "requiredTech": "Artillery Doctrine",
+    "upgradesTo": "Basilisk",
+    "uniques": [
+      "Must set up to ranged attack",
+      "[+100]% Strength <vs cities>"
+    ],
+    "obsoleteTech": "Promethium Refining",
+    "uniqueTo": "Necrons",
+    "replaces": "Mortar Battery"
+  },
+  {
+    "name": "Heavy Destroyers",
+    "unitType": "Ranged Gunpowder",
+    "movement": 2,
+    "cost": 165,
+    "strength": 20,
+    "rangedStrength": 30,
+    "range": 2,
+    "requiredTech": "Artillery Doctrine",
+    "civilopediaText": [
+      {
+        "text": "Crew-served heavy bolters and autocannons."
+      }
+    ],
+    "uniqueTo": "Necrons",
+    "replaces": "Heavy Weapons Team"
+  },
+  {
+    "name": "Jackal Raider",
+    "unitType": "Ranged Water",
+    "movement": 5,
+    "cost": 132,
+    "strength": 22,
+    "rangedStrength": 28,
+    "range": 2,
+    "requiredTech": "Void Shipbuilding",
+    "upgradesTo": "Void Battleship",
+    "obsoleteTech": "Warp Mastery",
+    "uniqueTo": "Necrons",
+    "replaces": "Void Frigate"
+  },
+  {
+    "name": "Triarch Praetorians",
+    "unitType": "Gunpowder",
+    "movement": 2,
+    "cost": 198,
+    "strength": 44,
+    "requiredTech": "Plasma Weaponry",
+    "upgradesTo": "Primaris Marine",
+    "civilopediaText": [
+      {
+        "text": "Heavy infantry armed with plasma weapons."
+      }
+    ],
+    "obsoleteTech": "Genetic Engineering",
+    "uniqueTo": "Necrons",
+    "replaces": "Plasma Marine"
+  },
+  {
+    "name": "Annihilation Barge",
+    "unitType": "Armored",
+    "movement": 4,
+    "cost": 264,
+    "strength": 55,
+    "requiredTech": "Armoured Warfare",
+    "requiredResource": "Promethium",
+    "civilopediaText": [
+      {
+        "text": "A slab-sided tank with a battle cannon."
+      }
+    ],
+    "uniqueTo": "Necrons",
+    "replaces": "Battle Tank"
+  },
+  {
+    "name": "Doomsday Ark",
+    "unitType": "Siege",
+    "movement": 2,
+    "cost": 242,
+    "strength": 15,
+    "rangedStrength": 45,
+    "range": 3,
+    "requiredTech": "Promethium Refining",
+    "uniques": [
+      "Must set up to ranged attack",
+      "[+100]% Strength <vs cities>"
+    ],
+    "uniqueTo": "Necrons",
+    "replaces": "Basilisk"
+  },
+  {
+    "name": "Triarch Stalker",
+    "unitType": "Armored",
+    "movement": 2,
+    "cost": 308,
+    "strength": 66,
+    "requiredTech": "Power Armor Engineering",
+    "civilopediaText": [
+      {
+        "text": "A towering war machine piloted by a fallen hero."
+      }
+    ],
+    "uniqueTo": "Necrons",
+    "replaces": "Dreadnought"
+  },
+  {
+    "name": "Technomancer",
+    "unitType": "Archery",
+    "movement": 2,
+    "cost": 286,
+    "strength": 28,
+    "rangedStrength": 50,
+    "range": 2,
+    "requiredTech": "Psychic Mastery",
+    "uniques": [
+      "Ignores terrain cost"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A master of the psychic arts, shielded by a psychic hood."
+      }
+    ],
+    "promotions": [
+      "Psychic Hood"
+    ],
+    "uniqueTo": "Necrons",
+    "replaces": "Librarian"
+  },
+  {
+    "name": "Skorpekh Destroyers",
+    "unitType": "Gunpowder",
+    "movement": 2,
+    "cost": 330,
+    "strength": 64,
+    "requiredTech": "Genetic Engineering",
+    "civilopediaText": [
+      {
+        "text": "The next generation of gene-crafted warriors."
+      }
+    ],
+    "uniqueTo": "Necrons",
+    "replaces": "Primaris Marine"
+  },
+  {
+    "name": "C'tan Shard",
+    "unitType": "Armored",
+    "movement": 2,
+    "cost": 770,
+    "strength": 121,
+    "requiredTech": "Titan Construction",
+    "uniques": [
+      "[+50]% Strength <vs cities>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A god-engine the size of a cathedral."
+      }
+    ],
+    "uniqueTo": "Necrons",
+    "replaces": "Warlord Titan"
+  },
+  {
+    "name": "Tomb Ship",
+    "unitType": "Ranged Water",
+    "movement": 5,
+    "cost": 440,
+    "strength": 50,
+    "rangedStrength": 60,
+    "range": 3,
+    "requiredTech": "Warp Mastery",
+    "uniqueTo": "Necrons",
+    "replaces": "Void Battleship"
+  },
+  {
+    "name": "Night Scythe",
+    "unitType": "Fighter",
+    "movement": 1,
+    "strength": 50,
+    "rangedStrength": 45,
+    "range": 8,
+    "cost": 330,
+    "requiredTech": "Aeronautica",
+    "requiredResource": "Promethium",
+    "uniques": [
+      "[100]% chance to intercept air attacks",
+      "[+100]% Strength <vs [Bomber] units>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A rugged fighter that guards the skies over cities."
+      }
+    ],
+    "uniqueTo": "Necrons",
+    "replaces": "Thunderbolt Fighter"
+  },
+  {
+    "name": "Doom Scythe",
+    "unitType": "Bomber",
+    "movement": 1,
+    "strength": 72,
+    "rangedStrength": 65,
+    "range": 10,
+    "cost": 396,
+    "requiredTech": "Aeronautica",
+    "requiredResource": "Promethium",
+    "uniques": [
+      "[+50]% Strength <vs cities>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A heavy bomber that levels fortifications."
+      }
+    ],
+    "uniqueTo": "Necrons",
+    "replaces": "Marauder Bomber"
+  },
+  {
+    "name": "Ripper Swarm",
+    "unitType": "Sword",
+    "movement": 2,
+    "cost": 36,
+    "strength": 8,
+    "requiredTech": "Survival Doctrine",
+    "upgradesTo": "Brute Squad",
+    "civilopediaText": [
+      {
+        "text": "Conscripts with clubs and stubborn courage."
+      }
+    ],
+    "obsoleteTech": "Forge Craft",
+    "uniqueTo": "Tyranids",
+    "replaces": "Warrior"
+  },
+  {
+    "name": "Termagants",
+    "unitType": "Archery",
+    "movement": 2,
+    "cost": 36,
+    "strength": 5,
+    "rangedStrength": 8,
+    "range": 2,
+    "requiredTech": "Stubber Weapons",
+    "upgradesTo": "Guardsman",
+    "civilopediaText": [
+      {
+        "text": "Solid-slug guns: loud, crude and effective."
+      }
+    ],
+    "obsoleteTech": "Las Weapons",
+    "uniqueTo": "Tyranids",
+    "replaces": "Stubber Gunner"
+  },
+  {
+    "name": "Tyranid Warriors",
+    "unitType": "Sword",
+    "movement": 2,
+    "cost": 54,
+    "strength": 14,
+    "requiredTech": "Forge Craft",
+    "upgradesTo": "Bolter Squad",
+    "civilopediaText": [
+      {
+        "text": "Heavily armed shock infantry."
+      }
+    ],
+    "obsoleteTech": "Rocket Rounds",
+    "uniqueTo": "Tyranids",
+    "replaces": "Brute Squad"
+  },
+  {
+    "name": "Kraken Spawn",
+    "unitType": "Melee Water",
+    "movement": 4,
+    "cost": 40,
+    "strength": 10,
+    "requiredTech": "Seafaring",
+    "upgradesTo": "Void Frigate",
+    "uniques": [
+      "Cannot enter ocean tiles",
+      "Never appears as a Barbarian unit"
+    ],
+    "obsoleteTech": "Void Shipbuilding",
+    "uniqueTo": "Tyranids",
+    "replaces": "Raider Boat"
+  },
+  {
+    "name": "Hive Guard",
+    "unitType": "Archery",
+    "movement": 2,
+    "cost": 68,
+    "strength": 9,
+    "rangedStrength": 13,
+    "range": 2,
+    "requiredTech": "Las Weapons",
+    "upgradesTo": "Heavy Weapons Team",
+    "civilopediaText": [
+      {
+        "text": "The backbone of any army: a soldier with a lasgun."
+      }
+    ],
+    "obsoleteTech": "Artillery Doctrine",
+    "uniqueTo": "Tyranids",
+    "replaces": "Guardsman"
+  },
+  {
+    "name": "Ravener Brood",
+    "unitType": "Mounted",
+    "movement": 4,
+    "cost": 90,
+    "strength": 22,
+    "requiredTech": "Mechanised Transport",
+    "upgradesTo": "Battle Tank",
+    "civilopediaText": [
+      {
+        "text": "An armoured transport with a turret on top."
+      }
+    ],
+    "obsoleteTech": "Armoured Warfare",
+    "uniqueTo": "Tyranids",
+    "replaces": "Chimera"
+  },
+  {
+    "name": "Pyrovores",
+    "unitType": "Sword",
+    "movement": 2,
+    "cost": 108,
+    "strength": 27,
+    "requiredTech": "Flamer Weapons",
+    "upgradesTo": "Plasma Marine",
+    "uniques": [
+      "[+25]% Strength <when fighting in [Rough terrain] tiles>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Fire flushes the enemy out of any cover."
+      }
+    ],
+    "obsoleteTech": "Plasma Weaponry",
+    "uniqueTo": "Tyranids",
+    "replaces": "Flamer Squad"
+  },
+  {
+    "name": "Lictor",
+    "unitType": "Sword",
+    "movement": 2,
+    "cost": 126,
+    "strength": 30,
+    "requiredTech": "Melta Weapons",
+    "upgradesTo": "Plasma Marine",
+    "uniques": [
+      "[+50]% Strength <vs cities>",
+      "[+50]% Strength <vs [Armored] units>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Fusion weapons that melt armour and walls."
+      }
+    ],
+    "obsoleteTech": "Plasma Weaponry",
+    "uniqueTo": "Tyranids",
+    "replaces": "Melta Squad"
+  },
+  {
+    "name": "Biovores",
+    "unitType": "Siege",
+    "movement": 2,
+    "cost": 117,
+    "strength": 7,
+    "rangedStrength": 24,
+    "range": 2,
+    "requiredTech": "Artillery Doctrine",
+    "upgradesTo": "Basilisk",
+    "uniques": [
+      "Must set up to ranged attack",
+      "[+100]% Strength <vs cities>"
+    ],
+    "obsoleteTech": "Promethium Refining",
+    "uniqueTo": "Tyranids",
+    "replaces": "Mortar Battery"
+  },
+  {
+    "name": "Exocrine",
+    "unitType": "Ranged Gunpowder",
+    "movement": 2,
+    "cost": 135,
+    "strength": 18,
+    "rangedStrength": 30,
+    "range": 2,
+    "requiredTech": "Artillery Doctrine",
+    "civilopediaText": [
+      {
+        "text": "Crew-served heavy bolters and autocannons."
+      }
+    ],
+    "uniqueTo": "Tyranids",
+    "replaces": "Heavy Weapons Team"
+  },
+  {
+    "name": "Kraken Escort",
+    "unitType": "Ranged Water",
+    "movement": 5,
+    "cost": 108,
+    "strength": 20,
+    "rangedStrength": 28,
+    "range": 2,
+    "requiredTech": "Void Shipbuilding",
+    "upgradesTo": "Void Battleship",
+    "obsoleteTech": "Warp Mastery",
+    "uniqueTo": "Tyranids",
+    "replaces": "Void Frigate"
+  },
+  {
+    "name": "Tyrant Guard",
+    "unitType": "Gunpowder",
+    "movement": 2,
+    "cost": 162,
+    "strength": 40,
+    "requiredTech": "Plasma Weaponry",
+    "upgradesTo": "Primaris Marine",
+    "civilopediaText": [
+      {
+        "text": "Heavy infantry armed with plasma weapons."
+      }
+    ],
+    "obsoleteTech": "Genetic Engineering",
+    "uniqueTo": "Tyranids",
+    "replaces": "Plasma Marine"
+  },
+  {
+    "name": "Tyrannofex",
+    "unitType": "Siege",
+    "movement": 2,
+    "cost": 198,
+    "strength": 14,
+    "rangedStrength": 45,
+    "range": 3,
+    "requiredTech": "Promethium Refining",
+    "uniques": [
+      "Must set up to ranged attack",
+      "[+100]% Strength <vs cities>"
+    ],
+    "uniqueTo": "Tyranids",
+    "replaces": "Basilisk"
+  },
+  {
+    "name": "Trygon",
+    "unitType": "Armored",
+    "movement": 2,
+    "cost": 252,
+    "strength": 60,
+    "requiredTech": "Power Armor Engineering",
+    "civilopediaText": [
+      {
+        "text": "A towering war machine piloted by a fallen hero."
+      }
+    ],
+    "uniqueTo": "Tyranids",
+    "replaces": "Dreadnought"
+  },
+  {
+    "name": "Neurothrope",
+    "unitType": "Archery",
+    "movement": 2,
+    "cost": 234,
+    "strength": 25,
+    "rangedStrength": 50,
+    "range": 2,
+    "requiredTech": "Psychic Mastery",
+    "uniques": [
+      "Ignores terrain cost"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A master of the psychic arts, shielded by a psychic hood."
+      }
+    ],
+    "promotions": [
+      "Psychic Hood"
+    ],
+    "uniqueTo": "Tyranids",
+    "replaces": "Librarian"
+  },
+  {
+    "name": "Tyranid Prime",
+    "unitType": "Gunpowder",
+    "movement": 2,
+    "cost": 270,
+    "strength": 58,
+    "requiredTech": "Genetic Engineering",
+    "civilopediaText": [
+      {
+        "text": "The next generation of gene-crafted warriors."
+      }
+    ],
+    "uniqueTo": "Tyranids",
+    "replaces": "Primaris Marine"
+  },
+  {
+    "name": "Hierophant Bio-Titan",
+    "unitType": "Armored",
+    "movement": 2,
+    "cost": 630,
+    "strength": 110,
+    "requiredTech": "Titan Construction",
+    "uniques": [
+      "[+50]% Strength <vs cities>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A god-engine the size of a cathedral."
+      }
+    ],
+    "uniqueTo": "Tyranids",
+    "replaces": "Warlord Titan"
+  },
+  {
+    "name": "Hive Ship",
+    "unitType": "Ranged Water",
+    "movement": 5,
+    "cost": 360,
+    "strength": 45,
+    "rangedStrength": 60,
+    "range": 3,
+    "requiredTech": "Warp Mastery",
+    "uniqueTo": "Tyranids",
+    "replaces": "Void Battleship"
+  },
+  {
+    "name": "Harpy",
+    "unitType": "Fighter",
+    "movement": 1,
+    "strength": 45,
+    "rangedStrength": 45,
+    "range": 8,
+    "cost": 270,
+    "requiredTech": "Aeronautica",
+    "uniques": [
+      "[100]% chance to intercept air attacks",
+      "[+100]% Strength <vs [Bomber] units>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A rugged fighter that guards the skies over cities."
+      }
+    ],
+    "uniqueTo": "Tyranids",
+    "replaces": "Thunderbolt Fighter"
+  },
+  {
+    "name": "Harridan",
+    "unitType": "Bomber",
+    "movement": 1,
+    "strength": 65,
+    "rangedStrength": 65,
+    "range": 10,
+    "cost": 324,
+    "requiredTech": "Aeronautica",
+    "uniques": [
+      "[+50]% Strength <vs cities>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A heavy bomber that levels fortifications."
+      }
+    ],
+    "uniqueTo": "Tyranids",
+    "replaces": "Marauder Bomber"
+  },
+  {
+    "name": "Kabalite Warriors",
+    "unitType": "Sword",
+    "movement": 3,
+    "cost": 40,
+    "strength": 8,
+    "requiredTech": "Survival Doctrine",
+    "upgradesTo": "Brute Squad",
+    "civilopediaText": [
+      {
+        "text": "Conscripts with clubs and stubborn courage."
+      }
+    ],
+    "obsoleteTech": "Forge Craft",
+    "uniqueTo": "Drukhari",
+    "replaces": "Warrior",
+    "uniques": [
+      "[+10]% Strength <when attacking>"
+    ]
+  },
+  {
+    "name": "Hellions",
+    "unitType": "Archery",
+    "movement": 3,
+    "cost": 40,
+    "strength": 5,
+    "rangedStrength": 8,
+    "range": 2,
+    "requiredTech": "Stubber Weapons",
+    "upgradesTo": "Guardsman",
+    "civilopediaText": [
+      {
+        "text": "Solid-slug guns: loud, crude and effective."
+      }
+    ],
+    "obsoleteTech": "Las Weapons",
+    "uniqueTo": "Drukhari",
+    "replaces": "Stubber Gunner",
+    "uniques": [
+      "[+10]% Strength <when attacking>"
+    ]
+  },
+  {
+    "name": "Reavers",
+    "unitType": "Mounted",
+    "movement": 5,
+    "cost": 60,
+    "strength": 12,
+    "requiredTech": "Beast Taming",
+    "upgradesTo": "Chimera",
+    "requiredResource": "Riding Beasts",
+    "civilopediaText": [
+      {
+        "text": "Cavalry on hardy beasts, armed with explosive lances."
+      }
+    ],
+    "obsoleteTech": "Mechanised Transport",
+    "uniqueTo": "Drukhari",
+    "replaces": "Rough Rider",
+    "uniques": [
+      "[+10]% Strength <when attacking>"
+    ]
+  },
+  {
+    "name": "Raider Skiff",
+    "unitType": "Melee Water",
+    "movement": 5,
+    "cost": 45,
+    "strength": 10,
+    "requiredTech": "Seafaring",
+    "upgradesTo": "Void Frigate",
+    "uniques": [
+      "Cannot enter ocean tiles",
+      "Never appears as a Barbarian unit",
+      "[+10]% Strength <when attacking>"
+    ],
+    "obsoleteTech": "Void Shipbuilding",
+    "uniqueTo": "Drukhari",
+    "replaces": "Raider Boat"
+  },
+  {
+    "name": "Kabalite Trueborn",
+    "unitType": "Archery",
+    "movement": 3,
+    "cost": 75,
+    "strength": 9,
+    "rangedStrength": 13,
+    "range": 2,
+    "requiredTech": "Las Weapons",
+    "upgradesTo": "Heavy Weapons Team",
+    "civilopediaText": [
+      {
+        "text": "The backbone of any army: a soldier with a lasgun."
+      }
+    ],
+    "obsoleteTech": "Artillery Doctrine",
+    "uniqueTo": "Drukhari",
+    "replaces": "Guardsman",
+    "uniques": [
+      "[+10]% Strength <when attacking>"
+    ]
+  },
+  {
+    "name": "Haemonculus",
+    "unitType": "Archery",
+    "movement": 3,
+    "cost": 90,
+    "strength": 8,
+    "rangedStrength": 16,
+    "range": 2,
+    "requiredTech": "Psychic Awakening",
+    "upgradesTo": "Librarian",
+    "uniques": [
+      "Ignores terrain cost",
+      "[+10]% Strength <when attacking>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A gifted mind that strikes with the power of the Warp."
+      }
+    ],
+    "obsoleteTech": "Psychic Mastery",
+    "uniqueTo": "Drukhari",
+    "replaces": "Psyker"
+  },
+  {
+    "name": "Incubi",
+    "unitType": "Sword",
+    "movement": 3,
+    "cost": 90,
+    "strength": 20,
+    "requiredTech": "Rocket Rounds",
+    "upgradesTo": "Flamer Squad",
+    "requiredResource": "Adamantium",
+    "civilopediaText": [
+      {
+        "text": "Infantry with mass-reactive bolt weapons."
+      }
+    ],
+    "obsoleteTech": "Flamer Weapons",
+    "uniqueTo": "Drukhari",
+    "replaces": "Bolter Squad",
+    "uniques": [
+      "[+10]% Strength <when attacking>"
+    ]
+  },
+  {
+    "name": "Wracks",
+    "unitType": "Sword",
+    "movement": 3,
+    "cost": 120,
+    "strength": 27,
+    "requiredTech": "Flamer Weapons",
+    "upgradesTo": "Plasma Marine",
+    "uniques": [
+      "[+25]% Strength <when fighting in [Rough terrain] tiles>",
+      "[+10]% Strength <when attacking>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Fire flushes the enemy out of any cover."
+      }
+    ],
+    "obsoleteTech": "Plasma Weaponry",
+    "uniqueTo": "Drukhari",
+    "replaces": "Flamer Squad"
+  },
+  {
+    "name": "Scourges",
+    "unitType": "Sword",
+    "movement": 3,
+    "cost": 140,
+    "strength": 30,
+    "requiredTech": "Melta Weapons",
+    "upgradesTo": "Plasma Marine",
+    "uniques": [
+      "[+50]% Strength <vs cities>",
+      "[+50]% Strength <vs [Armored] units>",
+      "[+10]% Strength <when attacking>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Fusion weapons that melt armour and walls."
+      }
+    ],
+    "obsoleteTech": "Plasma Weaponry",
+    "uniqueTo": "Drukhari",
+    "replaces": "Melta Squad"
+  },
+  {
+    "name": "Shredder Battery",
+    "unitType": "Siege",
+    "movement": 3,
+    "cost": 130,
+    "strength": 7,
+    "rangedStrength": 24,
+    "range": 2,
+    "requiredTech": "Artillery Doctrine",
+    "upgradesTo": "Basilisk",
+    "uniques": [
+      "Must set up to ranged attack",
+      "[+100]% Strength <vs cities>",
+      "[+10]% Strength <when attacking>"
+    ],
+    "obsoleteTech": "Promethium Refining",
+    "uniqueTo": "Drukhari",
+    "replaces": "Mortar Battery"
+  },
+  {
+    "name": "Dark Lance Team",
+    "unitType": "Ranged Gunpowder",
+    "movement": 3,
+    "cost": 150,
+    "strength": 18,
+    "rangedStrength": 30,
+    "range": 2,
+    "requiredTech": "Artillery Doctrine",
+    "civilopediaText": [
+      {
+        "text": "Crew-served heavy bolters and autocannons."
+      }
+    ],
+    "uniqueTo": "Drukhari",
+    "replaces": "Heavy Weapons Team",
+    "uniques": [
+      "[+10]% Strength <when attacking>"
+    ]
+  },
+  {
+    "name": "Corsair Frigate",
+    "unitType": "Ranged Water",
+    "movement": 6,
+    "cost": 120,
+    "strength": 20,
+    "rangedStrength": 28,
+    "range": 2,
+    "requiredTech": "Void Shipbuilding",
+    "upgradesTo": "Void Battleship",
+    "obsoleteTech": "Warp Mastery",
+    "uniqueTo": "Drukhari",
+    "replaces": "Void Frigate",
+    "uniques": [
+      "[+10]% Strength <when attacking>"
+    ]
+  },
+  {
+    "name": "Mandrakes",
+    "unitType": "Gunpowder",
+    "movement": 3,
+    "cost": 180,
+    "strength": 40,
+    "requiredTech": "Plasma Weaponry",
+    "upgradesTo": "Primaris Marine",
+    "civilopediaText": [
+      {
+        "text": "Heavy infantry armed with plasma weapons."
+      }
+    ],
+    "obsoleteTech": "Genetic Engineering",
+    "uniqueTo": "Drukhari",
+    "replaces": "Plasma Marine",
+    "uniques": [
+      "[+10]% Strength <when attacking>"
+    ]
+  },
+  {
+    "name": "Venom",
+    "unitType": "Armored",
+    "movement": 5,
+    "cost": 240,
+    "strength": 50,
+    "requiredTech": "Armoured Warfare",
+    "requiredResource": "Promethium",
+    "civilopediaText": [
+      {
+        "text": "A slab-sided tank with a battle cannon."
+      }
+    ],
+    "uniqueTo": "Drukhari",
+    "replaces": "Battle Tank",
+    "uniques": [
+      "[+10]% Strength <when attacking>"
+    ]
+  },
+  {
+    "name": "Tantalus",
+    "unitType": "Siege",
+    "movement": 3,
+    "cost": 220,
+    "strength": 14,
+    "rangedStrength": 45,
+    "range": 3,
+    "requiredTech": "Promethium Refining",
+    "uniques": [
+      "Must set up to ranged attack",
+      "[+100]% Strength <vs cities>",
+      "[+10]% Strength <when attacking>"
+    ],
+    "uniqueTo": "Drukhari",
+    "replaces": "Basilisk"
+  },
+  {
+    "name": "Archon",
+    "unitType": "Archery",
+    "movement": 3,
+    "cost": 260,
+    "strength": 25,
+    "rangedStrength": 50,
+    "range": 2,
+    "requiredTech": "Psychic Mastery",
+    "uniques": [
+      "Ignores terrain cost",
+      "[+10]% Strength <when attacking>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A master of the psychic arts, shielded by a psychic hood."
+      }
+    ],
+    "promotions": [
+      "Psychic Hood"
+    ],
+    "uniqueTo": "Drukhari",
+    "replaces": "Librarian"
+  },
+  {
+    "name": "Incubi Klaivex",
+    "unitType": "Gunpowder",
+    "movement": 3,
+    "cost": 300,
+    "strength": 58,
+    "requiredTech": "Genetic Engineering",
+    "civilopediaText": [
+      {
+        "text": "The next generation of gene-crafted warriors."
+      }
+    ],
+    "uniqueTo": "Drukhari",
+    "replaces": "Primaris Marine",
+    "uniques": [
+      "[+10]% Strength <when attacking>"
+    ]
+  },
+  {
+    "name": "Cronos",
+    "unitType": "Armored",
+    "movement": 4,
+    "cost": 360,
+    "strength": 72,
+    "requiredTech": "Walker Forges",
+    "requiredResource": "Adamantium",
+    "civilopediaText": [
+      {
+        "text": "A noble pilot in a walking war engine."
+      }
+    ],
+    "uniqueTo": "Drukhari",
+    "replaces": "Imperial Knight",
+    "uniques": [
+      "[+10]% Strength <when attacking>"
+    ]
+  },
+  {
+    "name": "Kabal Dreadbarge",
+    "unitType": "Armored",
+    "movement": 3,
+    "cost": 700,
+    "strength": 110,
+    "requiredTech": "Titan Construction",
+    "uniques": [
+      "[+50]% Strength <vs cities>",
+      "[+10]% Strength <when attacking>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A god-engine the size of a cathedral."
+      }
+    ],
+    "uniqueTo": "Drukhari",
+    "replaces": "Warlord Titan"
+  },
+  {
+    "name": "Tormentor Battleship",
+    "unitType": "Ranged Water",
+    "movement": 6,
+    "cost": 400,
+    "strength": 45,
+    "rangedStrength": 60,
+    "range": 3,
+    "requiredTech": "Warp Mastery",
+    "uniqueTo": "Drukhari",
+    "replaces": "Void Battleship",
+    "uniques": [
+      "[+10]% Strength <when attacking>"
+    ]
+  },
+  {
+    "name": "Razorwing Jetfighter",
+    "unitType": "Fighter",
+    "movement": 2,
+    "strength": 45,
+    "rangedStrength": 45,
+    "range": 8,
+    "cost": 300,
+    "requiredTech": "Aeronautica",
+    "requiredResource": "Promethium",
+    "uniques": [
+      "[100]% chance to intercept air attacks",
+      "[+100]% Strength <vs [Bomber] units>",
+      "[+10]% Strength <when attacking>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A rugged fighter that guards the skies over cities."
+      }
+    ],
+    "uniqueTo": "Drukhari",
+    "replaces": "Thunderbolt Fighter"
+  },
+  {
+    "name": "Voidraven Bomber",
+    "unitType": "Bomber",
+    "movement": 2,
+    "strength": 65,
+    "rangedStrength": 65,
+    "range": 10,
+    "cost": 360,
+    "requiredTech": "Aeronautica",
+    "requiredResource": "Promethium",
+    "uniques": [
+      "[+50]% Strength <vs cities>",
+      "[+10]% Strength <when attacking>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A heavy bomber that levels fortifications."
+      }
+    ],
+    "uniqueTo": "Drukhari",
+    "replaces": "Marauder Bomber"
+  },
+  {
+    "name": "Servitor Militia",
+    "unitType": "Sword",
+    "movement": 2,
+    "cost": 40,
+    "strength": 8,
+    "requiredTech": "Survival Doctrine",
+    "upgradesTo": "Brute Squad",
+    "civilopediaText": [
+      {
+        "text": "Conscripts with clubs and stubborn courage."
+      }
+    ],
+    "obsoleteTech": "Forge Craft",
+    "uniqueTo": "Adeptus Mechanicus",
+    "replaces": "Warrior",
+    "uniques": [
+      "[+10]% Strength <when defending>"
+    ]
+  },
+  {
+    "name": "Skitarii Vanguard",
+    "unitType": "Archery",
+    "movement": 2,
+    "cost": 40,
+    "strength": 5,
+    "rangedStrength": 8,
+    "range": 2,
+    "requiredTech": "Stubber Weapons",
+    "upgradesTo": "Guardsman",
+    "civilopediaText": [
+      {
+        "text": "Solid-slug guns: loud, crude and effective."
+      }
+    ],
+    "obsoleteTech": "Las Weapons",
+    "uniqueTo": "Adeptus Mechanicus",
+    "replaces": "Stubber Gunner",
+    "uniques": [
+      "[+10]% Strength <when defending>"
+    ]
+  },
+  {
+    "name": "Serberys Raiders",
+    "unitType": "Mounted",
+    "movement": 4,
+    "cost": 60,
+    "strength": 12,
+    "requiredTech": "Beast Taming",
+    "upgradesTo": "Chimera",
+    "requiredResource": "Riding Beasts",
+    "civilopediaText": [
+      {
+        "text": "Cavalry on hardy beasts, armed with explosive lances."
+      }
+    ],
+    "obsoleteTech": "Mechanised Transport",
+    "uniqueTo": "Adeptus Mechanicus",
+    "replaces": "Rough Rider",
+    "uniques": [
+      "[+10]% Strength <when defending>"
+    ]
+  },
+  {
+    "name": "Sicarian Ruststalkers",
+    "unitType": "Sword",
+    "movement": 2,
+    "cost": 60,
+    "strength": 14,
+    "requiredTech": "Forge Craft",
+    "upgradesTo": "Bolter Squad",
+    "requiredResource": "Adamantium",
+    "civilopediaText": [
+      {
+        "text": "Heavily armed shock infantry."
+      }
+    ],
+    "obsoleteTech": "Rocket Rounds",
+    "uniqueTo": "Adeptus Mechanicus",
+    "replaces": "Brute Squad",
+    "uniques": [
+      "[+10]% Strength <when defending>"
+    ]
+  },
+  {
+    "name": "Mechanicus Barge",
+    "unitType": "Melee Water",
+    "movement": 4,
+    "cost": 45,
+    "strength": 10,
+    "requiredTech": "Seafaring",
+    "upgradesTo": "Void Frigate",
+    "uniques": [
+      "Cannot enter ocean tiles",
+      "Never appears as a Barbarian unit",
+      "[+10]% Strength <when defending>"
+    ],
+    "obsoleteTech": "Void Shipbuilding",
+    "uniqueTo": "Adeptus Mechanicus",
+    "replaces": "Raider Boat"
+  },
+  {
+    "name": "Tech-Priest Manipulus",
+    "unitType": "Archery",
+    "movement": 2,
+    "cost": 90,
+    "strength": 8,
+    "rangedStrength": 16,
+    "range": 2,
+    "requiredTech": "Psychic Awakening",
+    "upgradesTo": "Librarian",
+    "uniques": [
+      "Ignores terrain cost",
+      "[+10]% Strength <when defending>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A gifted mind that strikes with the power of the Warp."
+      }
+    ],
+    "obsoleteTech": "Psychic Mastery",
+    "uniqueTo": "Adeptus Mechanicus",
+    "replaces": "Psyker"
+  },
+  {
+    "name": "Sicarian Infiltrators",
+    "unitType": "Sword",
+    "movement": 2,
+    "cost": 90,
+    "strength": 20,
+    "requiredTech": "Rocket Rounds",
+    "upgradesTo": "Flamer Squad",
+    "requiredResource": "Adamantium",
+    "civilopediaText": [
+      {
+        "text": "Infantry with mass-reactive bolt weapons."
+      }
+    ],
+    "obsoleteTech": "Flamer Weapons",
+    "uniqueTo": "Adeptus Mechanicus",
+    "replaces": "Bolter Squad",
+    "uniques": [
+      "[+10]% Strength <when defending>"
+    ]
+  },
+  {
+    "name": "Skorpius Dunerider",
+    "unitType": "Mounted",
+    "movement": 4,
+    "cost": 100,
+    "strength": 22,
+    "requiredTech": "Mechanised Transport",
+    "upgradesTo": "Battle Tank",
+    "civilopediaText": [
+      {
+        "text": "An armoured transport with a turret on top."
+      }
+    ],
+    "obsoleteTech": "Armoured Warfare",
+    "uniqueTo": "Adeptus Mechanicus",
+    "replaces": "Chimera",
+    "uniques": [
+      "[+10]% Strength <when defending>"
+    ]
+  },
+  {
+    "name": "Kataphron Breachers",
+    "unitType": "Sword",
+    "movement": 2,
+    "cost": 140,
+    "strength": 30,
+    "requiredTech": "Melta Weapons",
+    "upgradesTo": "Plasma Marine",
+    "uniques": [
+      "[+50]% Strength <vs cities>",
+      "[+50]% Strength <vs [Armored] units>",
+      "[+10]% Strength <when defending>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Fusion weapons that melt armour and walls."
+      }
+    ],
+    "obsoleteTech": "Plasma Weaponry",
+    "uniqueTo": "Adeptus Mechanicus",
+    "replaces": "Melta Squad"
+  },
+  {
+    "name": "Arc Cannon Battery",
+    "unitType": "Siege",
+    "movement": 2,
+    "cost": 130,
+    "strength": 7,
+    "rangedStrength": 24,
+    "range": 2,
+    "requiredTech": "Artillery Doctrine",
+    "upgradesTo": "Basilisk",
+    "uniques": [
+      "Must set up to ranged attack",
+      "[+100]% Strength <vs cities>",
+      "[+10]% Strength <when defending>"
+    ],
+    "obsoleteTech": "Promethium Refining",
+    "uniqueTo": "Adeptus Mechanicus",
+    "replaces": "Mortar Battery"
+  },
+  {
+    "name": "Kataphron Destroyers",
+    "unitType": "Ranged Gunpowder",
+    "movement": 2,
+    "cost": 150,
+    "strength": 18,
+    "rangedStrength": 30,
+    "range": 2,
+    "requiredTech": "Artillery Doctrine",
+    "civilopediaText": [
+      {
+        "text": "Crew-served heavy bolters and autocannons."
+      }
+    ],
+    "uniqueTo": "Adeptus Mechanicus",
+    "replaces": "Heavy Weapons Team",
+    "uniques": [
+      "[+10]% Strength <when defending>"
+    ]
+  },
+  {
+    "name": "Ark Escort",
+    "unitType": "Ranged Water",
+    "movement": 5,
+    "cost": 120,
+    "strength": 20,
+    "rangedStrength": 28,
+    "range": 2,
+    "requiredTech": "Void Shipbuilding",
+    "upgradesTo": "Void Battleship",
+    "obsoleteTech": "Warp Mastery",
+    "uniqueTo": "Adeptus Mechanicus",
+    "replaces": "Void Frigate",
+    "uniques": [
+      "[+10]% Strength <when defending>"
+    ]
+  },
+  {
+    "name": "Fulgurite Electro-Priests",
+    "unitType": "Gunpowder",
+    "movement": 2,
+    "cost": 180,
+    "strength": 40,
+    "requiredTech": "Plasma Weaponry",
+    "upgradesTo": "Primaris Marine",
+    "civilopediaText": [
+      {
+        "text": "Heavy infantry armed with plasma weapons."
+      }
+    ],
+    "obsoleteTech": "Genetic Engineering",
+    "uniqueTo": "Adeptus Mechanicus",
+    "replaces": "Plasma Marine",
+    "uniques": [
+      "[+10]% Strength <when defending>"
+    ]
+  },
+  {
+    "name": "Skorpius Disintegrator",
+    "unitType": "Siege",
+    "movement": 2,
+    "cost": 220,
+    "strength": 14,
+    "rangedStrength": 45,
+    "range": 3,
+    "requiredTech": "Promethium Refining",
+    "uniques": [
+      "Must set up to ranged attack",
+      "[+100]% Strength <vs cities>",
+      "[+10]% Strength <when defending>"
+    ],
+    "uniqueTo": "Adeptus Mechanicus",
+    "replaces": "Basilisk"
+  },
+  {
+    "name": "Ironstrider Ballistarii",
+    "unitType": "Armored",
+    "movement": 2,
+    "cost": 280,
+    "strength": 60,
+    "requiredTech": "Power Armor Engineering",
+    "civilopediaText": [
+      {
+        "text": "A towering war machine piloted by a fallen hero."
+      }
+    ],
+    "uniqueTo": "Adeptus Mechanicus",
+    "replaces": "Dreadnought",
+    "uniques": [
+      "[+10]% Strength <when defending>"
+    ]
+  },
+  {
+    "name": "Tech-Priest Dominus",
+    "unitType": "Archery",
+    "movement": 2,
+    "cost": 260,
+    "strength": 25,
+    "rangedStrength": 50,
+    "range": 2,
+    "requiredTech": "Psychic Mastery",
+    "uniques": [
+      "Ignores terrain cost",
+      "[+10]% Strength <when defending>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A master of the psychic arts, shielded by a psychic hood."
+      }
+    ],
+    "promotions": [
+      "Psychic Hood"
+    ],
+    "uniqueTo": "Adeptus Mechanicus",
+    "replaces": "Librarian"
+  },
+  {
+    "name": "Sydonian Dragoons",
+    "unitType": "Gunpowder",
+    "movement": 2,
+    "cost": 300,
+    "strength": 58,
+    "requiredTech": "Genetic Engineering",
+    "civilopediaText": [
+      {
+        "text": "The next generation of gene-crafted warriors."
+      }
+    ],
+    "uniqueTo": "Adeptus Mechanicus",
+    "replaces": "Primaris Marine",
+    "uniques": [
+      "[+10]% Strength <when defending>"
+    ]
+  },
+  {
+    "name": "Questoris Knight",
+    "unitType": "Armored",
+    "movement": 3,
+    "cost": 360,
+    "strength": 72,
+    "requiredTech": "Walker Forges",
+    "requiredResource": "Adamantium",
+    "civilopediaText": [
+      {
+        "text": "A noble pilot in a walking war engine."
+      }
+    ],
+    "uniqueTo": "Adeptus Mechanicus",
+    "replaces": "Imperial Knight",
+    "uniques": [
+      "[+10]% Strength <when defending>"
+    ]
+  },
+  {
+    "name": "Ark Mechanicus",
+    "unitType": "Ranged Water",
+    "movement": 5,
+    "cost": 400,
+    "strength": 45,
+    "rangedStrength": 60,
+    "range": 3,
+    "requiredTech": "Warp Mastery",
+    "uniqueTo": "Adeptus Mechanicus",
+    "replaces": "Void Battleship",
+    "uniques": [
+      "[+10]% Strength <when defending>"
+    ]
+  },
+  {
+    "name": "Archaeopter Stratoraptor",
+    "unitType": "Fighter",
+    "movement": 1,
+    "strength": 45,
+    "rangedStrength": 45,
+    "range": 8,
+    "cost": 300,
+    "requiredTech": "Aeronautica",
+    "requiredResource": "Promethium",
+    "uniques": [
+      "[100]% chance to intercept air attacks",
+      "[+100]% Strength <vs [Bomber] units>",
+      "[+10]% Strength <when defending>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A rugged fighter that guards the skies over cities."
+      }
+    ],
+    "uniqueTo": "Adeptus Mechanicus",
+    "replaces": "Thunderbolt Fighter"
+  },
+  {
+    "name": "Archaeopter Fusilave",
+    "unitType": "Bomber",
+    "movement": 1,
+    "strength": 65,
+    "rangedStrength": 65,
+    "range": 10,
+    "cost": 360,
+    "requiredTech": "Aeronautica",
+    "requiredResource": "Promethium",
+    "uniques": [
+      "[+50]% Strength <vs cities>",
+      "[+10]% Strength <when defending>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A heavy bomber that levels fortifications."
+      }
+    ],
+    "uniqueTo": "Adeptus Mechanicus",
+    "replaces": "Marauder Bomber"
+  },
+  {
+    "name": "Frateris Militia",
+    "unitType": "Sword",
+    "movement": 2,
+    "cost": 40,
+    "strength": 8,
+    "requiredTech": "Survival Doctrine",
+    "upgradesTo": "Brute Squad",
+    "civilopediaText": [
+      {
+        "text": "Conscripts with clubs and stubborn courage."
+      }
+    ],
+    "obsoleteTech": "Forge Craft",
+    "uniqueTo": "Adepta Sororitas",
+    "replaces": "Warrior",
+    "uniques": [
+      "[+10]% Strength <when defending>"
+    ]
+  },
+  {
+    "name": "Sisters Novitiate",
+    "unitType": "Archery",
+    "movement": 2,
+    "cost": 40,
+    "strength": 5,
+    "rangedStrength": 8,
+    "range": 2,
+    "requiredTech": "Stubber Weapons",
+    "upgradesTo": "Guardsman",
+    "civilopediaText": [
+      {
+        "text": "Solid-slug guns: loud, crude and effective."
+      }
+    ],
+    "obsoleteTech": "Las Weapons",
+    "uniqueTo": "Adepta Sororitas",
+    "replaces": "Stubber Gunner",
+    "uniques": [
+      "[+10]% Strength <when defending>"
+    ]
+  },
+  {
+    "name": "Penitent Riders",
+    "unitType": "Mounted",
+    "movement": 4,
+    "cost": 60,
+    "strength": 12,
+    "requiredTech": "Beast Taming",
+    "upgradesTo": "Chimera",
+    "requiredResource": "Riding Beasts",
+    "civilopediaText": [
+      {
+        "text": "Cavalry on hardy beasts, armed with explosive lances."
+      }
+    ],
+    "obsoleteTech": "Mechanised Transport",
+    "uniqueTo": "Adepta Sororitas",
+    "replaces": "Rough Rider",
+    "uniques": [
+      "[+10]% Strength <when defending>"
+    ]
+  },
+  {
+    "name": "Sisters Repentia",
+    "unitType": "Sword",
+    "movement": 2,
+    "cost": 60,
+    "strength": 14,
+    "requiredTech": "Forge Craft",
+    "upgradesTo": "Bolter Squad",
+    "requiredResource": "Adamantium",
+    "civilopediaText": [
+      {
+        "text": "Heavily armed shock infantry."
+      }
+    ],
+    "obsoleteTech": "Rocket Rounds",
+    "uniqueTo": "Adepta Sororitas",
+    "replaces": "Brute Squad",
+    "uniques": [
+      "[+10]% Strength <when defending>"
+    ]
+  },
+  {
+    "name": "Ecclesiarchy Barge",
+    "unitType": "Melee Water",
+    "movement": 4,
+    "cost": 45,
+    "strength": 10,
+    "requiredTech": "Seafaring",
+    "upgradesTo": "Void Frigate",
+    "uniques": [
+      "Cannot enter ocean tiles",
+      "Never appears as a Barbarian unit",
+      "[+10]% Strength <when defending>"
+    ],
+    "obsoleteTech": "Void Shipbuilding",
+    "uniqueTo": "Adepta Sororitas",
+    "replaces": "Raider Boat"
+  },
+  {
+    "name": "Dominion Squad",
+    "unitType": "Archery",
+    "movement": 2,
+    "cost": 75,
+    "strength": 9,
+    "rangedStrength": 13,
+    "range": 2,
+    "requiredTech": "Las Weapons",
+    "upgradesTo": "Heavy Weapons Team",
+    "civilopediaText": [
+      {
+        "text": "The backbone of any army: a soldier with a lasgun."
+      }
+    ],
+    "obsoleteTech": "Artillery Doctrine",
+    "uniqueTo": "Adepta Sororitas",
+    "replaces": "Guardsman",
+    "uniques": [
+      "[+10]% Strength <when defending>"
+    ]
+  },
+  {
+    "name": "Hospitaller",
+    "unitType": "Archery",
+    "movement": 2,
+    "cost": 90,
+    "strength": 8,
+    "rangedStrength": 16,
+    "range": 2,
+    "requiredTech": "Psychic Awakening",
+    "upgradesTo": "Librarian",
+    "uniques": [
+      "Ignores terrain cost",
+      "[+10]% Strength <when defending>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A gifted mind that strikes with the power of the Warp."
+      }
+    ],
+    "obsoleteTech": "Psychic Mastery",
+    "uniqueTo": "Adepta Sororitas",
+    "replaces": "Psyker"
+  },
+  {
+    "name": "Sororitas Rhino",
+    "unitType": "Mounted",
+    "movement": 4,
+    "cost": 100,
+    "strength": 22,
+    "requiredTech": "Mechanised Transport",
+    "upgradesTo": "Battle Tank",
+    "civilopediaText": [
+      {
+        "text": "An armoured transport with a turret on top."
+      }
+    ],
+    "obsoleteTech": "Armoured Warfare",
+    "uniqueTo": "Adepta Sororitas",
+    "replaces": "Chimera",
+    "uniques": [
+      "[+10]% Strength <when defending>"
+    ]
+  },
+  {
+    "name": "Zephyrim",
+    "unitType": "Sword",
+    "movement": 2,
+    "cost": 140,
+    "strength": 30,
+    "requiredTech": "Melta Weapons",
+    "upgradesTo": "Plasma Marine",
+    "uniques": [
+      "[+50]% Strength <vs cities>",
+      "[+50]% Strength <vs [Armored] units>",
+      "[+10]% Strength <when defending>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Fusion weapons that melt armour and walls."
+      }
+    ],
+    "obsoleteTech": "Plasma Weaponry",
+    "uniqueTo": "Adepta Sororitas",
+    "replaces": "Melta Squad"
+  },
+  {
+    "name": "Immolator",
+    "unitType": "Siege",
+    "movement": 2,
+    "cost": 130,
+    "strength": 7,
+    "rangedStrength": 24,
+    "range": 2,
+    "requiredTech": "Artillery Doctrine",
+    "upgradesTo": "Basilisk",
+    "uniques": [
+      "Must set up to ranged attack",
+      "[+100]% Strength <vs cities>",
+      "[+10]% Strength <when defending>"
+    ],
+    "obsoleteTech": "Promethium Refining",
+    "uniqueTo": "Adepta Sororitas",
+    "replaces": "Mortar Battery"
+  },
+  {
+    "name": "Retributor Squad",
+    "unitType": "Ranged Gunpowder",
+    "movement": 2,
+    "cost": 150,
+    "strength": 18,
+    "rangedStrength": 30,
+    "range": 2,
+    "requiredTech": "Artillery Doctrine",
+    "civilopediaText": [
+      {
+        "text": "Crew-served heavy bolters and autocannons."
+      }
+    ],
+    "uniqueTo": "Adepta Sororitas",
+    "replaces": "Heavy Weapons Team",
+    "uniques": [
+      "[+10]% Strength <when defending>"
+    ]
+  },
+  {
+    "name": "Ecclesiarchy Frigate",
+    "unitType": "Ranged Water",
+    "movement": 5,
+    "cost": 120,
+    "strength": 20,
+    "rangedStrength": 28,
+    "range": 2,
+    "requiredTech": "Void Shipbuilding",
+    "upgradesTo": "Void Battleship",
+    "obsoleteTech": "Warp Mastery",
+    "uniqueTo": "Adepta Sororitas",
+    "replaces": "Void Frigate",
+    "uniques": [
+      "[+10]% Strength <when defending>"
+    ]
+  },
+  {
+    "name": "Celestian Sacresants",
+    "unitType": "Gunpowder",
+    "movement": 2,
+    "cost": 180,
+    "strength": 40,
+    "requiredTech": "Plasma Weaponry",
+    "upgradesTo": "Primaris Marine",
+    "civilopediaText": [
+      {
+        "text": "Heavy infantry armed with plasma weapons."
+      }
+    ],
+    "obsoleteTech": "Genetic Engineering",
+    "uniqueTo": "Adepta Sororitas",
+    "replaces": "Plasma Marine",
+    "uniques": [
+      "[+10]% Strength <when defending>"
+    ]
+  },
+  {
+    "name": "Castigator",
+    "unitType": "Armored",
+    "movement": 4,
+    "cost": 240,
+    "strength": 50,
+    "requiredTech": "Armoured Warfare",
+    "requiredResource": "Promethium",
+    "civilopediaText": [
+      {
+        "text": "A slab-sided tank with a battle cannon."
+      }
+    ],
+    "uniqueTo": "Adepta Sororitas",
+    "replaces": "Battle Tank",
+    "uniques": [
+      "[+10]% Strength <when defending>"
+    ]
+  },
+  {
+    "name": "Penitent Engine",
+    "unitType": "Armored",
+    "movement": 2,
+    "cost": 280,
+    "strength": 60,
+    "requiredTech": "Power Armor Engineering",
+    "civilopediaText": [
+      {
+        "text": "A towering war machine piloted by a fallen hero."
+      }
+    ],
+    "uniqueTo": "Adepta Sororitas",
+    "replaces": "Dreadnought",
+    "uniques": [
+      "[+10]% Strength <when defending>"
+    ]
+  },
+  {
+    "name": "Canoness",
+    "unitType": "Archery",
+    "movement": 2,
+    "cost": 260,
+    "strength": 25,
+    "rangedStrength": 50,
+    "range": 2,
+    "requiredTech": "Psychic Mastery",
+    "uniques": [
+      "Ignores terrain cost",
+      "[+10]% Strength <when defending>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A master of the psychic arts, shielded by a psychic hood."
+      }
+    ],
+    "promotions": [
+      "Psychic Hood"
+    ],
+    "uniqueTo": "Adepta Sororitas",
+    "replaces": "Librarian"
+  },
+  {
+    "name": "Paragon Warsuits",
+    "unitType": "Gunpowder",
+    "movement": 2,
+    "cost": 300,
+    "strength": 58,
+    "requiredTech": "Genetic Engineering",
+    "civilopediaText": [
+      {
+        "text": "The next generation of gene-crafted warriors."
+      }
+    ],
+    "uniqueTo": "Adepta Sororitas",
+    "replaces": "Primaris Marine",
+    "uniques": [
+      "[+10]% Strength <when defending>"
+    ]
+  },
+  {
+    "name": "Anchorite Sarcophagus",
+    "unitType": "Armored",
+    "movement": 3,
+    "cost": 360,
+    "strength": 72,
+    "requiredTech": "Walker Forges",
+    "requiredResource": "Adamantium",
+    "civilopediaText": [
+      {
+        "text": "A noble pilot in a walking war engine."
+      }
+    ],
+    "uniqueTo": "Adepta Sororitas",
+    "replaces": "Imperial Knight",
+    "uniques": [
+      "[+10]% Strength <when defending>"
+    ]
+  },
+  {
+    "name": "Ecclesiarchy Battleship",
+    "unitType": "Ranged Water",
+    "movement": 5,
+    "cost": 400,
+    "strength": 45,
+    "rangedStrength": 60,
+    "range": 3,
+    "requiredTech": "Warp Mastery",
+    "uniqueTo": "Adepta Sororitas",
+    "replaces": "Void Battleship",
+    "uniques": [
+      "[+10]% Strength <when defending>"
+    ]
+  },
+  {
+    "name": "Avenger Strike Fighter",
+    "unitType": "Fighter",
+    "movement": 1,
+    "strength": 45,
+    "rangedStrength": 45,
+    "range": 8,
+    "cost": 300,
+    "requiredTech": "Aeronautica",
+    "requiredResource": "Promethium",
+    "uniques": [
+      "[100]% chance to intercept air attacks",
+      "[+100]% Strength <vs [Bomber] units>",
+      "[+10]% Strength <when defending>"
+    ],
+    "civilopediaText": [
+      {
+        "text": "A rugged fighter that guards the skies over cities."
+      }
+    ],
+    "uniqueTo": "Adepta Sororitas",
+    "replaces": "Thunderbolt Fighter"
+  },
+  {
+    "name": "Grot Oilers",
+    "unitType": "Civilian",
+    "movement": 2,
+    "cost": 55,
+    "requiredTech": "Labour Cybernetics",
+    "uniques": [
+      "Can build [Land] improvements on tiles",
+      "Automation is a primary action",
+      "Uncapturable"
+    ],
+    "uniqueTo": "Orks",
+    "replaces": "Servitor",
+    "civilopediaText": [
+      {
+        "text": "Little greenskins who fix, carry and dig — mostly."
+      }
+    ]
+  },
+  {
+    "name": "Craftworld Attendants",
+    "unitType": "Civilian",
+    "movement": 2,
+    "cost": 55,
+    "requiredTech": "Labour Cybernetics",
+    "uniques": [
+      "Can build [Land] improvements on tiles",
+      "Automation is a primary action",
+      "Uncapturable"
+    ],
+    "uniqueTo": "Aeldari",
+    "replaces": "Servitor",
+    "civilopediaText": [
+      {
+        "text": "Quiet servants who tend the wraithbone halls."
+      }
+    ]
+  },
+  {
+    "name": "Slave Labourers",
+    "unitType": "Civilian",
+    "movement": 2,
+    "cost": 55,
+    "requiredTech": "Labour Cybernetics",
+    "uniques": [
+      "Can build [Land] improvements on tiles",
+      "Automation is a primary action",
+      "Uncapturable"
+    ],
+    "uniqueTo": "Drukhari",
+    "replaces": "Servitor",
+    "civilopediaText": [
+      {
+        "text": "Captives broken to labour in the Dark City."
+      }
+    ]
+  },
+  {
+    "name": "Builder Drones",
+    "unitType": "Civilian",
+    "movement": 2,
+    "cost": 55,
+    "requiredTech": "Labour Cybernetics",
+    "uniques": [
+      "Can build [Land] improvements on tiles",
+      "Automation is a primary action",
+      "Uncapturable"
+    ],
+    "uniqueTo": "T'au Empire",
+    "replaces": "Servitor",
+    "civilopediaText": [
+      {
+        "text": "Tireless drones of the Earth Caste."
+      }
+    ]
+  },
+  {
+    "name": "Chaos Thralls",
+    "unitType": "Civilian",
+    "movement": 2,
+    "cost": 55,
+    "requiredTech": "Labour Cybernetics",
+    "uniques": [
+      "Can build [Land] improvements on tiles",
+      "Automation is a primary action",
+      "Uncapturable"
+    ],
+    "uniqueTo": "Chaos",
+    "replaces": "Servitor",
+    "civilopediaText": [
+      {
+        "text": "Enslaved masses toiling for the Dark Gods."
+      }
+    ]
+  },
+  {
+    "name": "Canoptek Spyders",
+    "unitType": "Civilian",
+    "movement": 2,
+    "cost": 55,
+    "requiredTech": "Labour Cybernetics",
+    "uniques": [
+      "Can build [Land] improvements on tiles",
+      "Automation is a primary action",
+      "Uncapturable"
+    ],
+    "uniqueTo": "Necrons",
+    "replaces": "Servitor",
+    "civilopediaText": [
+      {
+        "text": "Ancient constructs that repair and build tirelessly."
+      }
+    ]
+  },
+  {
+    "name": "Bio-Labourers",
+    "unitType": "Civilian",
+    "movement": 2,
+    "cost": 55,
+    "requiredTech": "Labour Cybernetics",
+    "uniques": [
+      "Can build [Land] improvements on tiles",
+      "Automation is a primary action",
+      "Uncapturable"
+    ],
+    "uniqueTo": "Tyranids",
+    "replaces": "Servitor",
+    "civilopediaText": [
+      {
+        "text": "Simple organisms bred to reshape the land for the swarm."
+      }
+    ]
+  }
+]

@@ -1,0 +1,863 @@
+[
+  {
+    "name": "Imperium of Man",
+    "leaderName": "The Emperor of Mankind",
+    "adjective": [
+      "Imperial"
+    ],
+    "startBias": [
+      "Plains"
+    ],
+    "preferredVictoryType": "Domination",
+    "startIntroPart1": "Humanity endures through faith and discipline.",
+    "startIntroPart2": "Let no world be lost to the darkness.",
+    "declaringWar": "Your heresy ends here. Purge them all!",
+    "attacked": "You dare strike at the Imperium? Then you will be erased.",
+    "defeated": "The light fades. May the next generation do better.",
+    "introduction": "I speak for the Imperium. Choose your words carefully.",
+    "neutralHello": "State your business.",
+    "hateHello": "Speak quickly, xenos.",
+    "tradeRequest": "The Imperium will accept this exchange.",
+    "outerColor": [
+      255,
+      215,
+      0
+    ],
+    "innerColor": [
+      20,
+      40,
+      120
+    ],
+    "cities": [
+      "Terra",
+      "Macragge",
+      "Cadia",
+      "Armageddon",
+      "Vostroya",
+      "Catachan",
+      "Krieg",
+      "Mordian",
+      "Tallarn",
+      "Valhalla"
+    ],
+    "uniqueName": "Faith and Fury",
+    "uniques": [
+      "[+25]% Strength <when fighting in [Friendly Land] tiles>",
+      "[+2 Faith] [in all cities]",
+      "Starts with [Labour Cybernetics]"
+    ],
+    "favoredReligion": "Imperial Cult"
+  },
+  {
+    "name": "Orks",
+    "leaderName": "Ghazghkull Thraka",
+    "adjective": [
+      "Orkish"
+    ],
+    "startBias": [
+      "Desert"
+    ],
+    "preferredVictoryType": "Domination",
+    "startIntroPart1": "WAAAGH! Da biggest boyz are comin'!",
+    "startIntroPart2": "Dere's gonna be a lotta krumpin'!",
+    "declaringWar": "WAAAGH! Time ta krump yer!",
+    "attacked": "Ya wanna fight? Good! Dat's da best part!",
+    "defeated": "Da boyz'll be back... an' dey'll be biggah...",
+    "introduction": "Oi! Dis is da Waaagh! Got any good scrap?",
+    "neutralHello": "Wot ya want, runt?",
+    "hateHello": "Ya lookin' fer a krumpin'?",
+    "tradeRequest": "Ya gimme dis, I give ya dat. Fair, innit?",
+    "outerColor": [
+      76,
+      146,
+      76
+    ],
+    "innerColor": [
+      102,
+      5,
+      5
+    ],
+    "cities": [
+      "Ullanor",
+      "Gorkamorka",
+      "Skarkrag",
+      "Badzgrub",
+      "Krumpatown",
+      "Zogwort",
+      "Grotsville",
+      "Smashtown",
+      "Waaagh Hold"
+    ],
+    "uniqueName": "WAAAGH!",
+    "uniques": [
+      "[+10]% Strength <when attacking>",
+      "[+1 Production] [in all cities]"
+    ],
+    "favoredReligion": "Waaagh Faith"
+  },
+  {
+    "name": "Aeldari",
+    "leaderName": "Eldrad Ulthran",
+    "adjective": [
+      "Aeldari"
+    ],
+    "startBias": [
+      "Forest"
+    ],
+    "preferredVictoryType": "Cultural",
+    "startIntroPart1": "The threads of fate are tangled once more.",
+    "startIntroPart2": "We shall not repeat the mistakes of the past.",
+    "declaringWar": "The runes have spoken. War is upon you.",
+    "attacked": "Fate warned us of your arrogance.",
+    "defeated": "Another thread is cut. Another star goes dark.",
+    "introduction": "Walk carefully. We have seen the end of empires.",
+    "neutralHello": "Greetings, young one.",
+    "hateHello": "You test our patience.",
+    "tradeRequest": "The omens favor this arrangement.",
+    "outerColor": [
+      0,
+      200,
+      200
+    ],
+    "innerColor": [
+      60,
+      20,
+      100
+    ],
+    "cities": [
+      "Alaitoc",
+      "Ulthwe",
+      "Biel-Tan",
+      "Iyanden",
+      "Saim-Hann",
+      "Altansar",
+      "Lugganath",
+      "Iybraesil"
+    ],
+    "uniqueName": "Path of the Seer",
+    "uniques": [
+      "[+2 Culture] [in all cities]",
+      "[+1 Culture] from every [Library]",
+      "[+10]% [Science] [in all cities]",
+      "[+1 Food] [in all cities]"
+    ],
+    "favoredReligion": "Asuryani Paths"
+  },
+  {
+    "name": "T'au Empire",
+    "leaderName": "Aun'Va",
+    "adjective": [
+      "T'au"
+    ],
+    "startBias": [
+      "Plains"
+    ],
+    "preferredVictoryType": "Cultural",
+    "startIntroPart1": "We seek unity under the Greater Good.",
+    "startIntroPart2": "Together, all species can prosper.",
+    "declaringWar": "You have refused the Greater Good. We must act.",
+    "attacked": "This is regrettable, but you leave us no choice.",
+    "defeated": "The Greater Good will outlast us.",
+    "introduction": "Greetings. We offer cooperation, not conquest.",
+    "neutralHello": "Welcome. How may we assist?",
+    "hateHello": "Your hostility serves no one.",
+    "tradeRequest": "This exchange benefits us all.",
+    "outerColor": [
+      181,
+      121,
+      53
+    ],
+    "innerColor": [
+      242,
+      242,
+      242
+    ],
+    "cities": [
+      "T'au",
+      "Dal'yth",
+      "Vior'la",
+      "Fi'rios",
+      "Bork'an",
+      "Sa'cea",
+      "Farsight Enclave",
+      "Vash'ya"
+    ],
+    "uniqueName": "The Greater Good",
+    "uniques": [
+      "[+1 Gold] from every [Trading post]",
+      "[+2 Gold] [in all cities]"
+    ],
+    "favoredReligion": "Greater Good"
+  },
+  {
+    "name": "Chaos",
+    "leaderName": "Ezekyle Abaddon",
+    "adjective": [
+      "Chaotic"
+    ],
+    "startBias": [
+      "Tundra"
+    ],
+    "preferredVictoryType": "Domination",
+    "startIntroPart1": "The Long War continues.",
+    "startIntroPart2": "Bow to the powers that rule the Warp!",
+    "declaringWar": "Your worlds will burn in the name of the gods!",
+    "attacked": "You have chosen your own damnation.",
+    "defeated": "Even in defeat, the gods are watching.",
+    "introduction": "You stand before the Despoiler. Kneel or die.",
+    "neutralHello": "What do you seek?",
+    "hateHello": "Your skulls will make fine trophies.",
+    "tradeRequest": "Accept this offer, lest the gods grow displeased.",
+    "outerColor": [
+      168,
+      63,
+      63
+    ],
+    "innerColor": [
+      19,
+      19,
+      19
+    ],
+    "cities": [
+      "Cadia Ruins",
+      "Medrengard",
+      "Sicarus",
+      "Fenris Rift",
+      "Tetrarch",
+      "Maelstrom",
+      "Hadex Anomaly",
+      "Vraks"
+    ],
+    "uniqueName": "Gift of the Gods",
+    "uniques": [
+      "[+1 Faith] from every [Temple]",
+      "[+2 Faith] [in all cities]",
+      "[+15]% Strength <when attacking>",
+      "[+1 Culture] [in all cities]"
+    ],
+    "favoredReligion": "Ruinous Powers"
+  },
+  {
+    "name": "Necrons",
+    "leaderName": "Szarekh",
+    "adjective": [
+      "Necron"
+    ],
+    "startBias": [
+      "Desert"
+    ],
+    "preferredVictoryType": "Scientific",
+    "startIntroPart1": "We have waited sixty million years.",
+    "startIntroPart2": "The galaxy shall be ours once more.",
+    "declaringWar": "Mortals. Your time is over.",
+    "attacked": "You disturb the sleep of kings.",
+    "defeated": "Our tombs remember. We shall rise again.",
+    "introduction": "You are young. Listen, and learn.",
+    "neutralHello": "Speak, mortal.",
+    "hateHello": "You are a speck of dust.",
+    "tradeRequest": "Offer us tribute worthy of our rank.",
+    "outerColor": [
+      0,
+      255,
+      100
+    ],
+    "innerColor": [
+      40,
+      40,
+      40
+    ],
+    "cities": [
+      "Solemnace",
+      "Mandragora",
+      "Gidrim",
+      "Tesseract Vault",
+      "Obyron's Tomb",
+      "Sautekh",
+      "Nihilakh",
+      "Szarekhan Throne"
+    ],
+    "uniqueName": "Eternal Dynasty",
+    "uniques": [
+      "No damage penalty for wounded units",
+      "[+1 Science] from every [Library]"
+    ],
+    "favoredReligion": "Cult of the C'tan"
+  },
+  {
+    "name": "Tyranids",
+    "leaderName": "Hive Mind",
+    "adjective": [
+      "Tyranid"
+    ],
+    "startBias": [
+      "Jungle"
+    ],
+    "preferredVictoryType": "Domination",
+    "startIntroPart1": "The swarm hungers.",
+    "startIntroPart2": "All will be consumed.",
+    "declaringWar": "...HUNGER...",
+    "attacked": "...CONSUME...",
+    "defeated": "The swarm will return.",
+    "introduction": "...ADAPT...",
+    "neutralHello": "...",
+    "hateHello": "...FEED...",
+    "tradeRequest": "...",
+    "outerColor": [
+      128,
+      0,
+      128
+    ],
+    "innerColor": [
+      200,
+      180,
+      220
+    ],
+    "cities": [
+      "Hive Fleet Behemoth",
+      "Hive Fleet Kraken",
+      "Hive Fleet Leviathan",
+      "Hive Fleet Gorgon",
+      "Hive Fleet Hydra",
+      "Hive Fleet Jormungandr",
+      "Hive Fleet Kronos"
+    ],
+    "uniqueName": "Endless Swarm",
+    "uniques": [
+      "[+1 Food] [in all cities]",
+      "[+15]% Strength <when attacking>"
+    ]
+  },
+  {
+    "name": "Adeptus Mechanicus",
+    "leaderName": "Belisarius Cawl",
+    "adjective": [
+      "Mechanicus"
+    ],
+    "startBias": [
+      "Hill"
+    ],
+    "preferredVictoryType": "Scientific",
+    "startIntroPart1": "The Omnissiah provides.",
+    "startIntroPart2": "Knowledge is the true currency of the cosmos.",
+    "declaringWar": "Your heresy against the Machine God will be corrected.",
+    "attacked": "You have damaged sacred machinery. Prepare for retribution.",
+    "defeated": "Data lost. Backups exist.",
+    "introduction": "Greetings. Your technology is inferior.",
+    "neutralHello": "Acknowledged.",
+    "hateHello": "Your presence is noted... and logged.",
+    "tradeRequest": "Provide the requested components for fair exchange.",
+    "outerColor": [
+      216,
+      76,
+      76
+    ],
+    "innerColor": [
+      47,
+      47,
+      47
+    ],
+    "cities": [
+      "Mars",
+      "Triplex Phall",
+      "Graia",
+      "Stygies VIII",
+      "Lucius",
+      "Metalica",
+      "Ryza",
+      "Agripinaa"
+    ],
+    "uniqueName": "Blessing of the Omnissiah",
+    "uniques": [
+      "[+1 Production] from every [Workshop]",
+      "Starts with [Labour Cybernetics]",
+      "[+1 Science] [in all cities]"
+    ],
+    "favoredReligion": "Cult Mechanicus"
+  },
+  {
+    "name": "Adepta Sororitas",
+    "leaderName": "Saint Celestine",
+    "adjective": [
+      "Sororitas"
+    ],
+    "startBias": [
+      "Plains"
+    ],
+    "preferredVictoryType": "Cultural",
+    "startIntroPart1": "Faith is our shield and fire is our sword.",
+    "startIntroPart2": "Where the Emperor's light falters, we will carry it.",
+    "declaringWar": "Your heresy will be purged in holy flame!",
+    "attacked": "You strike at the faithful? The faithful strike back.",
+    "defeated": "We die as martyrs. Others will rise.",
+    "introduction": "We are the daughters of the Emperor. Speak with respect.",
+    "neutralHello": "The Emperor protects.",
+    "hateHello": "Repent, while you still can.",
+    "tradeRequest": "A fair exchange, witnessed by the Throne.",
+    "outerColor": [
+      235,
+      235,
+      235
+    ],
+    "innerColor": [
+      130,
+      20,
+      35
+    ],
+    "cities": [
+      "Convent Prioris",
+      "Hydraphur",
+      "Convent Sanctorum",
+      "Sanctum Imperialis",
+      "Ministorum Spire",
+      "Bastion of Faith",
+      "Martyr's Rest",
+      "Rose Hold"
+    ],
+    "uniques": [
+      "[+2 Faith] [in all cities]",
+      "[+15]% Strength <when defending>",
+      "[+1 Production] [in all cities]"
+    ],
+    "favoredReligion": "Imperial Cult",
+    "uniqueName": "Shield of Faith"
+  },
+  {
+    "name": "Drukhari",
+    "leaderName": "Asdrubael Vect",
+    "adjective": [
+      "Drukhari"
+    ],
+    "startBias": [
+      "Coast"
+    ],
+    "preferredVictoryType": "Domination",
+    "startIntroPart1": "Pain is the only currency that matters.",
+    "startIntroPart2": "The realspace is ripe for raiding.",
+    "declaringWar": "Your screams will feed us for centuries.",
+    "attacked": "How delightful. You want to suffer.",
+    "defeated": "We will return through the Webway... and we never forget.",
+    "introduction": "Ah, fresh merchandise. Or are you a buyer?",
+    "neutralHello": "Speak quickly, mon-keigh.",
+    "hateHello": "You bore me. That is dangerous.",
+    "tradeRequest": "Every deal has a price. Some pay it in blood.",
+    "outerColor": [
+      25,
+      25,
+      35
+    ],
+    "innerColor": [
+      90,
+      200,
+      170
+    ],
+    "cities": [
+      "Commorragh",
+      "High Commorragh",
+      "Port Carnage",
+      "Sorrowspire",
+      "Aelindrach",
+      "Black Heart Spire",
+      "Crucible of Blades",
+      "Webway Bastion"
+    ],
+    "uniques": [
+      "[+20]% Strength <when attacking>",
+      "[+1] Movement <for [Military] units>",
+      "[+1 Gold] [in all cities]"
+    ],
+    "uniqueName": "Raiders of Commorragh"
+  },
+  {
+    "name": "Necromunda",
+    "adjective": [
+      "Necromunda"
+    ],
+    "cityStateType": "Mercantile",
+    "declaringWar": "You leave us no choice. War it must be.",
+    "attacked": "Very well, this shall not be forgotten.",
+    "defeated": "Our world falls silent.",
+    "outerColor": [
+      0,
+      0,
+      0
+    ],
+    "innerColor": [
+      200,
+      170,
+      60
+    ],
+    "cities": [
+      "Necromunda"
+    ]
+  },
+  {
+    "name": "Fenris",
+    "adjective": [
+      "Fenris"
+    ],
+    "cityStateType": "Militaristic",
+    "declaringWar": "You leave us no choice. War it must be.",
+    "attacked": "Very well, this shall not be forgotten.",
+    "defeated": "Our world falls silent.",
+    "outerColor": [
+      0,
+      0,
+      0
+    ],
+    "innerColor": [
+      120,
+      160,
+      200
+    ],
+    "cities": [
+      "Fenris"
+    ]
+  },
+  {
+    "name": "Ophelia VII",
+    "adjective": [
+      "Ophelia VII"
+    ],
+    "cityStateType": "Religious",
+    "declaringWar": "You leave us no choice. War it must be.",
+    "attacked": "Very well, this shall not be forgotten.",
+    "defeated": "Our world falls silent.",
+    "outerColor": [
+      0,
+      0,
+      0
+    ],
+    "innerColor": [
+      230,
+      230,
+      230
+    ],
+    "cities": [
+      "Ophelia VII"
+    ]
+  },
+  {
+    "name": "Iax",
+    "adjective": [
+      "Iax"
+    ],
+    "cityStateType": "Maritime",
+    "declaringWar": "You leave us no choice. War it must be.",
+    "attacked": "Very well, this shall not be forgotten.",
+    "defeated": "Our world falls silent.",
+    "outerColor": [
+      0,
+      0,
+      0
+    ],
+    "innerColor": [
+      60,
+      180,
+      90
+    ],
+    "cities": [
+      "Iax"
+    ]
+  },
+  {
+    "name": "Talarn",
+    "adjective": [
+      "Talarn"
+    ],
+    "cityStateType": "Cultured",
+    "declaringWar": "You leave us no choice. War it must be.",
+    "attacked": "Very well, this shall not be forgotten.",
+    "defeated": "Our world falls silent.",
+    "outerColor": [
+      0,
+      0,
+      0
+    ],
+    "innerColor": [
+      190,
+      120,
+      60
+    ],
+    "cities": [
+      "Talarn"
+    ]
+  },
+  {
+    "name": "Kiavahr",
+    "adjective": [
+      "Kiavahr"
+    ],
+    "cityStateType": "Mercantile",
+    "declaringWar": "You leave us no choice. War it must be.",
+    "attacked": "Very well, this shall not be forgotten.",
+    "defeated": "Our world falls silent.",
+    "outerColor": [
+      0,
+      0,
+      0
+    ],
+    "innerColor": [
+      110,
+      110,
+      130
+    ],
+    "cities": [
+      "Kiavahr"
+    ]
+  },
+  {
+    "name": "Barbarians",
+    "outerColor": [
+      0,
+      0,
+      0
+    ],
+    "innerColor": [
+      185,
+      12,
+      12
+    ],
+    "uniques": [
+      "Can only heal by pillaging",
+      "Excluded from map editor"
+    ]
+  },
+  {
+    "name": "Spectator",
+    "outerColor": [
+      255,
+      255,
+      255
+    ]
+  },
+  {
+    "name": "Armageddon",
+    "adjective": [
+      "Armageddon"
+    ],
+    "cityStateType": "Militaristic",
+    "declaringWar": "You leave us no choice. War it must be.",
+    "attacked": "Very well, this shall not be forgotten.",
+    "defeated": "Our world falls silent.",
+    "outerColor": [
+      60,
+      60,
+      60
+    ],
+    "innerColor": [
+      220,
+      200,
+      40
+    ],
+    "cities": [
+      "Armageddon"
+    ]
+  },
+  {
+    "name": "Cadia",
+    "adjective": [
+      "Cadia"
+    ],
+    "cityStateType": "Militaristic",
+    "declaringWar": "You leave us no choice. War it must be.",
+    "attacked": "Very well, this shall not be forgotten.",
+    "defeated": "Our world falls silent.",
+    "outerColor": [
+      30,
+      40,
+      80
+    ],
+    "innerColor": [
+      200,
+      200,
+      210
+    ],
+    "cities": [
+      "Cadia"
+    ]
+  },
+  {
+    "name": "Mars",
+    "adjective": [
+      "Mars"
+    ],
+    "cityStateType": "Mercantile",
+    "declaringWar": "You leave us no choice. War it must be.",
+    "attacked": "Very well, this shall not be forgotten.",
+    "defeated": "Our world falls silent.",
+    "outerColor": [
+      150,
+      30,
+      20
+    ],
+    "innerColor": [
+      240,
+      200,
+      150
+    ],
+    "cities": [
+      "Mars"
+    ]
+  },
+  {
+    "name": "Ryza",
+    "adjective": [
+      "Ryza"
+    ],
+    "cityStateType": "Mercantile",
+    "declaringWar": "You leave us no choice. War it must be.",
+    "attacked": "Very well, this shall not be forgotten.",
+    "defeated": "Our world falls silent.",
+    "outerColor": [
+      120,
+      40,
+      30
+    ],
+    "innerColor": [
+      240,
+      170,
+      60
+    ],
+    "cities": [
+      "Ryza"
+    ]
+  },
+  {
+    "name": "Holy Terra",
+    "adjective": [
+      "Holy Terra"
+    ],
+    "cityStateType": "Religious",
+    "declaringWar": "You leave us no choice. War it must be.",
+    "attacked": "Very well, this shall not be forgotten.",
+    "defeated": "Our world falls silent.",
+    "outerColor": [
+      230,
+      200,
+      80
+    ],
+    "innerColor": [
+      90,
+      20,
+      20
+    ],
+    "cities": [
+      "Holy Terra"
+    ]
+  },
+  {
+    "name": "Ecclesiarch's Reach",
+    "adjective": [
+      "Ecclesiarch's Reach"
+    ],
+    "cityStateType": "Religious",
+    "declaringWar": "You leave us no choice. War it must be.",
+    "attacked": "Very well, this shall not be forgotten.",
+    "defeated": "Our world falls silent.",
+    "outerColor": [
+      240,
+      240,
+      240
+    ],
+    "innerColor": [
+      150,
+      20,
+      30
+    ],
+    "cities": [
+      "Ecclesiarch's Reach"
+    ]
+  },
+  {
+    "name": "Vigilus",
+    "adjective": [
+      "Vigilus"
+    ],
+    "cityStateType": "Cultured",
+    "declaringWar": "You leave us no choice. War it must be.",
+    "attacked": "Very well, this shall not be forgotten.",
+    "defeated": "Our world falls silent.",
+    "outerColor": [
+      80,
+      90,
+      110
+    ],
+    "innerColor": [
+      220,
+      220,
+      230
+    ],
+    "cities": [
+      "Vigilus"
+    ]
+  },
+  {
+    "name": "Bakka",
+    "adjective": [
+      "Bakka"
+    ],
+    "cityStateType": "Maritime",
+    "declaringWar": "You leave us no choice. War it must be.",
+    "attacked": "Very well, this shall not be forgotten.",
+    "defeated": "Our world falls silent.",
+    "outerColor": [
+      30,
+      50,
+      70
+    ],
+    "innerColor": [
+      180,
+      200,
+      220
+    ],
+    "cities": [
+      "Bakka"
+    ]
+  },
+  {
+    "name": "Calth",
+    "adjective": [
+      "Calth"
+    ],
+    "cityStateType": "Maritime",
+    "declaringWar": "You leave us no choice. War it must be.",
+    "attacked": "Very well, this shall not be forgotten.",
+    "defeated": "Our world falls silent.",
+    "outerColor": [
+      40,
+      80,
+      120
+    ],
+    "innerColor": [
+      220,
+      190,
+      90
+    ],
+    "cities": [
+      "Calth"
+    ]
+  },
+  {
+    "name": "Baal",
+    "adjective": [
+      "Baal"
+    ],
+    "cityStateType": "Cultured",
+    "declaringWar": "You leave us no choice. War it must be.",
+    "attacked": "Very well, this shall not be forgotten.",
+    "defeated": "Our world falls silent.",
+    "outerColor": [
+      150,
+      20,
+      20
+    ],
+    "innerColor": [
+      240,
+      200,
+      90
+    ],
+    "cities": [
+      "Baal"
+    ]
+  }
+]
